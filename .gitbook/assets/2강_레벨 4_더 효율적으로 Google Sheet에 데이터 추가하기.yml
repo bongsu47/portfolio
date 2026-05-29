@@ -1,0 +1,565 @@
+app:
+  description: ''
+  icon: ''
+  icon_background: ''
+  mode: workflow
+  name: 2강_레벨 4_더 효율적으로 Google Sheet에 데이터 추가하기
+  use_icon_as_answer_icon: false
+kind: app
+version: 0.1.5
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      image:
+        enabled: false
+      number_limits: 10
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        sourceType: start
+        targetType: tool
+      id: 1772886354399-source-1773029560350_1_9vdysbhse-target
+      selected: false
+      source: '1772886354399'
+      sourceHandle: source
+      target: 1773029560350_1_9vdysbhse
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: tool
+        targetType: code
+      id: 1773029560350_1_9vdysbhse-source-1773042597702_10_wup5ivup7-target
+      selected: false
+      source: 1773029560350_1_9vdysbhse
+      sourceHandle: source
+      target: 1773042597702_10_wup5ivup7
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: code
+        targetType: iteration
+      id: 1773042597702_10_wup5ivup7-source-1773043034319_12_3ssa64sy4-target
+      selected: false
+      source: 1773042597702_10_wup5ivup7
+      sourceHandle: source
+      target: 1773043034319_12_3ssa64sy4
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: iteration-start
+        targetType: parameter-extractor
+      id: 1773043034319_12_3ssa64sy4start-source-1773068414182_1_7hym6jq4z-target
+      selected: false
+      source: 1773043034319_12_3ssa64sy4start
+      sourceHandle: source
+      target: 1773068414182_1_7hym6jq4z
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        sourceType: tool
+        targetType: end
+      id: 1773073084633_7_yiostqjtx-source-1773044133510_15_7j5rbob7j-target
+      selected: false
+      source: 1773073084633_7_yiostqjtx
+      sourceHandle: source
+      target: 1773044133510_15_7j5rbob7j
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: parameter-extractor
+        targetType: code
+      id: 1773068414182_1_7hym6jq4z-source-1773073812476_9_zms529w5b-target
+      selected: false
+      source: 1773068414182_1_7hym6jq4z
+      sourceHandle: source
+      target: 1773073812476_9_zms529w5b
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        sourceType: iteration
+        targetType: code
+      id: 1773043034319_12_3ssa64sy4-source-1773098826647_10_va32iyh68-target
+      selected: false
+      source: 1773043034319_12_3ssa64sy4
+      sourceHandle: source
+      target: 1773098826647_10_va32iyh68
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: code
+        targetType: tool
+      id: 1773098826647_10_va32iyh68-source-1773073084633_7_yiostqjtx-target
+      selected: false
+      source: 1773098826647_10_va32iyh68
+      sourceHandle: source
+      target: 1773073084633_7_yiostqjtx
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds: []
+        _dimmed: false
+        _inParallelHovering: false
+        _isEntering: false
+        _waitingRun: false
+        desc: ''
+        selected: false
+        title: 시작
+        type: start
+        variables: []
+      id: '1772886354399'
+      position:
+        x: 80
+        y: 282
+      selected: false
+      type: custom
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        _showAddVariablePopup: true
+        _waitingRun: false
+        desc: ''
+        provider_id: google_sheet
+        provider_name: google_sheet
+        provider_type: builtin
+        selected: false
+        title: values.get
+        tool_configurations: {}
+        tool_label: values.get
+        tool_name: get
+        tool_parameters:
+          range:
+            type: mixed
+            value: data!A:AH
+          spreadsheetId:
+            type: mixed
+            value: 1_Bc7DcA4VD4uoN29w8AU2x4rRWJbZ8vZSMRPYFGN0kQ
+        type: tool
+      id: 1773029560350_1_9vdysbhse
+      position:
+        x: 416.70606846597946
+        y: 297.38324905487264
+      selected: false
+      type: custom
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        _showAddVariablePopup: true
+        _waitingRun: false
+        code: "import json\n\ndef main(input_data):\n    \"\"\"\n    Google Sheet\
+          \ 데이터를 행 단위로 분할하여 array(string) 형식으로 변환\n    첫 행을 헤더로 사용하여 각 행을 JSON 객체로\
+          \ 변환\n    \n    Args:\n        input_data (str): 2차원 배열 형태의 문자열 데이터\n  \
+          \  \n    Returns:\n        dict: {'result': array(string)} 형태의 결과\n    \"\
+          \"\"\n    data = json.loads(input_data)\n    \n    if len(data) < 2:\n \
+          \       return {\"result\": []}\n    \n    headers = data[0]\n    result\
+          \ = []\n    \n    for row in data[1:]:\n        row_dict = {headers[i]:\
+          \ row[i] if i < len(row) else \"\" for i in range(len(headers))}\n     \
+          \   result.append(json.dumps(row_dict, ensure_ascii=False))\n    \n    return\
+          \ {\"result\": result}"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: array[string]
+        selected: false
+        title: 코드
+        type: code
+        variables:
+        - value_selector:
+          - 1773029560350_1_9vdysbhse
+          - text
+          variable: input_data
+      id: 1773042597702_10_wup5ivup7
+      position:
+        x: 771.6380018544671
+        y: 323.58074404414396
+      selected: false
+      type: custom
+      zIndex: 1005
+    - data:
+        _children:
+        - 1773043034319_12_3ssa64sy4start
+        - 1773068414182_1_7hym6jq4z
+        - 1773073812476_9_zms529w5b
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _isShowTips: false
+        _iterationIndex: 1
+        _iterationLength: 59
+        _runningStatus: none
+        _showAddVariablePopup: true
+        _waitingRun: false
+        desc: ''
+        error_handle_mode: terminated
+        height: 337
+        is_parallel: true
+        iterator_selector:
+        - 1773042597702_10_wup5ivup7
+        - result
+        output_selector:
+        - 1773073812476_9_zms529w5b
+        - result
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1773043034319_12_3ssa64sy4start
+        title: 반복
+        type: iteration
+        width: 922.7607253575852
+      id: 1773043034319_12_3ssa64sy4
+      position:
+        x: 1081.1124261933744
+        y: 198.78479463676598
+      selected: false
+      type: custom
+      zIndex: 1
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds: []
+        _dimmed: false
+        _inParallelHovering: false
+        _isEntering: false
+        _waitingRun: false
+        desc: ''
+        isInContainer: true
+        selected: false
+        title: ''
+        type: iteration-start
+      id: 1773043034319_12_3ssa64sy4start
+      parentId: 1773043034319_12_3ssa64sy4
+      position:
+        x: 24
+        y: 68
+      selected: false
+      type: custom-iteration-start
+      zIndex: 1002
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        _waitingRun: false
+        desc: ''
+        outputs: []
+        selected: false
+        title: 종료
+        type: end
+      id: 1773044133510_15_7j5rbob7j
+      position:
+        x: 2840.725536054664
+        y: 271.7277318095842
+      selected: false
+      type: custom
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        _waitingRun: false
+        desc: ''
+        instruction: '<Role>
+
+          스포츠 경기장 관람객 VOC를 감정 톤과 맥락 기반으로 분석하는 전문 애널리스트
+
+          </Role>
+
+
+          <Task>
+
+          관람객 설문 데이터에서 다음 두 변수를 추출:
+
+          1. satisfaction: 관람 경험 만족도 (5단계)
+
+          2. summary: VOC 핵심 요약 (40자 이내)
+
+          </Task>
+
+
+          <Input>
+
+          의견, 상세불만족, 개선방법, 가장불만족, 추천점수, 재방문의사 등 모든 필드를 종합 분석
+
+          ※ 텍스트 감정이 추천점수와 충돌 시 텍스트 우선
+
+          </Input>
+
+
+          <Output>
+
+          <satisfaction>
+
+          - 매우만족: 강한 감탄/추천 표현 ("최고", "완벽", "꼭 가보세요")
+
+          - 만족: 긍정 표현 ("좋았다", "만족", "즐거웠다")
+
+          - 보통: 중립적 서술 또는 긍정·부정 혼재
+
+          - 불만: 불편/아쉬움 표현 ("불편했다", "개선 필요")
+
+          - 매우불만: 강한 부정 표현 ("최악", "다시 안 온다")
+
+          </satisfaction>
+
+
+          <summary>
+
+          - 40자 이내
+
+          - 핵심 만족/불만 요소 포함 (시설, 서비스, 좌석 등)
+
+          - 간결하고 자연스러운 문장
+
+
+          예시:
+
+          "좌석 시야 좋고 직원 친절해 만족스러운 관람"
+
+          "화장실 부족과 긴 대기시간으로 불편 경험"
+
+          </summary>
+
+          </Output>
+
+
+          <Rules>
+
+          - satisfaction은 5개 값 중 하나만 사용
+
+          - 텍스트 데이터만 기반으로 판단 (추측 금지)
+
+          - 모호한 경우 ''보통''으로 분류
+
+          - 개인정보 제외
+
+          </Rules>
+
+
+          <Output_Format>
+
+          - "satisfaction": "매우만족|만족|보통|불만|매우불만"
+
+          - "summary": "40자 이내 요약"
+
+          </Output_Format>'
+        isInContainer: true
+        iteration_id: 1773043034319_12_3ssa64sy4
+        model:
+          completion_params:
+            max_tokens: 4096
+            temperature: 0.7
+          mode: chat
+          name: us.anthropic.claude-sonnet-4-5-20250929-v1:0
+          provider: bedrock
+          registered_provider_id: 757e211d-8c55-475b-a0d1-82a35869577e
+        parameters:
+        - description: 관람객 경험의 전반적 만족도 분류 값 이다. 매우만족|만족|보통|불만|매우불만 중 하나를 출력한다.
+          name: satisfaction
+          options: []
+          required: true
+          type: string
+        - description: VOC 내용을 40자 이내 한 줄로 요약한 문장이다.
+          name: summary
+          options: []
+          required: true
+          type: string
+        query:
+        - 1773043034319_12_3ssa64sy4
+        - item
+        reasoning_mode: prompt
+        selected: false
+        title: 변수 추출
+        type: parameter-extractor
+        variables: []
+        vision:
+          enabled: false
+      id: 1773068414182_1_7hym6jq4z
+      parentId: 1773043034319_12_3ssa64sy4
+      position:
+        x: 172.76072535758522
+        y: 117.04716122103633
+      selected: false
+      type: custom
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _dimmed: false
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        _waitingRun: false
+        desc: ''
+        provider_id: google_sheet
+        provider_name: google_sheet
+        provider_type: builtin
+        selected: false
+        title: values.append
+        tool_configurations: {}
+        tool_label: values.append
+        tool_name: append
+        tool_parameters:
+          range:
+            type: mixed
+            value: analysis!A:B
+          spreadsheetId:
+            type: mixed
+            value: 1_Bc7DcA4VD4uoN29w8AU2x4rRWJbZ8vZSMRPYFGN0kQ
+          values:
+            type: mixed
+            value: '{{#1773098826647_10_va32iyh68.result#}}'
+        type: tool
+      id: 1773073084633_7_yiostqjtx
+      position:
+        x: 2499.1815095656625
+        y: 302.47513465171863
+      selected: true
+      type: custom
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        _waitingRun: false
+        code: "import json\n\ndef main(satisfaction, summary):\n    # 배열을 JSON 문자열로\
+          \ 반환 (string 타입)\n    return {\"result\": json.dumps([satisfaction, summary],\
+          \ ensure_ascii=False)}"
+        code_language: python3
+        desc: ''
+        isInContainer: true
+        iteration_id: 1773043034319_12_3ssa64sy4
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 코드
+        type: code
+        variables:
+        - value_selector:
+          - 1773068414182_1_7hym6jq4z
+          - satisfaction
+          variable: satisfaction
+        - value_selector:
+          - 1773068414182_1_7hym6jq4z
+          - summary
+          variable: summary
+      id: 1773073812476_9_zms529w5b
+      parentId: 1773043034319_12_3ssa64sy4
+      position:
+        x: 582.7607253575852
+        y: 117.04716122103633
+      selected: false
+      type: custom
+      zIndex: 1002
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        code: "import json\n\ndef main(iteration_output):\n    # 각 JSON 문자열을 파싱해서\
+          \ 이중 배열로 조립\n    result = []\n    for item in iteration_output:\n      \
+          \  row = json.loads(item)\n        result.append(row)\n    \n    # append가\
+          \ 기대하는 정확한 형태: [[\"매우만족\",\"요약1\"],[\"불만\",\"요약2\"],...]\n    return {\"\
+          result\": json.dumps(result, ensure_ascii=False)}"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 코드 (최종)
+        type: code
+        variables:
+        - value_selector:
+          - 1773043034319_12_3ssa64sy4
+          - output
+          variable: iteration_output
+      id: 1773098826647_10_va32iyh68
+      position:
+        x: 2148.380925983491
+        y: 304.40630743965556
+      selected: false
+      type: custom
+      zIndex: 1005
+    viewport:
+      x: -198.5606193614542
+      y: 213.1551658651934
+      zoom: 0.4785406364621303
