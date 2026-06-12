@@ -30,3 +30,4 @@ hidden: true
 진행 과정 중에 모르겠는 부분이 생기시면 Slack @MISO Support 챗봇 혹은 **MISO팀**([miso@gs.co.kr](mailto:miso@gs.co.kr))에 문의해주세요!
 {% endhint %}
 
+<figure><img src="../.gitbook/assets/image (706).png" alt="" width="563"><figcaption></figcaption></figure>
