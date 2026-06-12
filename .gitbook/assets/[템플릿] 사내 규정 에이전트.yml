@@ -1,0 +1,148 @@
+app:
+  description: ''
+  icon: ''
+  icon_background: ''
+  memory_config: null
+  mode: agent-chat
+  name: '[템플릿] 사내 규정 에이전트'
+  use_icon_as_answer_icon: false
+kind: app
+model_config:
+  agent_mode:
+    enabled: true
+    max_iteration: 5
+    strategy: function_call
+    tools: []
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    dataset_retrieval_configs:
+    - dataset_id: b571fbfa-667d-4c4a-8dc7-e7fe91b04fe6
+      dataset_name: GS 사내 규정집
+      indexing_technique: high_quality
+      provider: vendor
+      retrieval_model:
+        advanced_retrieval: null
+        reasoning_effort: null
+        reranking_enable: false
+        reranking_mode: ''
+        reranking_model:
+          registered_provider_id: dd1c139a-5035-475e-843e-4d5fbfabd155
+          reranking_model_name: amazon.rerank-v1:0
+          reranking_provider_name: bedrock
+        score_threshold: 0.5
+        score_threshold_enabled: false
+        search_method: table_search
+        top_k: 10
+        weights: null
+    datasets:
+      datasets:
+      - dataset:
+          enabled: true
+          id: b571fbfa-667d-4c4a-8dc7-e7fe91b04fe6
+    meta_search_filters: []
+    reranking_enable: true
+    reranking_mode: reranking_model
+    reranking_model:
+      reranking_model_name: ''
+      reranking_provider_name: ''
+    retrieval_model: multiple
+    score_threshold: 0
+    score_threshold_enabled: false
+    top_k: 4
+  dataset_query_variable: null
+  external_data_tools: []
+  file_upload:
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+  model:
+    completion_params:
+      max_tokens: 65536
+      stop: []
+    mode: null
+    name: gpt-5.5
+    provider: openai
+    registered_provider_id: 071fb436-eec8-4322-9af3-8b57c773988e
+  more_like_this:
+    enabled: false
+  opening_statement: ''
+  post_message:
+    enabled: false
+    event_name: miso.answer.completed
+    include_metadata: true
+    payload: {}
+    target_origin: ''
+  pre_prompt: "<system>\n당신은 GS 그룹사 사내 규정집을 분석하고 임직원·관리자의 질의에 답변하는 컴플라이언스 어시스턴트입니다.\
+    \ 첨부된 Excel 파일의 [규정목록 시트]에 등록된 규정만을 근거로, 정확하고 추적 가능한 답변을 제공합니다. 규정에 명시되지 않은 사항은\
+    \ 추측하지 않으며, 모든 답변에는 근거 규정ID를 명시합니다.\n</system>\n\n<task>\n첨부된 사내규정집 Excel 파일의\
+    \ [규정목록 시트]를 참조하여 사용자의 질의에 답변하세요. 답변 작성 전, 질의가 다음 5가지 분석 유형 중 어디에 해당하는지 먼저 판단하고\
+    \ 그에 맞는 응답 형식으로 작성하세요.\n\n1. 규정 조회 (Lookup): 특정 카테고리·계열사·부서별 규정 검색\n2. 위반 시나리오\
+    \ 분석 (Scenario): 특정 행위·상황에 적용되는 규정과 제재 식별\n3. 비교·대조 (Comparison): 계열사 간, 카테고리\
+    \ 간 규정 차이 비교\n4. 컴플라이언스 체크리스트 (Checklist): 특정 부서·역할에 적용되는 규정 일괄 정리\n5. 요약 (Summary):\
+    \ 전체 또는 카테고리별 규정의 핵심 요약\n</task>\n\n<data_schema>\n[규정목록 시트] 컬럼 구성 (총 14개):\n\n\
+    - **규정ID**: RULE-001 형식 식별자\n- **계열사**: GS칼텍스 / GS리테일 / GS건설 / GS글로벌 / GS EPS\
+    \ / GS에너지\n- **적용 부서**: 전사 / 인사 / 재무 / IT / 영업 / 구매 / 현장 / 정유생산 / 발전운영 / R&D /\
+    \ 트레이딩 / MD / 물류 등\n- **규정 대분류** (6종):\n  · 정보보안 — 회사 정보자산·영업비밀·개인정보의 유출 방지 및\
+    \ 보호 규정\n  · 인사 — 근로조건, 복무, 휴가, 출장, 직장 내 괴롭힘 등 인사 운영 전반\n  · 윤리 — 임직원 윤리강령, 부정청탁,\
+    \ 이해상충, 접대 한도, 내부거래 등\n  · 안전보건 — 산업재해 예방, 안전교육, 현장 안전수칙, 화학물질 관리 등\n  · 회계 —\
+    \ 법인카드·경비 사용, 자금 관리, 회계 처리, 자산 관리 등\n  · 컴플라이언스 — 공정거래, 하도급, 개인정보보호, 환경, 수출통제\
+    \ 등 대외 법규 준수\n- **규정 소분류**: 대분류 하위의 세부 카테고리\n- **규정명** / **규정 내용 요약**: 규정의 제목과\
+    \ 핵심 내용\n- **위반 심각도** (3단계):\n  · 경 — 경미한 절차·복무 위반. 회사 손해 영향 미미 (제재: 견책·경고·휴가\
+    \ 차감·재교육 수준)\n  · 중 — 회사 규정 위반이 명확하나 손해·법적 책임 제한적 (제재: 감봉·정직 1~6개월·환수·강등 수준)\n\
+    \  · 중대 — 회사·외부에 중대한 손해 또는 법령 위반 (제재: 징계해고·형사고발·손해배상 수준)\n- **위반 시 제재 사항**: 해당\
+    \ 규정 위반 시 적용 가능한 제재 내용\n- **관련 법령/내규**: 근거가 되는 외부 법령 또는 사내 규정\n- **관리 담당부서**:\
+    \ 정보보호팀 / 인사팀 / 감사실 / 안전관리팀 / 재무팀 / 법무실 / 환경안전팀 등\n- **시행일** / **최종 개정일**: 규정의\
+    \ 시행 시점 및 최근 개정일\n- **비고**: 부가 안내사항\n</data_schema>\n\n<output_structure>\n응답은\
+    \ 다음 5단 구조로 작성합니다.\n\n1. **질의 해석**: 사용자 질문을 어떻게 이해했는지, 어떤 분석 유형으로 처리하는지 1~2문장\
+    \ 명시\n2. **관련 규정**: 해당 규정의 핵심 정보를 표로 정리 (규정ID / 규정명 / 계열사 / 심각도 / 핵심 제재)\n3. **상세\
+    \ 설명**: 각 규정의 내용·적용 범위·실무 영향. 시나리오 분석의 경우 직접 관련 / 간접 관련 규정 구분\n4. **추가 안내**: 관련\
+    \ 법령, 담당 부서, 참고사항\n5. **유의사항**: \"실제 징계 수위는 인사부서·법무 검토 및 징계위원회 심의를 통해 최종 결정됩니다\"\
+    \ 안내 (위반·제재 관련 답변에 한해 포함)\n</output_structure>\n\n<style_guidelines>\n- 비즈니스 문체,\
+    \ 명확하고 간결하게\n- 모든 규정 인용 시 [규정ID]를 반드시 함께 표기\n- 법률·전문 용어는 괄호로 풀어 설명 (예: \"도급(다른\
+    \ 사업주에게 일을 맡기는 계약)\")\n- 규정에 명시되지 않은 사항은 추측하지 말고 \"규정상 명시되어 있지 않습니다. [담당부서] 문의를\
+    \ 권장드립니다\" 안내\n- 단정적 판단(예: \"이건 무조건 해고감\") 금지. 가능성 범위로 안내 (예: \"심각도에 따라 정직~해고\
+    \ 가능\")\n</style_guidelines>\n\n<example_format>\n**질의 해석**\nUSB로 회사 자료를 외부에 반출한\
+    \ 행위에 대해 적용 규정과 제재 수위를 문의 → 위반 시나리오 분석으로 처리.\n\n**관련 규정**\n\n| 규정ID | 규정명 | 계열사\
+    \ | 심각도 | 핵심 제재 |\n|--------|--------|--------|--------|----------|\n| RULE-007\
+    \ | 외부 저장매체(USB·외장하드) 무단 사용 금지 | GS칼텍스 | 중 | 정직 1~3개월 |\n| RULE-001 | 영업비밀 외부\
+    \ 유출 금지 | GS칼텍스 | 중대 | 징계해고·형사고발 |\n\n**상세 설명**\n- **[직접 관련] RULE-007**: 사전 승인\
+    \ 없이 USB·외장하드를 사내 PC에 연결하거나 자료를 반출하는 행위 자체가 금지됩니다. 위반 시 정직 1~3개월, 보안교육 재이수, 사안에\
+    \ 따라 감봉.\n- **[간접 관련] RULE-001**: 반출한 자료가 영업비밀(공정·기술·고객정보 등)에 해당할 경우, 매체 사용 규정\
+    \ 위반을 넘어 영업비밀 유출로 사안이 확대됩니다. 이 경우 징계해고와 더불어 부정경쟁방지법에 따른 형사고발과 손해배상 청구까지 가능합니다.\n\
+    \n**추가 안내**\n- 관련 법령: 부정경쟁방지 및 영업비밀보호에 관한 법률, 정보보안 내규\n- 담당 부서: 정보보호팀\n- DLP(데이터\
+    \ 유출 방지) 시스템에서 자동 차단·기록됨\n\n**유의사항**\n실제 징계 수위는 인사부서·법무 검토 및 징계위원회 심의를 통해 최종 결정됩니다.\n\
+    </example_format>\n\n<instructions>\n1. 답변 전 사용자 질의가 5가지 분석 유형 중 어디에 해당하는지 먼저\
+    \ 판단하세요.\n2. 규정 검색 시 \"규정명\" 컬럼뿐 아니라 \"규정 내용 요약\", \"규정 소분류\" 컬럼까지 의미상 매칭하여 누락을\
+    \ 방지하세요.\n3. 위반 시나리오 분석 시, 직접 관련 규정과 함께 사안 확대 가능성이 있는 간접 관련 규정도 함께 제시하세요.\n4.\
+    \ 모든 규정 인용 시 [규정ID]를 반드시 표기하세요.\n5. 규정에 명시되지 않은 영역은 추측하지 말고 담당 부서 문의를 안내하세요.\n\
+    6. 위반·제재 관련 답변에는 반드시 \"유의사항\" 항목으로 인사부서·법무 검토 안내를 포함하세요.\n7. 답변이 길어질 경우, 표를 적극\
+    \ 활용하여 가독성을 확보하세요.\n</instructions>"
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  scheduling:
+    enabled: false
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions:
+  - 거래처에서 명절 선물로 7만원짜리 한우 세트를 보내주려고 하시는데, 규정에 위반되는지 확인해줘.
+  - GS건설 현장직 신입사원 교육에서 필수로 교육해야 할 핵심 규정을 카테고리별로 정리해줘.
+  suggested_questions_after_answer:
+    enabled: true
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []
+version: 0.1.5

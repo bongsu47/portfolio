@@ -69,6 +69,10 @@
     * [파일 업로드](manual/miso-api-guide/file-upload.md)
     * [공공데이터 오픈API 활용](manual/miso-api-guide/openapi.md)
   * [부록(용어 정리)](manual/glossary.md)
+* [미소 도입하기](undefined/README.md)
+  * [사전 세팅](undefined/undefined.md)
+  * [기본앱 세팅](undefined/undefined-1/README.md)
+    * [\[기본앱\] 법령 검색 에이전트](undefined/undefined-1/undefined.md)
 
 ## 미소 학습하기 <a href="#study" id="study"></a>
 

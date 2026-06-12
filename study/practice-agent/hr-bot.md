@@ -43,7 +43,7 @@
 
 데이터 소스 선택 영역에서 "텍스트 파일에서 가져오기"를 선택한 뒤 company\_welfare.txt 파일을 드래그 앤 드랍으로 또는 "찾아보기" 텍스트를 클릭하여 업로드 합니다. 문서가 업로드되면 위와 같이 파일 명이 업로드영역 하단에 표기됩니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -51,7 +51,7 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 이제 준비된 문서를 미소의 DB에 저장해 보겠습니다. 데이터 임베딩 영역에서 "사용자 설정" 버튼을 클릭하여 어떻게 문서를 DB에 저장할지 수동으로 설정해 보겠습니다. 아래와 같이 설정해 보겠습니다.
 
@@ -63,7 +63,7 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 이렇게 설정한 뒤 우측 상단의 "미리보기" 버튼을 클릭하면 company\_welfare.txt 문서가 DB에 어떻게 chunk(특정 단위로 잘려서)되어 저장될 예정인지 아래와 같이 확인해 볼 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 
@@ -137,19 +137,19 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 앱 유형은 에이전트로 선택하고 앱이름과 설명을 위의 내용을 참조하여 적절히 작성합니다.
 
 
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 먼저 에이전트가 답변에 근거로 사용할 데이터부터 설정하겠습니다. 화면 우측의 "참조할 지식" 영역에서 우측상단에 위치한 "+추가" 버튼을 클릭합니다.&#x20;
 
 
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 팝업이 출력되고 현재 업로드된 데이터들이 보여기게 됩니다. 현재는 업로드한 데이터가 company\_welfare.txt뿐이므로 이 데이터만 보입니다. 해당 데이터를 클릭하여 선택한 뒤 "확인" 버튼을 클릭하여 설정합니다.
 

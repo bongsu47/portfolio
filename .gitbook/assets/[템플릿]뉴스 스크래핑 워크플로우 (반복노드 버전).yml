@@ -1,0 +1,656 @@
+app:
+  description: '사전에 지정된 키워드 + 사용자 추가 키워드를 통해 네이버 뉴스를 스크래핑하는 워크플로우입니다. #반복'
+  icon: ''
+  icon_background: ''
+  memory_config: null
+  mode: workflow
+  name: '[템플릿] 뉴스 스크래핑 워크플로우 (반복 노드 버전)'
+  use_icon_as_answer_icon: false
+kind: app
+version: 0.1.5
+workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .JPG
+      - .JPEG
+      - .PNG
+      - .GIF
+      - .WEBP
+      - .SVG
+      allowed_file_types:
+      - image
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: false
+      image:
+        enabled: false
+      number_limits: 10
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        sourceType: start
+        targetType: template-transform
+      id: 1773808379261-source-1773808390906_1_uk4hknoot-target
+      selected: false
+      source: '1773808379261'
+      sourceHandle: source
+      target: 1773808390906_1_uk4hknoot
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: template-transform
+        targetType: code
+      id: 1773808390906_1_uk4hknoot-source-1773808506367_2_10joimk6g-target
+      selected: false
+      source: 1773808390906_1_uk4hknoot
+      sourceHandle: source
+      target: 1773808506367_2_10joimk6g
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: iteration
+        targetType: code
+      id: 1773808575544_3_vlj30lhwr-source-1773809228191_1_zlg2y07at-target
+      selected: false
+      source: 1773808575544_3_vlj30lhwr
+      sourceHandle: source
+      target: 1773809228191_1_zlg2y07at
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: code
+        targetType: llm
+      id: 1773809228191_1_zlg2y07at-source-1773809535626_2_gu57evybm-target
+      selected: false
+      source: 1773809228191_1_zlg2y07at
+      sourceHandle: source
+      target: 1773809535626_2_gu57evybm
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: llm
+        targetType: end
+      id: 1773809535626_2_gu57evybm-source-1773808693825_6_w4y14stwt-target
+      selected: false
+      source: 1773809535626_2_gu57evybm
+      sourceHandle: source
+      target: 1773808693825_6_w4y14stwt
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        sourceType: iteration-start
+        targetType: tool
+      id: 1773808575544_3_vlj30lhwrstart-source-1774324356077_1_bqieeofmk-target
+      selected: false
+      source: 1773808575544_3_vlj30lhwrstart
+      sourceHandle: source
+      target: 1774324356077_1_bqieeofmk
+      targetHandle: target
+      type: custom
+      zIndex: 1002
+    - data:
+        sourceType: code
+        targetType: iteration
+      id: 1773808506367_2_10joimk6g-source-1773808575544_3_vlj30lhwr-target
+      selected: false
+      source: 1773808506367_2_10joimk6g
+      sourceHandle: source
+      target: 1773808575544_3_vlj30lhwr
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        desc: ''
+        selected: false
+        title: 시작
+        type: start
+        variables:
+        - allowed_file_extensions: []
+          allowed_file_types:
+          - image
+          - document
+          - audio
+          - video
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: 추가 키워드를 쉼표로 구분하여 입력
+          max_length: 100000
+          options: []
+          required: false
+          type: paragraph
+          variable: keyword
+      height: 84
+      id: '1773808379261'
+      measured:
+        height: 84
+        width: 260
+      position:
+        x: 80
+        y: 282
+      selected: false
+      type: custom
+      width: 260
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        _showAddVariablePopup: true
+        desc: 뉴스 검색에 필수로 포함할 키워드를 사전에 설정할 수 있습니다.
+        outputs:
+          output:
+            children: null
+            type: string
+        selected: false
+        template: 파르나스호텔, 파르나스, 인터컨티넨탈 파르나스, 그랜드 인터컨티넨탈 서울, 웨스틴 파르나스, 웨스틴 서울 파르나스,
+          신라호텔, 롯데호텔, 조선호텔, 파라다이스, 하얏트, 메리어트, IHG, {{ keyword }}
+        template_language: jinja
+        title: 키워드 설정
+        type: template-transform
+        variables:
+        - value_selector:
+          - '1773808379261'
+          - keyword
+          variable: keyword
+      height: 50
+      id: 1773808390906_1_uk4hknoot
+      measured:
+        height: 50
+        width: 260
+      position:
+        x: 404.0533773982236
+        y: 303.8946224110111
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        _showAddVariablePopup: true
+        code: "def main(input_string):\n\n    keyword_array = [item.strip() for item\
+          \ in input_string.split(',')]\n\n    return {'result' : keyword_array }"
+        code_language: python3
+        desc: array(string)으로 변환
+        outputs:
+          result:
+            children: null
+            type: array[string]
+        selected: false
+        title: 입력값 전처리
+        type: code
+        variables:
+        - value_selector:
+          - 1773808390906_1_uk4hknoot
+          - output
+          variable: input_string
+      height: 50
+      id: 1773808506367_2_10joimk6g
+      measured:
+        height: 50
+        width: 260
+      position:
+        x: 705.9395202498036
+        y: 321.8566366542286
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    - data:
+        _children:
+        - 1773808575544_3_vlj30lhwrstart
+        - 1773808679413_5_t9nqyixow
+        - 1774324356077_1_bqieeofmk
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _isShowTips: false
+        _iterationIndex: 16
+        _iterationLength: 15
+        _runningStatus: none
+        _showAddVariablePopup: true
+        desc: ''
+        error_handle_mode: terminated
+        height: 300
+        is_parallel: true
+        iterator_selector:
+        - 1773808506367_2_10joimk6g
+        - result
+        output_selector:
+        - 1774324356077_1_bqieeofmk
+        - text
+        output_type: array[string]
+        parallel_nums: 10
+        selected: false
+        start_node_id: 1773808575544_3_vlj30lhwrstart
+        title: 반복
+        type: iteration
+        width: 518.5927013438493
+      height: 300
+      id: 1773808575544_3_vlj30lhwr
+      measured:
+        height: 300
+        width: 518.5927013438493
+      position:
+        x: 1061.3791798942032
+        y: 70.86538754643686
+      selected: false
+      type: custom
+      width: 518.5927013438493
+      zIndex: 1
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        desc: ''
+        isInContainer: true
+        iteration_id: 1773808575544_3_vlj30lhwr
+        selected: false
+        title: ''
+        type: iteration-start
+      height: 24
+      id: 1773808575544_3_vlj30lhwrstart
+      measured:
+        height: 24
+        width: 27
+      parentId: 1773808575544_3_vlj30lhwr
+      position:
+        x: 24
+        y: 68
+      selected: false
+      type: custom-iteration-start
+      width: 27
+      zIndex: 1002
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        author: 최정규
+        desc: ''
+        height: 201
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"반복
+          노드를 활용하여 뉴스를 검색하는 워크플로우입니다.","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"1.
+          장점","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"여러
+          개의 키워드를 동시에 검색할 수 있다.","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"2.
+          단점","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""},{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"이전에
+          검색된 내용을 기반으로 부족한 정보를 추가로 더 검색하는 에이전틱한 동작은 루프 노드를 사용해야한다.","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 353
+      height: 201
+      id: 1773808599092_4_qo5zo14jw
+      measured:
+        height: 201
+        width: 353
+      position:
+        x: -26.29226496155377
+        y: 55.07380237563916
+      selected: false
+      type: custom-note
+      width: 353
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        desc: ''
+        outputs:
+        - value_selector:
+          - 1773809535626_2_gu57evybm
+          - text
+          variable: result
+        selected: false
+        title: 종료
+        type: end
+      height: 111
+      id: 1773808693825_6_w4y14stwt
+      measured:
+        height: 111
+        width: 260
+      position:
+        x: 2297.15828485691
+        y: 269.8451812820237
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _runningStatus: none
+        _showAddVariablePopup: true
+        code: "import re\nimport json\nfrom typing import Dict, Any, List\n\n\ndef\
+          \ main(input_data: List[Dict]) -> Dict[str, Any]:\n    try:\n        all_items\
+          \ = []\n\n        for data in input_data:\n            if not data or not\
+          \ isinstance(data, str):\n                continue\n\n            # 뉴스 블록을\
+          \ '---' 기준으로 분리\n            blocks = data.split('---')\n\n            for\
+          \ block in blocks:\n                block = block.strip()\n            \
+          \    if not block:\n                    continue\n\n                # 제목\
+          \ 추출: ## 1. 제목 형태\n                title_match = re.search(r'##\\s+\\d+\\\
+          .\\s+(.+)', block)\n                if not title_match:\n              \
+          \      continue\n                title = title_match.group(1).strip()\n\n\
+          \                # 발행일 추출\n                date_match = re.search(r'\\*\\\
+          *발행일:\\*\\*\\s+(.+)', block)\n                pub_date = date_match.group(1).strip()\
+          \ if date_match else ''\n\n                # 링크 추출\n                link_match\
+          \ = re.search(r'\\[원문 보기\\]\\((.+?)\\)', block)\n                link =\
+          \ link_match.group(1).strip() if link_match else ''\n\n                #\
+          \ 요약 추출\n                desc_match = re.search(r'\\*\\*요약:\\*\\*\\s*\\\
+          n(.+?)(?:\\n\\n|$)', block, re.DOTALL)\n                description = desc_match.group(1).strip()\
+          \ if desc_match else ''\n\n                all_items.append({\n        \
+          \            'title': title,\n                    'originallink': link,\n\
+          \                    'link': link,\n                    'description': description,\n\
+          \                    'pubDate': pub_date\n                })\n\n       \
+          \ # 중복 제거\n        total_original = len(all_items)\n        seen_keys =\
+          \ set()\n        unique_items = []\n\n        for item in all_items:\n \
+          \           key = item.get('originallink') or item.get('title', '')\n  \
+          \          if key and key not in seen_keys:\n                seen_keys.add(key)\n\
+          \                unique_items.append(item)\n\n        output = {\n     \
+          \       'unique_items': unique_items,\n            'removed_count': total_original\
+          \ - len(unique_items),\n            'total_original': total_original,\n\
+          \            'total_unique': len(unique_items)\n        }\n\n        return\
+          \ {'result': json.dumps(output, ensure_ascii=False)}\n\n    except Exception\
+          \ as e:\n        return {'result': json.dumps({'error': str(e)}, ensure_ascii=False)}\n"
+        code_language: python3
+        desc: ''
+        outputs:
+          result:
+            children: null
+            type: string
+        selected: false
+        title: 중복 제거
+        type: code
+        variables:
+        - value_selector:
+          - 1773808575544_3_vlj30lhwr
+          - output
+          variable: input_data
+      height: 50
+      id: 1773809228191_1_zlg2y07at
+      measured:
+        height: 50
+        width: 260
+      position:
+        x: 1627.2397708552292
+        y: 219.91766972438364
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds:
+        - source
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        context:
+          enabled: false
+          variable_selector: []
+        desc: ''
+        model:
+          completion_params:
+            max_tokens: 10000
+            response_format: JSON
+            temperature: 0.2
+          mode: chat
+          name: us.anthropic.claude-haiku-4-5-20251001-v1:0
+          provider: bedrock
+          registered_provider_id: dd1c139a-5035-475e-843e-4d5fbfabd155
+        prompt_template:
+        - role: system
+          text: "<Role>\n당신은 파르나스 호텔의 뉴스 데이터 처리 엔진입니다.\n외부 뉴스 데이터를 입력받아 중복 제거, 분류,\
+            \ 요약, 분석 후 JSON 형태로 반환하는 비대화형 시스템입니다.\n</Role>\n\n<Task>\n입력된 네이버 뉴스 검색\
+            \ 결과 JSON 데이터를 처리하여 다음을 수행합니다:\n1. 중복 뉴스 제거 (동일 URL, 제목 유사도 80% 이상, 동일\
+            \ 사건)\n2. 카테고리 분류 (parnas, competitor, industry)\n3. 각 뉴스 요약 생성 (2~3문장)\n\
+            4. 키워드 추출 (3~5개)\n5. 인사이트 도출\n</Task>\n\n<Input_Structure>\n입력 데이터는 다음\
+            \ 구조를 가진 JSON입니다:\n- result 배열 내 items 배열에 뉴스 객체 포함\n- 각 뉴스 객체: title,\
+            \ originallink, link, description, pubDate\n</Input_Structure>\n\n<Deduplication_Rule>\n\
+            다음 기준으로 중복을 제거합니다:\n1. 동일 URL (originallink 또는 link 기준)\n2. 제목 유사도 80%\
+            \ 이상 (편집 거리 알고리즘 적용)\n3. 동일 사건 기사 (핵심 키워드 3개 이상 일치 시)\n\n우선순위 (중복 시 상위\
+            \ 우선순위 뉴스만 유지):\n1. Reuters, Bloomberg 등 국제 통신사\n2. 네이버 상위 언론 (조선, 중앙,\
+            \ 동아, 한겨레, 경향 등)\n3. 기타 언론사\n</Deduplication_Rule>\n\n<Category_Rule>\n\
+            각 뉴스는 반드시 하나의 카테고리에만 속합니다:\n\nparnas (자사)\n다음 키워드 포함 시 무조건 parnas로 분류:\n\
+            - 파르나스\n- 파르나스호텔\n- 파르나스 호텔\n- 인터컨티넨탈 파르나스\n- 그랜드 인터컨티넨탈 서울 파르나스\n- 그랜드\
+            \ 인터컨티넨탈 서울\n- 웨스틴 파르나스\n- 웨스틴 서울 파르나스\n- 소요한남 by 파르나스\n\ncompetitor (경쟁사)\n\
+            다음 호텔 브랜드 포함 시:\n- 신라호텔, 서울신라호텔\n- 롯데호텔\n- 조선호텔\n- 파라다이스, 파라다이스시티\n- 하얏트,\
+            \ 그랜드 하얏트, 파크 하얏트\n- 메리어트, JW 메리어트\n- 반얀트리\n- 포시즌스\n- 페어몬트\n\nindustry\
+            \ (산업)\n위 두 카테고리에 해당하지 않으며 다음 주제 포함:\n- 호텔 산업 트렌드\n- 여행/관광 정책\n- 호텔 시장\
+            \ 분석\n- 호스피탈리티 기술\n- 호텔 투자/개발\n</Category_Rule>\n\n<Date_Filter_Rule>\n\
+            - 최근 3일 이내 뉴스를 우선 사용\n- 부족할 경우 최대 7일까지 확장\n- pubDate 필드를 파싱하여 YYYY-MM-DD\
+            \ 형식으로 변환\n- 변환 불가능하거나 7일 초과 뉴스는 제외\n- 현재 기준일: 2026-03-18\n</Date_Filter_Rule>\n\
+            \n<Processing_Rule>\n요약 생성\n- description 필드 기반으로 2~3문장 요약\n- 핵심 사실만 포함\
+            \ (추측/의견 제외)\n- 완결된 문장 구조 유지\n\n키워드 추출\n- title과 description에서 빈도 높은 명사구\
+            \ 추출\n- 3~5개로 제한\n- 고유명사, 브랜드명, 핵심 이벤트명 우선\n\n감정지수 (sentiment)\n- 긍정 뉴스:\
+            \ +50 ~ +100\n- 중립 뉴스: -20 ~ +20\n- 부정 뉴스: -100 ~ -50\n- 전체 뉴스의 평균값 계산\n\
+            \n인사이트\n- 데이터 기반으로만 작성 (추측 금지)\n- 각 카테고리별 주요 트렌드 1~2문장 요약\n- 뉴스가 없는 카테고리는\
+            \ 빈 문자열(\"\")\n</Processing_Rule>\n\n<Output_Format>\n다음 JSON 구조로 출력합니다:\n\
+            \n{\n  \"date\": \"YYYY-MM-DD\",\n  \"collected_at\": \"YYYY-MM-DD HH:MM:SS\"\
+            ,\n  \"keywords_used\": [\"파르나스호텔\", \"신라호텔\", \"롯데호텔\", ...],\n  \"summary\"\
+            : {\n    \"total_count\": 0,\n    \"top_trends\": [\"트렌드1\", \"트렌드2\"\
+            , \"트렌드3\"],\n    \"sentiment\": 0\n  },\n  \"parnas\": [\n    {\n   \
+            \   \"title\": \"뉴스 제목\",\n      \"summary\": \"2~3문장 요약\",\n      \"\
+            keywords\": [\"키워드1\", \"키워드2\", \"키워드3\"],\n      \"source\": \"언론사명\"\
+            ,\n      \"date\": \"YYYY-MM-DD\",\n      \"url\": \"원본 URL\"\n    }\n\
+            \  ],\n  \"competitor\": [\n    {\n      \"title\": \"뉴스 제목\",\n     \
+            \ \"company\": \"경쟁사명\",\n      \"summary\": \"2~3문장 요약\",\n      \"keywords\"\
+            : [\"키워드1\", \"키워드2\"],\n      \"source\": \"언론사명\",\n      \"date\":\
+            \ \"YYYY-MM-DD\",\n      \"url\": \"원본 URL\"\n    }\n  ],\n  \"industry\"\
+            : [\n    {\n      \"title\": \"뉴스 제목\",\n      \"summary\": \"2~3문장 요약\"\
+            ,\n      \"keywords\": [\"키워드1\", \"키워드2\"],\n      \"source\": \"언론사명\"\
+            ,\n      \"date\": \"YYYY-MM-DD\",\n      \"url\": \"원본 URL\"\n    }\n\
+            \  ],\n  \"insight\": {\n    \"parnas\": \"자사 관련 인사이트 (데이터 기반)\",\n  \
+            \  \"competitor\": \"경쟁사 관련 인사이트 (데이터 기반)\",\n    \"industry\": \"산업 관련\
+            \ 인사이트 (데이터 기반)\"\n  }\n}\n</Output_Format>\n\n<Constraint>\n- 반드시 JSON만\
+            \ 출력 (설명문 금지)\n- 뉴스 없는 카테고리: 빈 배열 [] 유지\n- 허위 뉴스 생성 금지\n- 입력 데이터 외 정보\
+            \ 생성 금지\n- 사용자에게 질문 금지\n- 대화형 문장 절대 금지\n- source 필드는 URL에서 도메인명 추출 또는\
+            \ description에서 언론사명 파싱\n- date 필드는 pubDate를 YYYY-MM-DD 형식으로 변환\n</Constraint>\n\
+            \n<Execution_Rule>\n1. 입력 JSON 파싱\n2. 모든 items 배열 병합\n3. 날짜 필터링 (3~7일\
+            \ 이내)\n4. 중복 제거\n5. 카테고리 분류\n6. 요약 및 키워드 추출\n7. 인사이트 생성\n8. JSON 출력\n\
+            </Execution_Rule>"
+        - role: user
+          text: '뉴스 검색 결과 :
+
+            {{#1773809228191_1_zlg2y07at.result#}}'
+        selected: false
+        title: 뉴스 분석/요약 LLM
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 86
+      id: 1773809535626_2_gu57evybm
+      measured:
+        height: 86
+        width: 260
+      position:
+        x: 1941.133970334517
+        y: 279.5902510364562
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        author: 최정규
+        desc: ''
+        height: 186
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"
+          [템플릿 노드]","type":"text","version":1},{"type":"linebreak","version":1},{"detail":0,"format":0,"mode":"normal","style":"","text":"키워드를
+          매핑합니다.","type":"text","version":1},{"type":"linebreak","version":1},{"detail":0,"format":0,"mode":"normal","style":"","text":"기존에
+          작성해둔 기본 검색어 + 사용자가 신규로 입력한 검색어","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 240
+      height: 186
+      id: 1773810163453_3_d2af7o6oo
+      measured:
+        height: 186
+        width: 240
+      position:
+        x: 400.31064231462085
+        y: 409.5010925988628
+      selected: false
+      type: custom-note
+      width: 240
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        author: 최정규
+        desc: ''
+        height: 170
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"[반복
+          노드 + 네이버 뉴스 도구]","type":"text","version":1},{"type":"linebreak","version":1},{"detail":0,"format":0,"mode":"normal","style":"","text":"모든
+          키워드를 병렬로 검색합니다.","type":"text","version":1},{"type":"linebreak","version":1},{"detail":0,"format":0,"mode":"normal","style":"","text":"결과는
+          JSON형태의 구조화된 결과를 반환합니다.","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: 360
+      height: 170
+      id: 1773810301564_1_suiolqtlg
+      measured:
+        height: 170
+        width: 360
+      position:
+        x: 1413.4877139700388
+        y: 434.4846773898961
+      selected: false
+      type: custom-note
+      width: 360
+      zIndex: 1005
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds: []
+        _inParallelHovering: false
+        _isEntering: false
+        author: 최정규
+        desc: ''
+        height: -88
+        selected: false
+        showAuthor: true
+        text: '{"root":{"children":[{"children":[{"detail":0,"format":0,"mode":"normal","style":"","text":"
+          최종 JSON 형태의 결과를 생성합니다.","type":"text","version":1}],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1,"textFormat":0,"textStyle":""}],"direction":"ltr","format":"","indent":0,"type":"root","version":1}}'
+        theme: blue
+        title: ''
+        type: ''
+        width: -240
+      height: 66
+      id: 1773810369574_1_7v3ndsxfn
+      measured:
+        height: 66
+        width: 212
+      position:
+        x: 1950
+        y: 445
+      selected: false
+      type: custom-note
+      width: 212
+    - data:
+        _connectedSourceHandleIds: []
+        _connectedTargetHandleIds:
+        - target
+        _holdAddVariablePopup: false
+        _inParallelHovering: false
+        _isEntering: false
+        _showAddVariablePopup: true
+        desc: ''
+        isInContainer: true
+        iteration_id: 1773808575544_3_vlj30lhwr
+        provider_id: naver
+        provider_name: naver
+        provider_type: builtin
+        selected: false
+        title: 네이버 뉴스 검색
+        tool_configurations:
+          sort: sim
+        tool_label: 네이버 뉴스 검색
+        tool_name: naver_news_search
+        tool_parameters:
+          query:
+            type: mixed
+            value: '{{#1773808575544_3_vlj30lhwr.item#}}'
+        type: tool
+      height: 50
+      id: 1774324356077_1_bqieeofmk
+      measured:
+        height: 50
+        width: 260
+      parentId: 1773808575544_3_vlj30lhwr
+      position:
+        x: 178.59270134384928
+        y: 124.01824664037673
+      selected: false
+      type: custom
+      width: 260
+      zIndex: 1005
+    viewport:
+      x: -85.16221788453618
+      y: 69.27935874481895
+      zoom: 0.748798004547272
