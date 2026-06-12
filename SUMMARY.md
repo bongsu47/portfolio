@@ -70,9 +70,12 @@
     * [공공데이터 오픈API 활용](manual/miso-api-guide/openapi.md)
   * [부록(용어 정리)](manual/glossary.md)
 * [미소 도입하기](undefined/README.md)
-  * [사전 세팅](undefined/undefined.md)
-  * [기본앱 세팅](undefined/undefined-1/README.md)
-    * [\[기본앱\] 법령 검색 에이전트](undefined/undefined-1/undefined.md)
+  * [\[0\] 사전 세팅](undefined/0.md)
+  * [\[1\] 기본앱 세팅](undefined/1/README.md)
+    * [법령 검색 에이전트](undefined/1/undefined.md)
+    * [사내 규정 에이전트](undefined/1/undefined-1.md)
+    * [뉴스 스크래핑 워크플로우](undefined/1/undefined-2.md)
+    * [PDF 요약 분석](undefined/1/pdf.md)
 
 ## 미소 학습하기 <a href="#study" id="study"></a>
 
