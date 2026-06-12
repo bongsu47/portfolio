@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 미소 도입하기
 
 {% hint style="info" icon="bullhorn" %}
