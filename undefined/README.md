@@ -7,7 +7,7 @@ hidden: true
 {% hint style="info" icon="bullhorn" %}
 **\[도입 가이드 목표]**
 
-처음 MISO를 도입하는 <kbd>???</kbd>에게, 다음의 온보딩을 제공하고자 합니다.
+처음 MISO를 도입하는 분들에게, 다음의 온보딩을 제공하고자 합니다.
 
 1.  **앱 활용**
 

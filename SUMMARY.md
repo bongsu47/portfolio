@@ -76,6 +76,7 @@
     * [사내 규정 에이전트](undefined/1/undefined-1.md)
     * [뉴스 스크래핑 워크플로우](undefined/1/undefined-2.md)
     * [PDF 요약 분석](undefined/1/pdf.md)
+  * [\[2\] 쇼케이스 세팅](undefined/2.md)
 
 ## 미소 학습하기 <a href="#study" id="study"></a>
 

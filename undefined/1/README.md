@@ -74,7 +74,9 @@ MISO에서 _이미 만들어놓은_ 예시 앱을 등록해 봅니다.
 | GPT    | Nano / Mini | 표준 (ex. GPT-5.4) | Pro  |
 | Gemini | Flash-Lite  | Flash            | Pro  |
 
-\*\* 모델 뒤의 숫자는 가장 높은 것이 가장 최신 것이므로, 가장 높은 숫자를 사용하시는 것을 권장합니다.
+{% hint style="info" %}
+&#x20;모델 뒤의 숫자는 가장 높은 것이 가장 최신 것이므로, 가장 높은 숫자를 사용하시는 것을 권장합니다.
+{% endhint %}
 
 
 
@@ -101,6 +103,8 @@ MISO에서 _이미 만들어놓은_ 예시 앱을 등록해 봅니다.
 ***
 
 ### 2단계: 앱 살펴보기
+
+* 앱 이름을 누르시면 상세 페이지로 이동합니다
 
 <table><thead><tr><th width="160.9921875" data-type="content-ref">앱 이름</th><th width="192.82421875">키워드<select multiple><option value="emfjYG0GPS6m" label="에이전트" color="blue"></option><option value="gmn0PgPJCsbX" label="도구" color="blue"></option><option value="05zPhlpZtZk9" label="지식 등록" color="blue"></option><option value="HFTudXsOPFzI" label="워크플로우" color="blue"></option><option value="FuntPdsLR9sw" label="파일 업로드" color="blue"></option></select></th><th>특징</th></tr></thead><tbody><tr><td><a href="undefined.md">undefined.md</a></td><td><span data-option="emfjYG0GPS6m">에이전트, </span><span data-option="gmn0PgPJCsbX">도구</span></td><td>1단계: 에이전트로 앱을 생성하는 방법을 익힙니다.<br>2단계: 도구를 활용하는 법을 익힙니다.</td></tr><tr><td><a href="undefined-1.md">undefined-1.md</a></td><td><span data-option="emfjYG0GPS6m">에이전트, </span><span data-option="05zPhlpZtZk9">지식 등록</span></td><td>3단계: MISO에 지식을 등록하고 활용하는 법을 익힙니다.</td></tr><tr><td><a href="undefined-2.md">undefined-2.md</a></td><td><span data-option="HFTudXsOPFzI">워크플로우, </span><span data-option="gmn0PgPJCsbX">도구</span></td><td>4단계: 워크플로우로 앱을 생성하는 방법을 익힙니다.</td></tr><tr><td><a href="pdf.md">pdf.md</a></td><td><span data-option="HFTudXsOPFzI">워크플로우, </span><span data-option="FuntPdsLR9sw">파일 업로드</span></td><td>5단계: 파일을 직접 업로드하여 활용하는 방법을 익힙니다.</td></tr></tbody></table>
 
