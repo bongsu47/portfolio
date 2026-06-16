@@ -8,8 +8,6 @@
 
 상단 메뉴바에서 `지식 관리` 를 클릭하여 지식 관리 화면으로 이동합니다.
 
-
-
 <figure><img src="../../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
 ~~지식 관리 화면의 우측 상단의 `API` 버튼을 클릭하여 지식 API 키 관리 화면으로 이동합니다.~~
@@ -17,22 +15,16 @@
 <figure><img src="../../.gitbook/assets/image (558).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-<mark style="color:blue;">**워크스페이스 단위 API 키 발급이 중단되었습니다. 기존에 발급받은 키는 사용할 수 있습니다.**</mark>&#x20;
+<mark style="color:blue;">**워크스페이스 단위 API 키 발급이 중단되었습니다. 기존에 발급받은 키는 사용할 수 있습니다.**</mark>
 
 <mark style="color:blue;">**지식 상세 페이지에서 지식별로 API 키를 발급해주세요.**</mark>
 {% endhint %}
-
-
 
 특정 지식을 선택 후, 상세 화면에서 `API 키` 탭을 선택합니다.
 
 <figure><img src="../../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
-
-
 지식 API 키 관리 화면에서 `API 키 생성` 버튼을 클릭하여 새로운 API키를 발급 받을 수 있습니다. 이 API 키를 header의 Authorization에 `Bearer {api_key}` 와 같은 형식으로 입력하여 지식 API를 호출할 수 있습니다.
-
-
 
 ## API 접근 범위
 
@@ -42,7 +34,13 @@
 
 <table><thead><tr><th width="270.40625">API</th><th>워크스페이스 API 키</th><th>지식 단위 API 키</th></tr></thead><tbody><tr><td>텍스트로 문서 생성하기</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>파일로 문서 생성</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>빈 지식 생성</td><td>O</td><td>X</td></tr><tr><td>지식 목록 조회</td><td>O</td><td>X</td></tr><tr><td>지식 상세 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식 삭제</td><td>O</td><td>X</td></tr><tr><td>텍스트로 문서 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>파일로 문서 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 임베딩 상태 조회 (진행률 확인)</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 삭제</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식의 문서 목록 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에 청크(Chunk) 추가</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에서 청크(Chunk) 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에서 청크(Chunk) 삭제</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 내 청크(Chunk) 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식 베이스에서 청크(Chunk) 검색</td><td>O</td><td>O (해당 지식만)</td></tr></tbody></table>
 
+<figure><img src="../../.gitbook/assets/스크린샷 2026-06-15 오후 3.51.56.png" alt="지식 API 키 생성 화면에서 개인키와 공용키 발급 유형을 선택하는 예시"><figcaption><p>지식 API 키 생성 시 `개인키` 또는 `공용키`를 선택할 수 있습니다.</p></figcaption></figure>
 
+지식 API 키는 발급 시 `개인키` 또는 `공용키`로 생성할 수 있습니다.
+
+* `개인키`는 개인에게 종속되는 키입니다.
+* `공용키`는 지식에 종속되는 키입니다.
+* 두 키 모두 위 표의 지식 단위 API 키 접근 범위를 따릅니다.
 
 ## 텍스트로 문서 생성하기
 
@@ -68,7 +66,7 @@ curl --location --request POST 'https://<your-endpoint>/ext/v1/datasets/{id}/doc
 }'
 ```
 
-* &#x20;tag 정보 입력시
+* tag 정보 입력시
 
 ```bash
 curl --location --request POST 'https://<your-endpoint>/ext/v1/datasets/{id}/docs/text' \
@@ -167,10 +165,6 @@ curl --location --request POST 'https://<your-endpoint>/ext/v1/datasets/{id}/doc
 | `hit_count`               | 조회 수            |
 | `doc_form`                | 문서 형식           |
 | `batch`                   | 배치 ID           |
-
-
-
-
 
 ## 파일로 문서 생성
 
@@ -273,10 +267,6 @@ curl --location --request POST 'http://localhost:5001/ext/v1/datasets/c2f9e6f1-d
 | `doc_form`                | 문서 형식           |
 | `batch`                   | 배치 ID           |
 
-
-
-
-
 ## 빈 지식 생성
 
 ***
@@ -348,8 +338,6 @@ curl --location --request POST 'https://<your-endpoint>/ext/v1/datasets' \
 | `embedding_model_provider` | 임베딩 모델 제공자          |
 | `embedding_available`      | 임베딩 사용 가능 여부        |
 
-
-
 ## 지식 목록 조회
 
 ***
@@ -420,8 +408,6 @@ curl --location --request GET 'https://<your-endpoint>/ext/v1/datasets?page=1&li
 | `limit`              | 요청 시 지정한 항목 수 |
 | `total`              | 전체 항목 수       |
 | `page`               | 현재 페이지 번호     |
-
-
 
 ## 지식 상세 조회
 
@@ -518,10 +504,6 @@ curl --location --request GET 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `updated_by_name`          | 마지막 수정자 이름                   |
 | `updated_at`               | 마지막 수정 시각                    |
 
-
-
-
-
 ## 지식 삭제
 
 ***
@@ -552,8 +534,6 @@ curl --location --request DELETE 'https://<your-endpoint>/ext/v1/datasets/{datas
 | 상태 코드 | 설명                         |
 | ----- | -------------------------- |
 | `204` | 성공적으로 삭제되었음을 의미함. 응답 본문 없음 |
-
-
 
 ## 텍스트로 문서 업데이트
 
@@ -640,8 +620,6 @@ curl --location --request PUT 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `hit_count`               | 조회 수            |
 | `doc_form`                | 문서 형식           |
 | `batch`                   | 배치 ID           |
-
-
 
 ## 파일로 문서 업데이트
 
@@ -735,8 +713,6 @@ curl --location --request PUT 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `doc_form`                | 문서 형식           |
 | `batch`                   | 배치 ID           |
 
-
-
 ## 문서 임베딩 상태 조회 (진행률 확인)
 
 ***
@@ -795,8 +771,6 @@ curl --location --request GET 'https://<your-endpoint>/ext/v1/datasets/{id}/docs
 | `completed_segments`     | 완료된 세그먼트 수          |
 | `total_segments`         | 전체 세그먼트 수           |
 
-
-
 ## 문서 삭제
 
 ***
@@ -830,10 +804,6 @@ curl --location --request DELETE 'https://<your-endpoint>/ext/v1/datasets/{datas
 | 필드명      | 설명    |
 | -------- | ----- |
 | `result` | 요청 결과 |
-
-
-
-
 
 ## 지식의 문서 목록 조회
 
@@ -910,8 +880,6 @@ curl --location --request GET 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `limit`                   | 요청 시 지정한 항목 수   |
 | `total`                   | 전체 문서 수         |
 | `page`                    | 현재 페이지 번호       |
-
-
 
 ## 문서에 청크(Chunk) 추가
 
@@ -1007,10 +975,6 @@ curl --location --request POST 'https://<your-endpoint>/ext/v1/datasets/{dataset
 | `stopped_at`      | 인덱싱 중단 시각         |
 | `doc_form`        | 문서 형식             |
 
-
-
-
-
 ## 문서에서 청크(Chunk) 조회
 
 ***
@@ -1092,10 +1056,6 @@ curl --location --request GET 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `stopped_at`      | 인덱싱 중단 시각         |
 | `doc_form`        | 문서 형식             |
 
-
-
-
-
 ## 문서에서 청크(Chunk) 삭제
 
 ***
@@ -1131,10 +1091,6 @@ curl --location --request DELETE 'https://<your-endpoint>/ext/v1/datasets/{datas
 | 필드명      | 설명    |
 | -------- | ----- |
 | `result` | 요청 결과 |
-
-
-
-
 
 ## 문서 내 청크(Chunk) 업데이트
 
@@ -1230,10 +1186,6 @@ curl --location --request PUT 'https://<your-endpoint>/ext/v1/datasets/{dataset_
 | `error`           | 오류 정보             |
 | `stopped_at`      | 인덱싱 중단 시각         |
 | `doc_form`        | 문서 형식             |
-
-
-
-
 
 ## 지식 베이스에서 청크(Chunk) 검색
 
