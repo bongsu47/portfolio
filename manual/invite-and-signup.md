@@ -12,11 +12,11 @@ MISO 서비스를 사용하기 위해서는 기존  이용자로부터 초대장
 
 
 
-<figure><img src="../.gitbook/assets/image (337).png" alt="" width="355"><figcaption><p>&#x3C;사용자 이름 → 관리 메뉴 → 사용자 관리></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2026-06-19 183430.png" alt=""><figcaption><p>&#x3C;사용자 이름 → 사용자 설정></p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (338).png" alt=""><figcaption><p>&#x3C;사용자 초대하기></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/사용자 초대.png" alt=""><figcaption><p>&#x3C;사용자 관리  → 사용자초대></p></figcaption></figure>
 
 
 
