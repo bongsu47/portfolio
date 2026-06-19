@@ -119,6 +119,7 @@
   * [5. 기상청 데이터로 지역별 보고서 작성하기](study/miso/5./README.md)
     * [\[레벨0\] 작업 구조화하기](study/miso/5./0.md)
     * [\[레벨 1\] 단일 지역 날씨 리포트 만들기](study/miso/5./1.md)
+    * [\[레벨 2\] 3개 권역 병렬 확장](study/miso/5./2-3.md)
 * [\[실습\] 에이전트 만들기](study/practice-agent/README.md)
   * [이메일 작성 에이전트(3개 국어)](study/practice-agent/3-language-email.md)
   * [복리후생 안내 에이전트](study/practice-agent/hr-bot.md)
