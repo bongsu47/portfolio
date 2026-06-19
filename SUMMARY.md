@@ -117,7 +117,7 @@
     * [\[레벨 1\] 파일을 첨부하여 이미지 생성하기](study/miso/3./1-1.md)
   * [3. 업무용 보고서 자동 생성하기](study/miso/3.-1.md)
   * [5. 기상청 데이터로 지역별 보고서 작성하기](study/miso/5./README.md)
-    * [\[레벨0\] 작업 구조화하기](study/miso/5./0.md)
+    * [\[레벨 0\] 기상청 API 연동 준비하기](study/miso/5./0-api.md)
     * [\[레벨 1\] 단일 지역 날씨 리포트 만들기](study/miso/5./1.md)
     * [\[레벨 2\] 3개 권역 병렬 확장](study/miso/5./2-3.md)
 * [\[실습\] 에이전트 만들기](study/practice-agent/README.md)
