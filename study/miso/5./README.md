@@ -24,4 +24,4 @@ _**'권역별로 날씨를 자동으로 수집하게 만들고, 보고서 양식
 
 이번 장에서는 여러 지역의 기상 데이터를 자동으로 수집하고, 날씨와 강수 확률에 따라 품목별 발주량이 정리된 보고서를 지역별로 자동 생성하는 워크플로우를 구성해봅니다.
 
-<figure><img src="../../.gitbook/assets/image (754).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (754).png" alt="" width="563"><figcaption></figcaption></figure>
