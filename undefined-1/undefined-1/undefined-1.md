@@ -1,5 +1,7 @@
 # 사내 규정 에이전트
 
+
+
 <figure><img src="../../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" icon="bell-ring" %}
@@ -25,7 +27,7 @@
 {% hint style="info" %}
 MISO 지식 등록에 관한 상세 가이드는 아래의 문서를 참고합니다.
 
-[build-knowledge.md](../../manual/undefined-1/build-knowledge.md "mention")
+[build-knowledge.md](../../manual/undefined-2/build-knowledge.md "mention")
 {% endhint %}
 
 MISO에 사내 문서, 매뉴얼, 업무 데이터 등 **기업 고유의 정보**를 업로드하여, 조직의 업무 맥락에 최적화된 AI 작업 환경을 구축할 수 있습니다.
