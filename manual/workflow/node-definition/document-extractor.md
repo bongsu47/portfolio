@@ -6,7 +6,7 @@ description: 업로드한 문서 파일에서 텍스트를 추출하는 노드�
 
 문서 추출기 노드는 업로드한 문서 파일에서 텍스트만 뽑아주는 노드입니다.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt="" width="293"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt="" width="293"><figcaption></figcaption></figure>
 
 LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그 안에 들어 있는 **텍스트 내용**을 기반으로 작업을 수행합니다. 그래서 문서를 그대로 전달하는 것이 아니라, 먼저 텍스트로 변환해주는 과정이 꼭 필요합니다. 이때 사용하는 노드가 바로 문서 추출기입니다.
 
@@ -38,7 +38,7 @@ LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그
 
 ## 설정 방법
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="368"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt="" width="368"><figcaption></figcaption></figure>
 
 ### 1. 입력 파일 선택
 

@@ -26,7 +26,7 @@
 
 사용자로부터 어떤 정보를 입력받을지, 답변에 어떤 지식을 참고할지, MISO에서 제공하는 도구 중 어떤 것을 활용할지와 같은 에어전트 세팅을 설정하는 것으로 이해할 수 있습니다.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 법령 검색 에이전트의 경우, 사용자의 질문을 API 입력값으로 바로 활용하기 때문에 따로 입력 변수 처리는 하지 않아도 됩니다.
 
@@ -36,7 +36,7 @@
 
 도구 설정에서는, `법령 검색 도구` 를 활용합니다.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **\[법령 검색 도구]**
 
@@ -56,7 +56,7 @@
 
 참고하고 있는 법령 목록은 아래 사진과 같은 조건을 따릅니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 26년 5월 기준, 총 5,589개의 법령을 활용하고 있습니다.
 
@@ -80,7 +80,7 @@
 
 실제로 법제처 웹사이트에서 제공하는 AI 법령검색을 활용했을 때는 아래와 같은 답변을 얻을 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 → `검색결과`에 해당하는 내용들이 API 활용시 반환되는 내용입니다.
 
@@ -152,7 +152,7 @@
 
 사용자들은 채팅 방식으로 궁금한 법에 관해서 질문할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 답변
 

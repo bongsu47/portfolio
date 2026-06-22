@@ -16,7 +16,7 @@ description: 조건 분기나 의도 분류 이후 여러 경로의 변수 중 �
 
 조건 노드나 의도 분류 노드를 사용하면 워크플로우가 여러 경로로 나뉩니다. 이 중 실제로 실행되는 경로는 하나뿐이므로, 나머지 경로의 변수에는 값이 없습니다.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 변수 집계기 노드는 여러 경로의 변수 중 실제로 값이 있는 것을 찾아 선택합니다.
 
@@ -34,7 +34,7 @@ description: 조건 분기나 의도 분류 이후 여러 경로의 변수 중 �
 1. **분기된 2개 이상의 노드 다음에 변수 집계기 노드**를 추가한 뒤, **분기된 두 개의 노드**를 모두 해당 집계기 노드에 연결합니다.
 2. 변수 집계기 노드를 클릭한 후, **입력 변수 설정**에서 **두 개의 LLM 노드 출력 변수를 모두 추가**합니다.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ***
 

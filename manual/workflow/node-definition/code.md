@@ -37,7 +37,7 @@ description: 정확한 계산, 데이터 변환, 텍스트 가공 등 규칙 기
 
 ## 설정 방법
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt="" width="363"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt="" width="363"><figcaption></figcaption></figure>
 
 ### 1. 변수 매핑
 
