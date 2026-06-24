@@ -1,5 +1,4 @@
 ---
-description: 26.06.24 에릭 수정 중
 hidden: true
 ---
 
@@ -26,4 +25,12 @@ _**'권역별로 날씨를 자동으로 수집하게 만들고, 보고서 양식
 이번 장에서는 여러 지역의 기상 데이터를 자동으로 수집하고, 날씨와 강수 확률에 따라 품목별 발주량이 정리된 보고서를 지역별로 자동 생성하는 워크플로우를 구성해봅니다.
 
 <figure><img src="../../../.gitbook/assets/image (754).png" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+<p align="right"><strong>.</strong><br><strong>.</strong><br><strong>.</strong></p>
+
+<p align="right"><sub><mark style="color:$info;">안녕하세요, 장매니저 역할의 Eric 입니다 :-)</mark></sub><br><sub><mark style="color:$info;">활용도가 높은 API와 반복 노드를 미소에서 원하는 대로 야무지게 사용하셨으면 하는 바람을 갖고 만들어 보았습니다.</mark></sub><br><sub><mark style="color:$info;">무엇보다 레벨 0에서 풀고자 하는 문제를 쪼개고, 나만의 워크플로우로 그려보는 시간을 통해</mark></sub><br><sub><mark style="color:$info;">아무리 어렵고 복잡해 보이는 문제라도 하나씩 풀리는 경험을 하셨으면 좋겠습니다.</mark></sub></p>
+
+<p align="right"><sub><mark style="color:$info;">파이팅!</mark></sub></p>
 

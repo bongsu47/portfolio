@@ -2,7 +2,7 @@
 description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API를 직접 찾아 신청하고 MISO에 연결하는 과정을 함께 해봅니다.
 ---
 
-# \[레벨 0] 기상청 API 연동 준비하기
+# \[레벨 1] 기상청 API 연동 준비하기
 
 > **ℹ️ 이 페이지의 목표**&#x20;
 >
@@ -228,7 +228,7 @@ API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시
 
 
 
-### 7단계. (+) MISO AI와 함께 API 노드 세팅 진행하기
+### (+) 7단계. MISO AI와 함께 API 노드 세팅 진행하기
 
 <figure><img src="../../../.gitbook/assets/image (771).png" alt=""><figcaption></figcaption></figure>
 
