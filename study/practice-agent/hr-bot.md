@@ -51,7 +51,7 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 이제 준비된 문서를 미소의 DB에 저장해 보겠습니다. 데이터 임베딩 영역에서 "사용자 설정" 버튼을 클릭하여 어떻게 문서를 DB에 저장할지 수동으로 설정해 보겠습니다. 아래와 같이 설정해 보겠습니다.
 
@@ -63,7 +63,7 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 이렇게 설정한 뒤 우측 상단의 "미리보기" 버튼을 클릭하면 company\_welfare.txt 문서가 DB에 어떻게 chunk(특정 단위로 잘려서)되어 저장될 예정인지 아래와 같이 확인해 볼 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 

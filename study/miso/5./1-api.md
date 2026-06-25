@@ -30,7 +30,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 키워드를 Google에 검색합니다. (마지막에 `API`를 꼭 붙여줍니다.)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 검색 결과를 훑어보며 어떤 API를 사용할지 선택합니다.
 
@@ -38,7 +38,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 공공데이터포털이 활용 빈도가 높고 사용 방법도 잘 정리되어 있으므로 최우선으로 활용하는 편입니다.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -48,7 +48,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 로그인 후 상세 페이지를 확인하며 내가 활용하고자 하는 정보가 맞는지 확인해봅니다.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 향후 11일 예보를 조회할 수 있습니다. 금요일에 실행하면 다음 주 월\~일 기상정보를 가져올 수 있어 목적에 부합합니다.&#x20;
 2. 세부 대상구역도 지역별로 나뉘어 있어 지역별 날씨 예보를 얻을 수 있습니다.
