@@ -122,7 +122,7 @@
   * [5. 기상청 데이터로 지역별 보고서 작성하기](study/miso/5./README.md)
     * [\[레벨 1\] 기상청 API 연동 준비하기](study/miso/5./1-api.md)
     * [\[레벨 2\] 반복 노드로 여러 지역 처리하기](study/miso/5./2.md)
-    * [\[레벨 2\] 3개 권역 병렬 확장](study/miso/5./2-3.md)
+    * [\[레벨 3\] 매주 정해진 시간에 자동으로 실행하기](study/miso/5./3.md)
 * [\[실습\] 에이전트 만들기](study/practice-agent/README.md)
   * [이메일 작성 에이전트(3개 국어)](study/practice-agent/3-language-email.md)
   * [복리후생 안내 에이전트](study/practice-agent/hr-bot.md)
