@@ -8,11 +8,11 @@ MISO의 상단 메뉴 중 "앱 만들기"는 같은 조직 내에서 생성한 �
 
 
 
-<figure><img src="../.gitbook/assets/image (326).png" alt="" width="375"><figcaption><p>&#x3C;앱 만들기 매뉴></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (326).png" alt="" width="375"><figcaption><p>&#x3C;앱 만들기 매뉴></p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (327).png" alt=""><figcaption><p>&#x3C;앱 만들기 → 새로 만들기></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (327).png" alt=""><figcaption><p>&#x3C;앱 만들기 → 새로 만들기></p></figcaption></figure>
 
 
 
@@ -26,7 +26,7 @@ MISO는 3가지 유형의 앱을 제공 합니다.
 
 **에이전트**: 사용자가 원하는 동작을 간단한 프롬프트로 입력하고 도구를 지정하면, 에이전트가 자동으로 수행하는 챗봇 형태의 앱입니다.
 
-{% include "../.gitbook/includes/workflow-create-mode.md" %}
+{% include "../../.gitbook/includes/workflow-create-mode.md" %}
 
 
 
@@ -58,12 +58,12 @@ YML 파일은 앱의 설정값이 들어 있는 파일입니다. 이 파일을 �
 
 1.  **미소 메인 → \[플레이그라운드 - 앱 리스트] 클릭**
 
-    <figure><img src="../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
 
 2.  **워크스페이스 선택 → 앱 만들기 → 기존 앱 가져오기 클릭**
 
-    <figure><img src="../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
 
     * 우상단에서 워크스페이스 선택
     * 앱 만들기 → 기존 앱 가져오기 클릭
@@ -71,12 +71,12 @@ YML 파일은 앱의 설정값이 들어 있는 파일입니다. 이 파일을 �
 
 3.  **다운받은 `yml` 파일 선택 → 열기**
 
-    <figure><img src="../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
 
 
 4.  **(선택) LLM 모델 선택하기**<br>
 
-    <figure><img src="../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -108,4 +108,4 @@ YML 파일은 앱의 설정값이 들어 있는 파일입니다. 이 파일을 �
 
 완료 시, 아래와 같이 앱이 생성됩니다.
 
-<figure><img src="../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
