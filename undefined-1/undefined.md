@@ -35,7 +35,7 @@ icon: gears
 
 각 페이지의 URL 에서 아래 빨간 박스 부분이 서로 일치하는지 확인해주세요!
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 좌: 미소 화면 / 우:  관리자 계정 화면
 

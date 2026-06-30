@@ -38,7 +38,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 공공데이터포털이 활용 빈도가 높고 사용 방법도 잘 정리되어 있으므로 최우선으로 활용하는 편입니다.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
