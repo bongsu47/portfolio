@@ -36,7 +36,7 @@
 
 도구 설정에서는, `법령 검색 도구` 를 활용합니다.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **\[법령 검색 도구]**
 
