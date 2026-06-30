@@ -27,7 +27,7 @@ GS퓨처스의 심사역 김매니저는 새로운 투자 검토 대상이 들�
 
 > _'기사를 몇 개 읽어야 할지 미리 정하는 게 아니라, 각 섹션에 충분한 근거가 모일 때까지만 계속 검색하면 되는 거 아닐까? 이미 3개 이상의 핵심 인사이트가 채워진 섹션은 그냥 두고, 부족한 섹션이 남아 있을 때만 다음 기사로 넘어가면 되잖아.'_
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 이번 장에서는 `루프 노드`와 `네이버 뉴스 검색` 도구를 활용해, Five-Forces의 각 섹션이 충분한 근거로 채워질 때까지 자동으로 기사를 수집하고, 할루시네이션 없는 경쟁 분석 보고서를 작성하는 워크플로우를 구성해봅시다!
 

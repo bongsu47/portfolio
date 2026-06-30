@@ -36,7 +36,7 @@
 
 도구 설정에서는, `법령 검색 도구` 를 활용합니다.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **\[법령 검색 도구]**
 
@@ -56,7 +56,7 @@
 
 참고하고 있는 법령 목록은 아래 사진과 같은 조건을 따릅니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 26년 5월 기준, 총 5,589개의 법령을 활용하고 있습니다.
 
@@ -80,7 +80,7 @@
 
 실제로 법제처 웹사이트에서 제공하는 AI 법령검색을 활용했을 때는 아래와 같은 답변을 얻을 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 → `검색결과`에 해당하는 내용들이 API 활용시 반환되는 내용입니다.
 
@@ -152,7 +152,7 @@
 
 사용자들은 채팅 방식으로 궁금한 법에 관해서 질문할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 답변
 
