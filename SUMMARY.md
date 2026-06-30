@@ -122,7 +122,7 @@
     * [\[레벨 2\] 반복 노드로 여러 지역 처리하기](study/miso/3./2.md)
     * [\[레벨 3\] 매주 정해진 시간에 자동으로 실행하기](study/miso/3./3.md)
   * [4. 뉴스 기사로 기업 분석 보고서 작성하기](study/miso/4./README.md)
-    * [\[레벨 1\] 루프로 기사 읽고 내용 쌓기](study/miso/4./1.md)
+    * [\[레벨 1\] 네이버 뉴스 도구 활성화하기](study/miso/4./1.md)
     * [\[레벨 2\] 단일 기사로 Five-Forces 분석하기](study/miso/4./2-five-forces.md)
     * [\[레벨 3\] 루프 패키지로 자동화하기](study/miso/4./3.md)
   * [5. 우리 회사 캐릭터로 이미지 생성하기](study/miso/5./README.md)
