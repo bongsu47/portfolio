@@ -125,6 +125,7 @@
     * [\[레벨 1\] 1개 기사로 기업 분석 보고서 작성하기](study/miso/4./1-1.md)
     * [\[레벨 2\] 여러 기업 기사로 산업 동향 분석하기](study/miso/4./2.md)
     * [\[레벨 3\] 점수 기반 자동화로 고품질 보고서 작성하기](study/miso/4./3.md)
+    * [\[레벨 3\] 기준 만족할 때 까지 보고서 품질 높이기](study/miso/4./3-1.md)
   * [4. 뉴스 기사로 기업 분석 보고서 작성하기 (Ver2 - 파양)](study/miso/4.-ver2/README.md)
     * [\[레벨 1\] 네이버 뉴스 도구 활성화하기](study/miso/4.-ver2/1.md)
     * [\[레벨 2\] 단일 기사로 Five-Forces 분석하기](study/miso/4.-ver2/2-five-forces.md)
