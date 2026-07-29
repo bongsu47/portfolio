@@ -4,12 +4,19 @@ description: 이미지 또는 파일을 업로드하여 요청할 수 있습니�
 
 # 사진 및 파일 추가
 
-이미지 또는 일반 파일을 업로드하여 메시지 전송 시 첨부된 파일 기반 업무 요청을 함께 처리하는 기능을 사용할 수 있습니다. 현재 업로드 가능한 파일 형식과 크기는 아래와 같습니다.
+메시지에 이미지나 파일을 첨부해 내용을 바탕으로 요청할 수 있습니다.
 
-* 문서: txt, md, mdx, markdown, pdf, html, xlsx, xls, docx, csv, eml, msg, pptx, ppt, xml, epub 를 지원합니다.(최대 문서 파일 크기 50MB)
-* 이미지: jpg, jpeg, png, gif, webp 를 지원합니다.(최대 이미지 파일 크기 10MB, 최대 해상도 4096 X 4096)
+파일을 업로드한 뒤 요청 내용을 입력하고 메시지를 전송합니다.
 
+<figure><img src="../../.gitbook/assets/사진첨부.png" alt=""><figcaption><p>사진 및 파일 업로드</p></figcaption></figure>
 
+### 지원 파일 형식
 
-<figure><img src="../../.gitbook/assets/image (458).png" alt=""><figcaption><p>&#x3C;사진 및 파일 업로드></p></figcaption></figure>
+* **문서:** `txt`, `md`, `mdx`, `markdown`, `pdf`, `html`, `xlsx`, `xls`, `docx`, `csv`, `eml`, `msg`, `pptx`, `ppt`, `xml`, `epub`
+* **이미지:** `jpg`, `jpeg`, `png`, `gif`, `webp`
 
+### 파일 제한
+
+* 문서는 파일당 최대 `50MB`까지 업로드할 수 있습니다.
+* 이미지는 파일당 최대 `10MB`까지 업로드할 수 있습니다.
+* 이미지의 최대 해상도는 `4096 × 4096`입니다.

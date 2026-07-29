@@ -4,22 +4,14 @@ description: 미소AI는 MISO에서 제공하는 채팅 형식의 GenAI 서비�
 
 # 미소AI
 
-**미소 AI**는 MISO에서 제공하는 엔터프라이즈 AI 어시스턴트입니다. 채팅 형식의 직관적인 인터페이스를 통해 사내 GenAI 종합 포털 서비스를 제공하며, 임직원의 다양한 업무를 지원합니다.
+미소AI는 MISO에서 제공하는 **엔터프라이즈 AI 어시스턴트**입니다.
 
-이번 업데이트에서는 미소 AI가 **보다 편리하고 확장된 종합 AI 사내 포털 서비스**로 고도화되었습니다.
+채팅에서 질문하고, 파일과 사내 지식을 연결해 업무를 처리합니다.
 
-전사 공통으로 사용하는 **기본 미소 AI**는 물론, 사내에서 제작된 **에이전트 APP을 손쉽게 검색하고 즐겨찾기로 등록**하여 즉시 활용할 수 있습니다.
+사내에서 만든 자동화 앱도 검색하고 즐겨찾기에 추가해 사용할 수 있습니다.
 
-또한 업무 요청 메시지 작성 시, **사내에 등록된 지식을 실시간으로 탐색하고 선택**할 수 있어 미소 AI가 사내 지식 기반 Q\&A를 보다 신속하고 정확하게 수행할 수 있도록 지원합니다.
+<figure><img src="../../.gitbook/assets/1번_blur.png" alt=""><figcaption><p>미소AI</p></figcaption></figure>
 
-이를 통해 사용자는 개별 업무 특성과 목적에 따라 다양한 사내 에이전트 APP과 지식을 유연하게 선택·활용할 수 있으며, 전반적인 업무 효율을 한층 더 향상시킬 수 있습니다.
+### 미소AI 기능 살펴보기
 
-![<미소 AI>](<../../.gitbook/assets/미소AI new.png>)
-
-### 더 똑똑해진 미소 AI, 이렇게 활용해 보세요
-
-* 반복적인 자료 요약/제작 → **파일 첨부**
-* 시장 동향, 트렌드 조사 등 최신 정보 수집 → **웹 검색**
-* 사내 데이터 기준 업무 수행 → **지식 검색**
-* 디자인/이미지 작업 → **이미지 생성 도구**
-* 특정 업무 자동화 → **에이전트 APP 탐색 및 실행**
+<table data-view="cards"><thead><tr><th>기능</th><th data-card-target data-type="content-ref">바로가기</th></tr></thead><tbody><tr><td>사진 및 파일 추가<br>이미지나 파일을 첨부해 요청에 필요한 맥락을 제공합니다.</td><td><a href="undefined.md">undefined.md</a></td></tr><tr><td>이미지 생성<br>이미지를 생성하거나 기존 이미지를 수정합니다.</td><td><a href="undefined-1.md">undefined-1.md</a></td></tr><tr><td>웹 검색<br>최신 웹 정보를 찾아 요청에 활용합니다.</td><td><a href="undefined-2.md">undefined-2.md</a></td></tr><tr><td>지식 검색<br>등록된 사내 지식을 선택해 답변에 활용합니다.</td><td><a href="undefined-3.md">undefined-3.md</a></td></tr><tr><td>미소 추천 앱<br>별도 설정 없이 사용할 수 있는 추천 앱을 확인합니다.</td><td><a href="undefined-4.md">undefined-4.md</a></td></tr><tr><td>앱 둘러보기<br>에이전트 앱을 찾고 즐겨찾기에 추가합니다.</td><td><a href="undefined-5.md">undefined-5.md</a></td></tr></tbody></table>

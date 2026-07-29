@@ -1,26 +1,43 @@
 ---
-description: 사내 지식 기반 업무 요청을 할 수 있습니다.
+description: 사내 지식을 선택해 지식 기반으로 업무를 요청할 수 있습니다.
 ---
 
 # 지식 검색
 
-접근 권한이 있는 등록된 사내 지식을 쉽게 탐색하고 메시지에 추가함으로서 미소 AI가 지식 기반 업무 요청에 대한 응답을 수행할 수 있도록 합니다.&#x20;
+접근 권한이 있는 사내 지식을 메시지에 연결해 지식 기반으로 요청할 수 있습니다.
 
-사전 등록된 지식이라면 별도의 추가 작업 필요 없이 편리하게 필요한 지식을 선택하고 문의 및 업무 요청을 진행할 수 있습니다.
+등록된 지식은 별도 설정 없이 선택해 사용할 수 있습니다.
 
+### 지식 검색 사용하기
 
+{% stepper %}
+{% step %}
+#### 지식 찾기
 
-* **메시지 인풋창 하단의 ‘+’ 버튼을 통해 지식 검색 및 사용할 지식 선택** \
-  (지식은 지식명 또는 생성자명으로 검색할 수 있으며, 워크스페이스 단위로 조회 가능)
-* **지식 관련 업무 요청 및 문의 진행**
-* **응답 메시지 하단에서 실제 참조한 지식 '레퍼런스 리스트' 조회 가능**
-* **아직 지식을 등록하지 않았거나 지식이 검색되지 않을 경우 아래 가이드를 참고해주세요** \
-  [\[지식 구성하기\]](https://miso-52g.gitbook.io/miso-manual/manual/6./build-knowledge)
+메시지 입력창 아래의 **+** 버튼에서 지식 검색을 엽니다.
 
+지식 이름이나 생성자 이름으로 검색합니다. 지식은 워크스페이스 단위로 조회합니다.
+{% endstep %}
 
+{% step %}
+#### 지식 선택하고 요청하기
 
-<figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption><p>&#x3C;지식 검색 및 선택></p></figcaption></figure>
+사용할 지식을 선택한 뒤 질문이나 업무 요청을 입력합니다.
 
+메시지를 전송하면 선택한 지식을 바탕으로 응답합니다.
+{% endstep %}
 
+{% step %}
+#### 참조 지식 확인하기
 
-<figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption><p>&#x3C;지식 기반 응답 및 참조 지식 레퍼런스 리스트 제공></p></figcaption></figure>
+응답 메시지 아래의 **레퍼런스 리스트**에서 실제로 참조한 지식을 확인합니다.
+{% endstep %}
+{% endstepper %}
+
+<figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption><p>지식 검색 및 선택</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption><p>지식 기반 응답 및 레퍼런스 리스트</p></figcaption></figure>
+
+{% hint style="info" %}
+등록한 지식이 없거나 검색되지 않으면 [지식 구성하기](../and/undefined/build-knowledge.md)를 확인합니다.
+{% endhint %}

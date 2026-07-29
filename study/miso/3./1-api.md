@@ -216,7 +216,7 @@ API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시
 
 자세한 설명은 아래의 API 노드 매뉴얼을 참고해주세요
 
-[#http](../../../manual/workflow/node-definition/http-request.md#http "mention")
+[#http](../../../manual/workflow/node-definition/undefined-4/http-request.md#http "mention")
 
 
 

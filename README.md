@@ -1,4 +1,5 @@
 ---
+description: MISO의 사용법과 앱 제작·운영 방법을 안내하는 공식 매뉴얼입니다.
 layout:
   width: default
   title:

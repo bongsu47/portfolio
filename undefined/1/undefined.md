@@ -17,7 +17,7 @@
 {% hint style="info" %}
 에이전트에 대한 기본적인 설명은 아래의 문서를 참고하시면 됩니다.
 
-[agent.md](../../manual/agent.md "mention")
+[agent](../../manual/agent/ "mention")
 {% endhint %}
 
 #### **a. 앱 설정**
