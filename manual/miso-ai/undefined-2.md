@@ -1,37 +1,49 @@
 ---
-description: 웹 검색 도구를 통해 실시간 정보를 활용할 수 있습니다.
+description: 이미지 생성이나 수정을 요청할 수 있습니다.
 ---
 
-# 웹 검색
+# 이미지 생성
 
-웹 검색은 실시간 웹 정보를 바탕으로 답변, 요약, 참조 URL을 제공합니다.
+이미지 생성 도구로 텍스트 프롬프트를 기반으로 새 이미지를 만듭니다.
 
-최신 정보 확인, 일반적인 웹 검색, 여러 출처의 정보 종합에 사용합니다.
+업로드한 이미지의 색상, 배경, 스타일도 수정할 수 있습니다.
 
-### 웹 검색 사용하기
+### 이미지 만들기
 
 {% stepper %}
 {% step %}
-#### 웹 검색 도구 활성화하기
+#### 이미지 생성 도구 활성화하기
 
-메시지 입력창 아래의 **+** 버튼에서 웹 검색 도구를 활성화합니다.
-
-미소AI가 웹 검색이 필요하다고 판단하면 도구가 자동으로 활성화될 수 있습니다.
+메시지 입력창 아래의 **+** 버튼에서 이미지 생성 도구를 활성화합니다.
 {% endstep %}
 
 {% step %}
-#### 검색 요청하기
+#### 생성 요청하기
 
-검색할 내용을 입력한 뒤 메시지를 전송합니다.
-{% endstep %}
+스타일, 색상, 구도, 분위기를 포함해 원하는 이미지를 구체적으로 작성합니다.
 
-{% step %}
-#### 출처 확인하기
-
-응답 메시지 아래의 **레퍼런스 리스트**에서 웹 검색에 사용된 출처와 링크를 확인합니다.
+요청 내용을 입력한 뒤 메시지를 전송합니다.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/image (461).png" alt=""><figcaption><p>웹 검색 도구 활성화</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (459).png" alt=""><figcaption><p>이미지 생성 도구 활성화 및 요청 입력</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (462).png" alt=""><figcaption><p>웹 검색 응답 및 레퍼런스 리스트</p></figcaption></figure>
+### 기존 이미지 수정하기
+
+수정할 원본 이미지는 [사진 및 파일 추가](undefined-1.md)로 업로드합니다.
+
+변경할 색상, 배경, 스타일을 프롬프트에 구체적으로 작성합니다.
+
+<figure><img src="../../.gitbook/assets/image (460).png" alt=""><figcaption><p>기존 이미지를 업로드해 생성에 활용</p></figcaption></figure>
+
+{% hint style="danger" %}
+#### 이미지 생성 오류 해결하기
+
+이미지를 생성하지 못했다는 오류가 표시되면 이미지 생성 도구가 활성화되어 있는지 확인합니다.
+
+MISO AI는 나노바나나 또는 OpenAI 도구를 사용해 이미지를 생성합니다.
+
+도구가 활성화되어도 오류가 계속되면 API 키가 만료되었을 수 있습니다. MISO 담당 관리자에게 문의합니다.
+{% endhint %}
+
+<div><figure><img src="../../.gitbook/assets/이미지생성오류.png" alt=""><figcaption><p>이미지 생성 오류 예시</p></figcaption></figure> <figure><img src="../../.gitbook/assets/4번_blur.png" alt=""><figcaption><p>이미지 도구 활성화</p></figcaption></figure></div>
