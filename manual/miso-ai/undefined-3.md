@@ -1,43 +1,49 @@
 ---
-description: 사내 지식을 선택해 지식 기반으로 업무를 요청할 수 있습니다.
+description: 이미지 생성이나 수정을 요청할 수 있습니다.
 ---
 
-# 지식 검색
+# 이미지 생성
 
-접근 권한이 있는 사내 지식을 메시지에 연결해 지식 기반으로 요청할 수 있습니다.
+이미지 생성 도구로 텍스트 프롬프트를 기반으로 새 이미지를 만듭니다.
 
-등록된 지식은 별도 설정 없이 선택해 사용할 수 있습니다.
+업로드한 이미지의 색상, 배경, 스타일도 수정할 수 있습니다.
 
-### 지식 검색 사용하기
+### 이미지 만들기
 
 {% stepper %}
 {% step %}
-#### 지식 찾기
+#### 이미지 생성 도구 활성화하기
 
-메시지 입력창 아래의 **+** 버튼에서 지식 검색을 엽니다.
-
-지식 이름이나 생성자 이름으로 검색합니다. 지식은 워크스페이스 단위로 조회합니다.
+메시지 입력창 아래의 **+** 버튼에서 이미지 생성 도구를 활성화합니다.
 {% endstep %}
 
 {% step %}
-#### 지식 선택하고 요청하기
+#### 생성 요청하기
 
-사용할 지식을 선택한 뒤 질문이나 업무 요청을 입력합니다.
+스타일, 색상, 구도, 분위기를 포함해 원하는 이미지를 구체적으로 작성합니다.
 
-메시지를 전송하면 선택한 지식을 바탕으로 응답합니다.
-{% endstep %}
-
-{% step %}
-#### 참조 지식 확인하기
-
-응답 메시지 아래의 **레퍼런스 리스트**에서 실제로 참조한 지식을 확인합니다.
+요청 내용을 입력한 뒤 메시지를 전송합니다.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption><p>지식 검색 및 선택</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (459).png" alt=""><figcaption><p>이미지 생성 도구 활성화 및 요청 입력</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption><p>지식 기반 응답 및 레퍼런스 리스트</p></figcaption></figure>
+### 기존 이미지 수정하기
 
-{% hint style="info" %}
-등록한 지식이 없거나 검색되지 않으면 [지식 구성하기](../and/undefined/build-knowledge.md)를 확인합니다.
+수정할 원본 이미지는 [사진 및 파일 추가](undefined.md)로 업로드합니다.
+
+변경할 색상, 배경, 스타일을 프롬프트에 구체적으로 작성합니다.
+
+<figure><img src="../../.gitbook/assets/image (460).png" alt=""><figcaption><p>기존 이미지를 업로드해 생성에 활용</p></figcaption></figure>
+
+{% hint style="danger" %}
+#### 이미지 생성 오류 해결하기
+
+이미지를 생성하지 못했다는 오류가 표시되면 이미지 생성 도구가 활성화되어 있는지 확인합니다.
+
+MISO AI는 나노바나나 또는 OpenAI 도구를 사용해 이미지를 생성합니다.
+
+도구가 활성화되어도 오류가 계속되면 API 키가 만료되었을 수 있습니다. MISO 담당 관리자에게 문의합니다.
 {% endhint %}
+
+<div><figure><img src="../../.gitbook/assets/이미지생성오류.png" alt=""><figcaption><p>이미지 생성 오류 예시</p></figcaption></figure> <figure><img src="../../.gitbook/assets/4번_blur.png" alt=""><figcaption><p>이미지 도구 활성화</p></figcaption></figure></div>
