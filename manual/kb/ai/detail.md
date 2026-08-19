@@ -50,7 +50,7 @@ MISO 내에개별 문서를 직접 추가하거나 삭제하는 기능은 없습
 
 ### 검색 필터 태그
 
-각 문서에 태그를 설정해 검색 결과를 필터링할 수 있습니다. 자세한 내용은 [태그 입력을 통한 검색 필터링](../undefined/knowledge-tag-setting.md)에서 확인합니다.
+각 문서에 태그를 설정해 검색 결과를 필터링할 수 있습니다. 자세한 내용은 [태그 입력을 통한 검색 필터링](../rag/knowledge-tag-setting.md)에서 확인합니다.
 
 <figure><img src="../../../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ MISO 내에개별 문서를 직접 추가하거나 삭제하는 기능은 없습
 
 <figure><img src="../../../.gitbook/assets/스크린샷 2026-08-13 132555.png" alt=""><figcaption><p>&#x3C;지식 설정></p></figcaption></figure>
 
-* **공유 설정**: 지식의 공유 여부를 설정합니다. [공유 · 발행 · 운영](../../undefined-4/)에서 공유 정책을 확인합니다.
+* **공유 설정**: 지식의 공유 여부를 설정합니다. [공유 · 발행 · 운영](../../share-publish-management/)에서 공유 정책을 확인합니다.
 
 ### 크레딧 정책
 

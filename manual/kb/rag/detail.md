@@ -38,4 +38,4 @@ description: 업로드한 문서와 임베딩 결과를 확인하고 테스트�
 
 <figure><img src="../../../.gitbook/assets/image (688).png" alt=""><figcaption><p>&#x3C;지식 설정></p></figcaption></figure>
 
-**공유 설정**: 지식의 공유 여부를 설정합니다. [공유 · 발행 · 운영](../../undefined-4/)에서 자세한 내용을 확인하세요.
+**공유 설정**: 지식의 공유 여부를 설정합니다. [공유 · 발행 · 운영](../../share-publish-management/)에서 자세한 내용을 확인하세요.

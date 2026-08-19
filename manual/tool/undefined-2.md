@@ -10,5 +10,5 @@ description: 만든 워크플로우를 도구 모음에서 확인합니다.
 
 <figure><img src="../../.gitbook/assets/스크린샷 2026-08-14 145821 (1).png" alt=""><figcaption></figcaption></figure>
 
-* [워크플로우 도구 등록](../workflow/undefined-1.md)에서 도구를 등록하고 발행합니다.
+* [워크플로우 도구 등록](../workflow/add-as-tool.md)에서 도구를 등록하고 발행합니다.
 * 워크플로우 구성 방법은 [워크플로우 이해하기](../workflow/undefined.md)에서 확인합니다.

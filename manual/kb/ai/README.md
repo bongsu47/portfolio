@@ -34,7 +34,7 @@ AI 탐색은 폴더 구조와 원본 파일을 유지하는 지식 등록 방식
 
 등록할 폴더를 선택합니다. Google Drive와 SharePoint는 처음 사용할 때 계정을 연결합니다.
 
-* [내 컴퓨터 폴더](undefined-1.md)
+* [내 컴퓨터 폴더](local.md)
 * [Google Drive · SharePoint](google-drive-sharepoint.md)
 {% endstep %}
 

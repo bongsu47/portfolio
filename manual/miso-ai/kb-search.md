@@ -39,5 +39,5 @@ description: 사내 지식을 선택해 지식 기반으로 업무를 요청할 
 <figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption><p>지식 기반 응답 및 레퍼런스 리스트</p></figcaption></figure>
 
 {% hint style="info" %}
-등록한 지식이 없거나 검색되지 않으면 [지식 구성하기](../undefined-2/undefined/build-knowledge.md)를 확인합니다.
+등록한 지식이 없거나 검색되지 않으면 [지식 구성하기](../kb/rag/chunk-embedding.md)를 확인합니다.
 {% endhint %}
