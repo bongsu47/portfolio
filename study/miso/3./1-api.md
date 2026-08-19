@@ -30,7 +30,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 키워드를 Google에 검색합니다. (마지막에 `API`를 꼭 붙여줍니다.)
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 검색 결과를 훑어보며 어떤 API를 사용할지 선택합니다.
 
@@ -38,7 +38,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 공공데이터포털이 활용 빈도가 높고 사용 방법도 잘 정리되어 있으므로 최우선으로 활용하는 편입니다.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -48,7 +48,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 로그인 후 상세 페이지를 확인하며 내가 활용하고자 하는 정보가 맞는지 확인해봅니다.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 향후 11일 예보를 조회할 수 있습니다. 금요일에 실행하면 다음 주 월\~일 기상정보를 가져올 수 있어 목적에 부합합니다.&#x20;
 2. 세부 대상구역도 지역별로 나뉘어 있어 지역별 날씨 예보를 얻을 수 있습니다.
@@ -63,7 +63,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 ### 3단계. 활용 신청하기
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 먼저 심의 여부를 확인하여, 신청 즉시 사용 가능한지 확인합니다.
 
@@ -72,7 +72,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 > 공공데이터포털은 자동승인인 경우가 많지만, 일부 기관은 신청자 확인 후 수동으로 승인하는 경우도 있습니다.\
 > 승인 전에 API를 호출하면 오류 응답이 오게 되는데, 이 사실을 모르면 원인을 찾느라 시간을 낭비할 수 있으니, 신청 전 한 번씩 확인하시길 권장드립니다!
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 이후, 활용 목적을 간단히 입력하고, 상세기능정보에서 필요한 항목을 선택합니다. 다른 항목을 신청하지 않을 이유도 없으니 일단 전부 선택하는 편입니다.
 

@@ -70,12 +70,6 @@ description: 워크플로우와 챗플로우의 차이, 구성 방식 및 편집
 
 <figure><img src="../../.gitbook/assets/image (470).png" alt="" width="330"><figcaption></figcaption></figure>
 
-### 도구로 등록
-
-챗플로우를 외부 환경에서 사용할 수 있도록 제공합니다. API는 API 키로 다른 시스템과 연동합니다. Web App은 URL, iframe 또는 위젯으로 제공합니다.
-
-<figure><img src="../../.gitbook/assets/image (411).png" alt="" width="563"><figcaption></figcaption></figure>
-
 ### 앱 조건 설정
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt="" width="440"><figcaption></figcaption></figure>

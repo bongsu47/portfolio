@@ -1,15 +1,45 @@
 ---
-description: 외부 시스템과 연동되는 도구를 추가해 보다 정확한 답변을 생성할 수 있습니다.
+description: 만든 에이전트를 도구로 등록하고 다른 앱에서 사용할 수 있도록 발행하는 방법을 안내합니다.
 ---
 
-# 도구 설정하기
+# 에이전트 도구 등록
 
-에이전트에 연결할 도구를 선택해 외부 시스템과 연동합니다. **편집**을 선택하면 도구 선택 창이 열립니다.
+{% stepper %}
+{% step %}
+### 저장 메뉴 열기
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-07-24 131443.png" alt=""><figcaption><p>&#x3C; 도구 설정 (편집누르면 생기는 팝업) ></p></figcaption></figure>
+에이전트 편집 화면에서 **저장하기** 오른쪽의 ▼를 선택합니다.
+{% endstep %}
 
-### 도구 유형
+{% step %}
+### 도구로 등록
 
-* **기본 도구:** MISO에서 제공하는 기본 도구입니다.
-* **워크플로우:** MISO 워크플로우 형식으로 등록한 도구입니다. [워크플로우 구성 및 사용법](/broken/spaces/ikQFVaEwkAZS45vCdXMe/pages/ZfZTNg7IY3YB1nc2d3Bm)에서 등록 방법을 확인합니다.
-* **외부 연동:** 현재 워크스페이스에 등록된 외부 연동 도구입니다.&#x20;
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**도구로 등록**을 선택합니다.
+{% endstep %}
+
+{% step %}
+### 도구 정보 확인 및 발행
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+도구 이름과 설명을 확인하고 필요하면 수정합니다. 내용을 확인한 뒤 발행합니다.
+
+{% hint style="info" %}
+**도구 설명에는 사용 시점을 포함합니다.**
+
+AI는 도구 설명을 바탕으로 사용할 도구를 선택합니다. 어떤 작업에 사용할 수 있는지 구체적으로 작성합니다.
+{% endhint %}
+
+{% include "../../.gitbook/includes/orchestrator-....md" %}
+{% endstep %}
+
+{% step %}
+### 관리자 승인 후 도구 확인
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+관리자 승인 후 도구 목록에서 발행한 에이전트 도구를 확인합니다.
+{% endstep %}
+{% endstepper %}
