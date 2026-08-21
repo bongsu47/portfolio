@@ -424,7 +424,7 @@ LLM 노드의 응답 형식을 JSON으로 설정하면 AI가 구조화된 JSON �
 
 변수 추출 노드는 LLM을 활용하여 텍스트에서 원하는 정보를 자동으로 뽑아 여러 변수로 분리해 줍니다. 코드 작성 없이도 사용할 수 있어 간편합니다.
 
-[변수 추출](../undefined-3/parameter-extractor.md)
+[변수 추출](../transform/parameter-extractor.md)
 {% endhint %}
 
 ### 활용 예제

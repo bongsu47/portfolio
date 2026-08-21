@@ -65,7 +65,7 @@ description: 완성한 웹사이트를 실제 URL로 배포하고 보안 점검�
 
 웹사이트의 공유 범위와 사용자, 편집자 권한을 설정할 수 있습니다.
 
-[앱 공유하기](../share/undefined.md)에서 권한별 기능을 확인하세요.
+[앱 공유하기](../share/app.md)에서 권한별 기능을 확인하세요.
 
 <table><thead><tr><th width="184.921875">권한</th><th width="342.39453125">설명</th></tr></thead><tbody><tr><td><strong>비공개</strong></td><td>본인만 접근할 수 있습니다.</td></tr><tr><td><strong>현재 워크스페이스 공개</strong></td><td>현재 워크스페이스의 멤버만 접근할 수 있습니다.</td></tr><tr><td><strong>모든 워크스페이스 공개</strong></td><td>모든 워크스페이스의 멤버가 접근할 수 있습니다.</td></tr><tr><td><strong>외부 공개</strong></td><td>누구나 URL을 통해 접근할 수 있습니다.</td></tr><tr><td><strong>부분 공개</strong></td><td>지정한 멤버만 접근할 수 있습니다.</td></tr></tbody></table>
 

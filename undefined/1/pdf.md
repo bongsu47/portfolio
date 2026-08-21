@@ -27,7 +27,7 @@
 {% hint style="info" %}
 `문서 추출기` 노드에 대한 자세한 설명은 아래 문서를 참고합니다.
 
-[document-extractor.md](../../manual/workflow/node-definition/undefined-3/document-extractor.md "mention")
+[document-extractor.md](../../manual/workflow/node-definition/transform/document-extractor.md "mention")
 {% endhint %}
 
 `문서 추출기` 노드를 활용하여, 사용자가 업로드한 문서에서 **텍스트**를 추출합니다.

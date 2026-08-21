@@ -72,10 +72,10 @@ LLM 노드는 자유로운 텍스트 생성에 적합하고, 변수 추출 노�
 
 #### 모델
 
-추출에 사용할 LLM 모델을 선택합니다. 모델 선택 기준은 [LLM](../undefined-1/llm.md)에서 확인합니다.
+추출에 사용할 LLM 모델을 선택합니다. 모델 선택 기준은 [LLM](../basic/llm.md)에서 확인합니다.
 
-{% content-ref url="../undefined-1/llm.md" %}
-[llm.md](../undefined-1/llm.md)
+{% content-ref url="../basic/llm.md" %}
+[llm.md](../basic/llm.md)
 {% endcontent-ref %}
 
 #### 입력 변수

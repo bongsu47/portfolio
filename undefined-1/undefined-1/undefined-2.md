@@ -79,7 +79,7 @@
 {% hint style="info" %}
 `반복` 노드에 대한 자세한 설명은 다음 문서를 참조해주세요.
 
-[iteration.md](../../manual/workflow/node-definition/undefined-2/iteration.md "mention")
+[iteration.md](../../manual/workflow/node-definition/logic/iteration.md "mention")
 {% endhint %}
 
 키워드 목록을 전달 받아 `네이버 뉴스 검색` 도구를 반복 활용하여 검색을 진행합니다.
