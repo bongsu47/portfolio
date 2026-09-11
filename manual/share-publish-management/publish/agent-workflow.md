@@ -4,11 +4,7 @@ description: 에이전트와 워크플로우 앱을 저장하고 발행하는 �
 
 # 에이전트와 워크플로우 발행하기
 
-**저장**과 **발행**을 분리하면 편집 중인 변경 사항을 사용자에게 바로 노출하지 않습니다.
-
-<figure><img src="../../../.gitbook/assets/image (471).png" alt="" width="563"><figcaption></figcaption></figure>
-
-### 저장
+### 저장하기
 
 편집한 변경 사항을 저장합니다.
 
@@ -16,22 +12,43 @@ description: 에이전트와 워크플로우 앱을 저장하고 발행하는 �
 
 <figure><img src="../../../.gitbook/assets/저장하기3.gif" alt="" width="375"><figcaption></figcaption></figure>
 
-### 발행
+### 발행하기
 
 저장한 변경 사항을 실제 앱 서비스에 반영합니다.
 
 발행이 끝나면 앱 사용자가 변경된 내용을 사용할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/발행하기.gif" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/스크린샷 2026-09-09 130548 (2).png" alt="" width="297"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### 발행 방법
 
 1. **저장** 오른쪽의 ▼를 선택합니다.
-2. 버전 이름과 수정 사항을 입력합니다.
-3. **발행**을 선택합니다.
+2. **현재 공유 범위**를 확인합니다. [policy.md](../share/policy.md "mention")
+3. **버전 이름**과 **수정 사항**을 입력합니다.
+4. 앱 소개를 **입력하거나 AI 생성**을 누릅니다.
+5. **발행하기**를 선택합니다.
 
 발행하면 현재 편집 내용이 자동으로 저장됩니다.
+{% endhint %}
+
+{% hint style="warning" %}
+**AI 생성** 기능은 에이전트의 경우 시스템 프롬프트와 도구 연결이, 워크플로우의 경우 충분한 노드와 연결 흐름이 갖춰져 있어야 동작합니다.
+{% endhint %}
+
+### 저장하기와 발행하기의 차이
+
+<figure><img src="../../../.gitbook/assets/image (471).png" alt="" width="563"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**저장하기 ≠ 발행하기**
+
+| 구분   | 반영 범위    | 사용 가능한 곳          |
+| ---- | -------- | ----------------- |
+| 저장하기 | 편집 화면 내부 | 테스트하기, 미리보기       |
+| 발행하기 | 외부 서비스   | 웹사이트 연동, API 호출 등 |
+
+저장만 한 상태에서는 변경 사항이 외부에 반영되지 않습니다.
 {% endhint %}
 
 ### 버전 관리
