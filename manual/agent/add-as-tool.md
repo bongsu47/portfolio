@@ -14,9 +14,9 @@ description: 만든 에이전트를 도구로 등록하고 다른 앱에서 사�
 {% step %}
 ### 도구로 등록
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130548.png" alt=""><figcaption></figcaption></figure>
 
-**도구로 등록**을 선택합니다.
+**발행하기 > 도구로 등록**을 선택합니다.
 {% endstep %}
 
 {% step %}

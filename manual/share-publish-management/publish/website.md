@@ -6,7 +6,7 @@ description: 완성한 웹사이트를 실제 URL로 배포하고 보안 점검�
 
 웹사이트 제작이 끝나면 화면 오른쪽 위의 **발행하기**를 선택해 라이브 URL로 배포합니다.
 
-<div align="center"><figure><img src="../../../.gitbook/assets/image (764).png" alt="" width="370"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../../.gitbook/assets/스크린샷 2026-09-09 130835.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 발행한 웹사이트는 운영 기간 동안 하루 30크레딧이 차감됩니다.
@@ -17,11 +17,17 @@ description: 완성한 웹사이트를 실제 URL로 배포하고 보안 점검�
 ### 발행 절차
 
 1. **발행하기**를 선택합니다.
-2. 필요하면 발행 사유를 입력합니다.
-3. **발행 승인 요청**을 선택합니다.
-4. 배포가 끝나면 라이브 URL을 복사해 공유합니다.
+2. **현재 공유 범위**를 확인합니다. ( [policy.md](../share/policy.md "mention")&#x20;
+3. 필요하면 발행 사유를 입력합니다.
+4. 앱 소개를 작성합니다.&#x20;
+5. **발행 승인 요청**을 선택합니다.
+6. 배포가 끝나면 라이브 URL을 복사해 공유합니다.
 
 새 버전이 필요하면 최신 작업 버전으로 발행을 요청합니다. 운영을 중단하려면 발행 철회를 요청합니다.
+
+{% hint style="info" %}
+앱 소개의 **AI로 생성** 기능은 해당 웹사이트의 구조와 맥락 기반으로 작성합니다.
+{% endhint %}
 
 <img src="../../../.gitbook/assets/image (765).png" alt="" data-size="original">
 

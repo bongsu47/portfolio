@@ -36,9 +36,13 @@ MISO의 **앱 만들기**에서 목적에 맞는 새 앱을 만듭니다.
 
 워크플로우를 만들 때 채팅 설정을 켜면 챗플로우로 사용합니다. 자세한 내용은 [워크플로우](../workflow/)를 확인합니다.
 
-<div><figure><img src="../../.gitbook/assets/스크린샷 2026-07-24 105847.png" alt=""><figcaption><p>&#x3C; 에이전트 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-07-24 105820.png" alt=""><figcaption><p>&#x3C; 웹사이트 ></p></figcaption></figure></div>
+{% hint style="info" %}
+**앱 이름**, **앱 소개**는 필수로 입력해야합니다.
+{% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/스크린샷 2026-07-24 104217.png" alt=""><figcaption><p>&#x3C; 워크플로우 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-07-24 104735.png" alt=""><figcaption><p>&#x3C; 챗플로우 ></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130225.png" alt=""><figcaption><p>&#x3C; 에이전트 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130325.png" alt=""><figcaption><p>&#x3C; 웹사이트 ></p></figcaption></figure></div>
+
+<div><figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130300.png" alt=""><figcaption><p>&#x3C; 워크플로우 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130314.png" alt=""><figcaption><p>&#x3C; 챗플로우 ></p></figcaption></figure></div>
 
 {% hint style="info" %}
 생성한 앱은 **앱 리스트**에서 확인할 수 있습니다.
