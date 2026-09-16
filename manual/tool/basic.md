@@ -8,7 +8,7 @@ description: MISO가 제공하는 기본 도구와 앱에 활용하는 방법을
 
 도구 목록에는 조직 공용 도구와 개인 계정으로 연결하는 도구가 함께 표시됩니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 도구 공급과 활용
 

@@ -15,3 +15,14 @@ description: 제작 중인 웹사이트를 실시간으로 확인하는 미리�
 주소 바 좌측의 상태 인디케이터로 개발 서버의 현재 상태를 확인할 수 있습니다.
 
 <table><thead><tr><th width="127.53515625">상태</th><th width="91.57421875">표시</th><th width="347.65625">설명</th></tr></thead><tbody><tr><td><strong>Creating</strong></td><td>🟡</td><td>개발 서버를 생성하는 중입니다.</td></tr><tr><td><strong>Ready</strong></td><td>🔵</td><td>서버가 준비되었습니다.</td></tr><tr><td><strong>Running</strong></td><td>🟢</td><td>서버가 정상 동작 중입니다.</td></tr><tr><td><strong>Error</strong></td><td>🔴</td><td>서버에 오류가 발생했습니다.</td></tr><tr><td><strong>Closed</strong></td><td>⚫(회색)</td><td>세션이 종료되었습니다. 다시 열면 재생성됩니다.</td></tr></tbody></table>
+
+#### MISO로 해결하기
+
+오류가 발생하면 **MISO로 해결하기** 버튼을 눌러 오류 내용을 AI에게 전달해 바로 수정할 수 있습니다.
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+AI가 코드를 수정하는 도중에도 이 화면이 나타날 수 있습니다. \
+이때 버튼을 누르면 작업이 꼬일 수 있으니, 수정이 끝난 뒤에 눌러주세요.
+{% endhint %}

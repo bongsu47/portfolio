@@ -22,7 +22,7 @@ description: 만든 에이전트를 도구로 등록하고 다른 앱에서 사�
 {% step %}
 ### 도구 정보 확인 및 발행
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 도구 이름과 설명을 확인하고 필요하면 수정합니다. 내용을 확인한 뒤 발행합니다.
 
