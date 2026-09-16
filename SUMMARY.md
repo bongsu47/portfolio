@@ -16,7 +16,6 @@
     * [앱 둘러보기](manual/miso-ai/look-around.md)
   * [플레이메이커](manual/plaimaker/README.md)
     * [코치와 함께 신규 앱 생성하기](manual/plaimaker/start-build.md)
-    * [AI 어시스턴트 활용하기](manual/plaimaker/ai.md)
   * [앱 만들기](manual/app/README.md)
     * [앱 유형 이해하기](manual/app/concept.md)
     * [앱 리스트 관리하기](manual/app/list-management.md)

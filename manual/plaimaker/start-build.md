@@ -154,7 +154,3 @@ Ian은 기획서의 사양과 기능을 분석해 필요한 워크플로우 노�
 오른쪽 위의 **AI 어시스턴트**에서 AI의 도움을 받아 앱을 계속 수정할 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/플레이메이커_수정전3_fix.png" alt=""><figcaption></figcaption></figure>
-
-{% include "../../.gitbook/includes/ai.md" %}
-
-[AI 어시스턴트 활용하기](ai.md)에서 이어서 확인합니다.
