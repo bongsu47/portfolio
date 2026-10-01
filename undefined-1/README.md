@@ -1,6 +1,7 @@
 ---
 description: 미소 PO를 위한 기본 앱·쇼케이스 세팅 가이드
 hidden: true
+noIndex: true
 ---
 
 # 미소 온보딩 가이드

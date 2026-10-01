@@ -1,5 +1,6 @@
 ---
 hidden: true
+noIndex: true
 ---
 
 # 저장하기

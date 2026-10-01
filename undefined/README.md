@@ -1,5 +1,6 @@
 ---
 hidden: true
+noIndex: true
 ---
 
 # 미소 도입하기

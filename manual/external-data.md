@@ -1,6 +1,7 @@
 ---
 description: 외부 지식 검색 API를 구현해 미소 앱의 지식 검색기로 연동합니다.
 hidden: true
+noIndex: true
 ---
 
 # 외부 데이터 연동하기
@@ -155,31 +156,31 @@ The `error_code` property has the following types:
 
 ***
 
-<figure><img src="../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 상단 메뉴 바에서 "지식 관리" 메뉴를 클릭하여 이동합니다.
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.45.20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.45.20 (1).png" alt=""><figcaption></figcaption></figure>
 
 fd 지식 관리 화면에서 "+ 지식 추가히기" → "외부 데이터 API에 연결하기"를 클릭합니다.
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.45.59 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.45.59 (1).png" alt=""><figcaption></figcaption></figure>
 
 "외부 데이터 API 관리" 버튼을 클릭합니다.
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.46.41 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.46.41 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 "추가" 버튼을 클릭합니다.
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.47.54 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.47.54 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 입력 필드 이름, API Endpoint, API Key를 입력합니다.
 
@@ -187,7 +188,7 @@ fd 지식 관리 화면에서 "+ 지식 추가히기" → "외부 데이터 API�
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.48.36 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.48.36 (1).png" alt=""><figcaption></figcaption></figure>
 
 외부 데이터 이름, 데이터 설명, 외부 데이터 ID를 입력하고 연결하면 완료됩니다.
 
@@ -195,13 +196,13 @@ fd 지식 관리 화면에서 "+ 지식 추가히기" → "외부 데이터 API�
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.49.09 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.49.09 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 새로운 지식이 추가됨을 확인할 수 있습니다.
 
 
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2025-05-30 오전 11.51.49 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2025-05-30 오전 11.51.49 (1).png" alt=""><figcaption></figcaption></figure>
 
 위와 같이 미소 앱에서 해당 데이터를 사용해서 검색이 가능합니다.
 

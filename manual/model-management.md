@@ -1,6 +1,7 @@
 ---
 description: MISO에서 사용하는 AI 모델에 대한 관리 화면 입니다.
 hidden: true
+noIndex: true
 ---
 
 # 모델 관리

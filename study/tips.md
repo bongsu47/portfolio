@@ -1,6 +1,7 @@
 ---
 description: 미소를 더 잘 활용할 수 있는 꿀팁들을 안내합니다.
 hidden: true
+noIndex: true
 metaLinks: {}
 ---
 
