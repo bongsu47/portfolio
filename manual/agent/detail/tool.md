@@ -4,12 +4,14 @@ description: 외부 시스템과 연동되는 도구를 추가해 보다 정확�
 
 # 도구 설정하기
 
-에이전트에 연결할 도구를 선택해 외부 시스템과 연동합니다. **편집**을 선택하면 도구 선택 창이 열립니다.
+에이전트가 사용할 도구를 선택합니다. 도구를 연결하면 외부 서비스를 조회하거나 작업을 수행할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-07-24 131443.png" alt=""><figcaption><p>&#x3C; 도구 설정 (편집누르면 생기는 팝업) ></p></figcaption></figure>
+**편집**을 선택해 도구 선택 창을 엽니다.
+
+<figure><img src="../../../.gitbook/assets/스크린샷 2026-07-24 131443.png" alt="도구 선택 창"><figcaption><p>도구 선택</p></figcaption></figure>
 
 ### 도구 유형
 
-* **기본 도구:** MISO에서 제공하는 기본 도구입니다.
-* **워크플로우:** MISO 워크플로우 형식으로 등록한 도구입니다. [워크플로우 구성 및 사용법](/broken/spaces/ikQFVaEwkAZS45vCdXMe/pages/ZfZTNg7IY3YB1nc2d3Bm)에서 등록 방법을 확인합니다.
-* **외부 연동:** 현재 워크스페이스에 등록된 외부 연동 도구입니다.&#x20;
+* **기본 도구:** MISO가 제공하는 도구입니다.
+* **워크플로우:** 도구로 등록하고 발행한 워크플로우입니다. [add-as-tool.md](../../workflow/add-as-tool.md "mention")에서 등록 방법을 확인하세요.
+* **외부 연동:** 현재 워크스페이스에 등록된 외부 서비스 도구입니다. 외부 연동(커넥터) 도구를 추가할 때 [connector.md](../connector.md "mention")를 참고하세요.

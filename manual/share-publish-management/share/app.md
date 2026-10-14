@@ -24,6 +24,10 @@ description: 앱의 권한과 공유 범위를 설정해 다른 사용자와 공
 
 편집자 권한은 현재 워크스페이스 사용자에게만 부여할 수 있습니다.
 
+{% hint style="warning" %}
+편집자는 자동 실행(스케줄)을 켤 수 있으며, 이때 개인 커넥터는 앱 소유자 계정으로 실행됩니다.
+{% endhint %}
+
 #### 앱 소유자
 
 앱 소유자는 사용자와 편집자가 수행하는 모든 작업을 할 수 있습니다.
@@ -75,6 +79,10 @@ description: 앱의 권한과 공유 범위를 설정해 다른 사용자와 공
 기본값은 모든 IP 허용입니다. IP 제한을 활성화하면 허용 목록과 차단 목록을 설정할 수 있습니다.
 
 <figure><img src="../../../.gitbook/assets/image (415).png" alt=""><figcaption><p>IP 설정</p></figcaption></figure>
+
+{% hint style="info" %}
+개인 커넥터를 사용하는 앱은 외부에 공개할 수 없습니다. [connector](../../tool/connector/ "mention")
+{% endhint %}
 
 #### 부분 공개
 
