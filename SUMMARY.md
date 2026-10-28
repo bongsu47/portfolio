@@ -19,6 +19,7 @@
   * [앱 만들기](manual/app/README.md)
     * [앱 유형 이해하기](manual/app/concept.md)
     * [앱 리스트 관리하기](manual/app/list-management.md)
+    * [앱 복제하기](manual/app/undefined.md)
     * [기존 앱 가져오기 - 에이전트&워크플로우](manual/app/import-yml.md)
     * [기존 앱 가져오기 - 웹사이트](manual/app/import-zip.md)
     * [템플릿으로 시작하기](manual/app/template.md)

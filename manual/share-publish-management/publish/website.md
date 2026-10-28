@@ -6,7 +6,7 @@ description: 완성한 웹사이트를 실제 URL로 배포하고 보안 점검�
 
 웹사이트 제작이 끝나면 화면 오른쪽 위의 **발행하기**를 선택해 라이브 URL로 배포합니다.
 
-<div align="center"><figure><img src="../../../.gitbook/assets/스크린샷 2026-09-09 130835.png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../../.gitbook/assets/스크린샷 2026-10-27 092957.png" alt="" width="395"><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 발행한 웹사이트는 운영 기간 동안 하루 30크레딧이 차감됩니다.
@@ -29,7 +29,29 @@ description: 완성한 웹사이트를 실제 URL로 배포하고 보안 점검�
 앱 소개의 **AI로 생성** 기능은 해당 웹사이트의 구조와 맥락 기반으로 작성합니다.
 {% endhint %}
 
-<img src="../../../.gitbook/assets/image (765).png" alt="" data-size="original">
+#### 커스텀 URL 설정
+
+발행 팝업의 **라이브 URL**에서 웹사이트 주소를 원하는 이름으로 정할 수 있습니다. \
+처음에는 영문과 숫자가 섞인 임의의 주소가 들어가 있습니다. 바꾸지 않으면 이 주소로 발행됩니다.
+
+<figure><img src="../../../.gitbook/assets/image (901).png" alt=""><figcaption></figcaption></figure>
+
+입력한 주소가 아래 규칙에 맞으면 **사용할 수 있는 주소예요**가 표시됩니다.
+
+| 규칙              | 내용                               |
+| --------------- | -------------------------------- |
+| **사용할 수 있는 문자** | 영문 소문자, 숫자, 하이픈(-)만 쓸 수 있습니다.    |
+| **시작 문자**       | 영문 소문자로 시작해야 합니다.                |
+| **길이**          | 3\~16자입니다. 입력 칸 아래에 글자 수가 표시됩니다. |
+| **하이픈**         | 연속으로 쓰거나(--) 주소 끝에 둘 수 없습니다.     |
+| **대문자**         | 대문자로 입력하면 소문자로 바뀝니다.             |
+| **중복**          | 다른 웹사이트가 이미 쓰고 있는 주소는 쓸 수 없습니다.  |
+
+{% hint style="info" %}
+&#x20;`weekly-notes`, `my-shop2`는 쓸 수 있습니다. `ab`(3자 미만), `1shop`(숫자로 시작), `my--shop`(하이픈 연속), `shop-`(끝에 하이픈), `shop_1`(밑줄 사용)은 쓸 수 없습니다.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/스크린샷 2026-10-27 101457.png" alt="" width="267"><figcaption><p>발행 완료</p></figcaption></figure>
 
 ### 코드 보안 점검
 
