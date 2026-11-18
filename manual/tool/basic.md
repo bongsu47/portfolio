@@ -6,9 +6,9 @@ description: MISO가 제공하는 기본 도구와 앱에 활용하는 방법을
 
 기본 도구는 MISO에서 제공하는 도구입니다. 웹 검색, 이미지 생성, 문서 생성, 데이터 분석에 사용할 수 있습니다.
 
-도구 목록에는 조직 공용 도구와 개인 계정으로 연결하는 도구가 함께 표시됩니다.
+도구 목록에는 조직 공용 도구와 개인 계정으로 연결하는 도구가 함께 표시됩니다. 플레이그라운드 왼쪽 메뉴의 **도구**에서 **기본 도구** 탭을 선택합니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TL1_v2_tools_basic.webp" alt=""><figcaption></figcaption></figure>
 
 #### 도구 공급과 활용
 

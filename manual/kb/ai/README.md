@@ -6,11 +6,11 @@ description: 폴더를 연결해 AI가 필요한 원본 파일을 찾아 읽도�
 
 AI 탐색은 폴더 구조와 원본 파일을 유지하는 지식 등록 방식입니다. 질문이 들어오면 AI가 관련 파일을 찾아 직접 읽습니다. 파일별 요약 정보를 먼저 생성한 뒤, 이 정보를 바탕으로 필요한 파일을 선택합니다.
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-07-27 140441.png" alt=""><figcaption><p>플레이그라운드 - 지식 관리</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/M14_v2_sidebar_knowledge.webp" alt=""><figcaption><p>플레이그라운드 왼쪽 메뉴 - 지식</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-08-13 093526.png" alt=""><figcaption><p>지식 관리 → 지식 추가하기</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/K1_knowledge_list_add.webp" alt=""><figcaption><p>지식 → + 지식 추가</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-08-13 130031.png" alt=""><figcaption><p>AI 탐색으로 만들기</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/K2_knowledge_type_ai.webp" alt=""><figcaption><p>AI 탐색으로 만들기</p></figcaption></figure>
 
 ### 등록 방법
 
@@ -26,7 +26,7 @@ AI 탐색은 폴더 구조와 원본 파일을 유지하는 지식 등록 방식
 {% step %}
 ### 소스 선택
 
-지식 관리에서 **지식 추가**를 선택한 뒤, 자료 위치에 맞는 소스를 선택합니다.
+플레이그라운드 왼쪽 메뉴의 **지식**에서 **+ 지식 추가**를 선택하고 **AI 탐색으로 만들기**를 고른 뒤, 자료 위치에 맞는 소스를 선택합니다.
 {% endstep %}
 
 {% step %}

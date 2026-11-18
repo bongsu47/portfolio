@@ -4,7 +4,9 @@ description: 미리 준비된 템플릿을 선택해 앱을 빠르게 생성합�
 
 # 템플릿으로 시작하기
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-07-28 164241.png" alt=""><figcaption></figcaption></figure>
+플레이그라운드 왼쪽 메뉴의 **+ 앱 만들기**를 클릭한 뒤, 앱 만들기 창에서 **템플릿으로 시작**을 클릭합니다.
+
+<figure><img src="../../.gitbook/assets/M07.webp" alt=""><figcaption></figcaption></figure>
 
 템플릿을 선택하면 미리 구성된 앱을 빠르게 만들 수 있습니다.
 

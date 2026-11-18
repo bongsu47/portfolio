@@ -10,9 +10,9 @@
 
 ### STEP 1. Google Sheet 도구 활성화 확인하기
 
-1. 플레이그라운드 - 도구모음 - Google Sheet 항목이 활성화 상태인지 확인합니다.
+1. 플레이그라운드 왼쪽 메뉴의 **도구**에서 **Google Sheets**를 검색한 뒤, 활성화 상태인지 확인합니다.
 
-<figure><img src="../../../.gitbook/assets/image (514).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GS_tool_v2.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 2-1. 활성화 상태라면 해당 워크스페이스 관리자에게 등록된 키에 포함된 `client_email(서비스계정)` 을 요청합니다.
 
@@ -68,17 +68,15 @@ Service 계정 이메일은 Google Sheet 도구를 등록할 때 사용한 **키
 1. [실습용 Google Sheet 주소 (클릭)](https://docs.google.com/spreadsheets/d/1_Bc7DcA4VD4uoN29w8AU2x4rRWJbZ8vZSMRPYFGN0kQ/edit?usp=sharing) 에 접속합니다.
 2. 좌측 상단의 파일 - 사본 만들기를 클릭하여 시트를 복사합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260309-033351-884.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FQmt61m4KNjry04R4U8dq%2FClipboard-20260309-033351-884.gif?alt=media&#x26;token=6fb05da1-b430-44b2-991b-324fa7be6362" alt="" width="563"><figcaption></figcaption></figure>
 
 3. 공유를 클릭하여 STEP 2에서 복사한 `client_email(서비스계정)` 에게 편집자 권한을 부여합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260309-034404-684.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FHNzKJw9ad2Qwlf8695NF%2FClipboard-20260309-034404-684.gif?alt=media&#x26;token=074cbfc9-975e-4e37-918e-1c6ffb65c28f" alt="" width="563"><figcaption></figcaption></figure>
 
 3. 공유 버튼을 다시 클릭하여 권한 부여가 정상적으로 되었는지 확인합니다.
 
-<figure><img src="../../../.gitbook/assets/image (509).png" alt="" width="375"><figcaption></figcaption></figure>
-
-
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FE3V2FRwgqFA844ZJ7mwz%2Fimage.png?alt=media&#x26;token=e3efb209-a118-45f6-b6b5-aa1fb95e6a1a" alt="" width="375"><figcaption></figcaption></figure>
 
 여기까지 설정이 완료되었다면, 미소에서 Google Sheets를 활용하기 위한 모든 준비가 끝났습니다.
 

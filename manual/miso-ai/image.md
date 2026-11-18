@@ -46,4 +46,4 @@ MISO AI는 나노바나나 또는 OpenAI 도구를 사용해 이미지를 생성
 도구가 활성화되어도 오류가 계속되면 API 키가 만료되었을 수 있습니다. MISO 담당 관리자에게 문의합니다.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/이미지생성오류.png" alt=""><figcaption><p>이미지 생성 오류 예시</p></figcaption></figure> <figure><img src="../../.gitbook/assets/4번_blur.png" alt=""><figcaption><p>이미지 도구 활성화</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/이미지생성오류.png" alt=""><figcaption><p>이미지 생성 오류 예시</p></figcaption></figure> <figure><img src="../../.gitbook/assets/TL7_v2_image_tools.webp" alt=""><figcaption><p>이미지 도구 활성화</p></figcaption></figure></div>

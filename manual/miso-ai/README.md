@@ -10,7 +10,7 @@ description: 미소AI는 MISO에서 제공하는 채팅 형식의 GenAI 서비�
 
 사내에서 만든 자동화 앱도 검색하고 즐겨찾기에 추가해 사용할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/1번_blur.png" alt=""><figcaption><p>미소AI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MA01_v2.webp" alt=""><figcaption><p>미소AI</p></figcaption></figure>
 
 ### 미소AI 기능 살펴보기
 

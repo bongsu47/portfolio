@@ -4,7 +4,7 @@ description: 에이전트 APP을 미소 AI 화면에서 즉시 탐색·사용하
 
 # 앱 둘러보기
 
-<figure><img src="../../.gitbook/assets/3번_blur.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/LA01_v2.webp" alt=""><figcaption></figcaption></figure>
 
 **앱 둘러보기**에서는 추천 앱과 동료가 만든 앱을 찾고 실행할 수 있습니다.
 
@@ -32,7 +32,7 @@ description: 에이전트 APP을 미소 AI 화면에서 즉시 탐색·사용하
 * 워크플로우
 * 웹사이트
 
-<figure><img src="../../.gitbook/assets/2번_blur (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/LA02_v2.webp" alt=""><figcaption></figcaption></figure>
 
 ### 앱 카드와 실행 방식
 

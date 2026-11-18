@@ -4,7 +4,7 @@ description: 에이전트·워크플로우·챗플로우·웹사이트 등 만�
 
 # 앱 유형 이해하기
 
-MISO의 **앱 만들기**에서 목적에 맞는 새 앱을 만듭니다.
+플레이그라운드 왼쪽 메뉴의 **+ 앱 만들기**를 클릭하면 열리는 앱 만들기 창에서 목적에 맞는 새 앱을 만듭니다.
 
 앱은 에이전트, 웹사이트, 워크플로우, 챗플로우로 나뉩니다.
 
@@ -26,7 +26,7 @@ MISO의 **앱 만들기**에서 목적에 맞는 새 앱을 만듭니다.
 
 워크플로우는 정해진 입력을 받아 설계된 순서대로 작업을 실행합니다.
 
-한 번 실행되면 정의한 흐름에 따라 결과를 반환합니다. 워크플로우를 만들 때 채팅 설정을 끕니다. 자세한 내용은 [워크플로우](../workflow/)를 확인합니다.
+한 번 실행되면 정의한 흐름에 따라 결과를 반환합니다. 앱 만들기 창에서 **워크플로우**를 선택하고 **대화 기능을 붙여 챗플로우로 만들기**는 체크하지 않습니다. 자세한 내용은 [워크플로우](../workflow/)를 확인합니다.
 
 #### 챗플로우
 
@@ -34,16 +34,16 @@ MISO의 **앱 만들기**에서 목적에 맞는 새 앱을 만듭니다.
 
 이전 대화 내용을 기억하며 대화를 이어갈 수 있습니다. 에이전트와 달리 미리 정의한 워크플로우 로직 안에서만 응답합니다.
 
-워크플로우를 만들 때 채팅 설정을 켜면 챗플로우로 사용합니다. 자세한 내용은 [워크플로우](../workflow/)를 확인합니다.
+앱 만들기 창에서 **워크플로우**를 선택하고 **대화 기능을 붙여 챗플로우로 만들기**를 체크하면 챗플로우로 만들어집니다. 자세한 내용은 [워크플로우](../workflow/)를 확인합니다.
 
 {% hint style="info" %}
-**앱 이름**, **앱 소개**는 필수로 입력해야합니다.
+**이름**과 **소개**는 필수로 입력해야 합니다.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130225.png" alt=""><figcaption><p>&#x3C; 에이전트 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130325.png" alt=""><figcaption><p>&#x3C; 웹사이트 ></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/M01_v2_modal_agent.webp" alt=""><figcaption><p>&#x3C; 에이전트 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/M02.webp" alt=""><figcaption><p>&#x3C; 웹사이트 ></p></figcaption></figure></div>
 
-<div><figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130300.png" alt=""><figcaption><p>&#x3C; 워크플로우 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/스크린샷 2026-09-09 130314.png" alt=""><figcaption><p>&#x3C; 챗플로우 ></p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/M03 (2).webp" alt=""><figcaption><p>&#x3C; 워크플로우 ></p></figcaption></figure> <figure><img src="../../.gitbook/assets/M04.webp" alt=""><figcaption><p>&#x3C; 챗플로우 ></p></figcaption></figure></div>
 
 {% hint style="info" %}
-생성한 앱은 **앱 리스트**에서 확인할 수 있습니다.
+만든 앱은 플레이그라운드 왼쪽 메뉴의 **모든 앱**에서 확인할 수 있습니다.
 {% endhint %}

@@ -4,33 +4,27 @@ description: 미소의 사용법을 익히기 위한 간단한 튜토리얼입�
 
 # 이메일 작성 에이전트(3개 국어)
 
-사용자의 이메일 작성 요청을 받아서 한 번에 3개국어로 동일한 의미의 이메일을 작성해 주는 서비스를 미소의 에이전트로 구현해 보겠습니다.&#x20;
+사용자의 이메일 작성 요청을 받아서 한 번에 3개국어로 동일한 의미의 이메일을 작성해 주는 서비스를 미소의 에이전트로 구현해 보겠습니다.
 
-<figure><img src="../../.gitbook/assets/image (389).png" alt="" width="348"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S1_nav_playground (3).png" alt="" width="450"><figcaption></figcaption></figure>
 
-상단 메뉴바에서 "앱 만들기"를 클릭하여 앱 만들기 화면으로 이동합니다.
+상단 메뉴바에서 "플레이그라운드"를 클릭하여 플레이그라운드 화면으로 이동합니다.
 
-<figure><img src="../../.gitbook/assets/image (216).png" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S2_sidebar_create_button.png" alt="" width="450"><figcaption></figcaption></figure>
 
-앱 만들기 드롭다운 버튼을 클릭하여 "새로 만들기" 메뉴를 선택합니다.
+왼쪽 메뉴의 "+ 앱 만들기" 버튼을 클릭하여 앱 만들기 창을 엽니다.
 
-<figure><img src="../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/S3_email_agent_modal (2).png" alt="" width="450"><figcaption></figcaption></figure>
 
-앱의 유형을 고르는 화면에서 첫 번째로 선택된 "에이전트"를 구현하겠습니다. 앱이름과 설명에 적절한 내용을 작성한 뒤 "앱 만들기" 버튼을 클릭하여 에이전트를 구현하는 화면으로 이동합니다.
-
-
+앱 만들기 창에서 첫 번째로 선택된 "에이전트"를 구현하겠습니다. 이름과 소개에 적절한 내용을 작성한 뒤 "만들기" 버튼을 클릭하여 에이전트를 구현하는 화면으로 이동합니다.
 
 <figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 위와 같은 에이전트 구현 화면이 나타납니다. 먼저 좌측 프롬프트 영역의 상단에서 사용할 GenAI 모델을 선택하겠습니다.
 
-
-
 <figure><img src="../../.gitbook/assets/image (218).png" alt="" width="375"><figcaption></figcaption></figure>
 
 rl기본 값으로 선택된 GenAI 모델을 클릭하면 현재 사용할 수 있는 GenAI 모델들의 목록이 출력됩니다. 이 모델들은 미소가 설치된 환경과 조직에 따라 다를 수 있습니다. 자신의 환경에서 사용하기 적절한 모델을 선택합니다. 이 예제에서는 Claude 3.5 Sonnet 모델로 진행하겠습니다.
-
-
 
 ```
 <YOU ARE>
@@ -59,19 +53,13 @@ rl기본 값으로 선택된 GenAI 모델을 클릭하면 현재 사용할 수 �
 </CONSTRAINT>
 ```
 
-
-
 이제 프롬프트를 작성해 보겠습니다. 좌측 프롬프트 영역에 위의 3개국어 이메일 작성 프롬프트를 복사하여 붙여 넣습니다. 왜 이런 형식으로 프롬프트를 작성하였는지 궁금하신 분들은 [프롬프트 작성 가이드](../prompt/)에서 관련 내용을 확인해 보실 수 있습니다
 
 <figure><img src="../../.gitbook/assets/image (219).png" alt="" width="375"><figcaption></figcaption></figure>
 
 프롬프트 작성이 완료되었으면 우측 상단의 "테스트" 버튼을 클릭합니다.
 
-
-
 프롬프트를 테스트해 볼 수 있는 채팅창이 나타납니다. 이 예제에서는 아래와 같이 테스트를 진행하였습니다.
-
-
 
 ```
 [질문]
@@ -145,21 +133,12 @@ Thank you for your cooperation.
 ご協力のほど、よろしくお願いいたします。
 ```
 
-
-
 테스트 채팅창에서 에이전트가 원하는 결과를 답변해 주는지 확인해 볼 수 있습니다. 위의 예시를 활용하여도 되고 원하시는 내용이 있다면 직접 입력하여 테스트해 볼 수 있습니다.
-
-
 
 <figure><img src="../../.gitbook/assets/image (220).png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
 미소에서는 좀 더 원활한 테스트를 위하여 한 번에 여러 GenAI 모델에게 동일한 입력을 하고 각각의 답변을 동시에 받아 볼 수 있는 기능이 있습니다. 이 기능을 활용하려면 테스트 버튼 하단의 "모델 추가" 버튼을 클릭하시면 됩니다.
-
-
 
 <figure><img src="../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
 모델 추가하기 버튼을 클릭하면 위와 같이 한 번에 여러 GenAI모델에게 동일한 입력을 준 뒤 각각의 답변 결과를 받아 볼 수 있습니다. 이 기능을 활용하면 여러 모델들을 대상으로 테스트한 뒤 가장 적절한 답변을 하는 모델을 쉽고 빠르게 찾을 수 있습니다.
-

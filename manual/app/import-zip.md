@@ -20,9 +20,9 @@ MISO에서 내보낸 `.zip` 웹사이트 설정 파일을 가져와 새 앱으�
 {% step %}
 #### 앱 내보내기
 
-기존 앱 메뉴에서 **앱 내보내기**를 통해 `.zip` 파일을 다운받습니다.
+기존 앱 카드의 **···** 메뉴에서 **앱 내보내기**를 통해 `.zip` 파일을 다운받습니다.
 
-<figure><img src="../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/M10 (1).webp" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,17 +32,17 @@ MISO에서 내보낸 `.zip` 웹사이트 설정 파일을 가져와 새 앱으�
 {% endstep %}
 
 {% step %}
-#### 앱 리스트 열기
+#### 플레이그라운드 열기
 
-MISO 메인에서 **플레이그라운드 → 앱 리스트**를 선택합니다.
+MISO 상단 메뉴에서 **플레이그라운드**를 선택합니다.
 {% endstep %}
 
 {% step %}
 #### 가져오기 메뉴 열기
 
-**앱 만들기 → 기존 앱 가져오기**를 선택합니다.
+왼쪽 메뉴의 **+ 앱 만들기**를 클릭한 뒤, 앱 만들기 창에서 **YAML 가져오기**를 선택합니다. **YAML 가져오기**는 `.zip` 파일도 받습니다.
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-07-28 163510.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/M08.webp" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

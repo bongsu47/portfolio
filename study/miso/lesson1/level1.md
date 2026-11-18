@@ -13,11 +13,11 @@
 1. 시작 노드를 클릭한 후 **\[+ 변수 추가]** 버튼을 클릭합니다.
 2. 아래 예시와 같이 변수를 설정한 뒤 **\[확인]** 버튼을 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image (473).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2Fv4jdHyGa40Bx7xmldoqs%2Fimage.png?alt=media&#x26;token=dc41b542-bcf7-4edb-bff3-d31b41cd51e8" alt="" width="375"><figcaption></figcaption></figure>
 
 3. 설정이 완료되면 생성된 **input 변수**가 정상적으로 추가되었는지 확인합니다.
 
-<figure><img src="../../../.gitbook/assets/image (474).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FhM3xwsTjLqAYkyGDjrRp%2Fimage.png?alt=media&#x26;token=ad9acd7f-6967-40a8-8e89-efe33e6a2a13" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 #### 자주 발생하는 오류 메세지
@@ -42,7 +42,7 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
 2. LLM 노드를 클릭한 뒤 모델을 **GPT 5.2**로 설정합니다. 해당 모델이 없다면 다른 LLM 모델을 사용해도 괜찮습니다.
 3. LLM 노드를 클릭한 뒤, 모델의 파라미터를 아래와 같이 설정합니다.
 
-<figure><img src="../../../.gitbook/assets/image (72).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L1_03_v2.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### 모델의 파라미터 설정
@@ -80,7 +80,7 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
 
 **이번에 개편된 미소 AI(상단 메뉴 가장 좌측)에는 미소에서 권장하는 프롬프트 작성 지침이 기본으로 내장되어 있어, 직접 사용해보는 것을 추천드립니다.**
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FHOP1pwQM5einb0skdupz%2Fimage.png?alt=media&#x26;token=4eb76fb2-7647-4171-b23b-793f3dd48c3f" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **미소 AI에 아래와 같이 요청사항을 입력합니다.**
 
@@ -141,16 +141,14 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
     2. `/` 를 입력하여 변수 목록을 조회합니다.
     3. 변수 목록에서 `시작-input` 변수를 선택합니다.
 
-
-
-    <figure><img src="../../../.gitbook/assets/Clipboard-20260210-090134-662.gif" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FeKCW3n9wvDowAU6Q7pj2%2FClipboard-20260210-090134-662.gif?alt=media&#x26;token=73c76038-0aae-462f-adde-7595c20452d7" alt="" width="563"><figcaption></figcaption></figure>
 5. 시스템 프롬프트 영역 하단의 **\[+ 프롬프트 추가]** 버튼을 클릭한 뒤, 아래와 같이 사용자 프롬프트를 추가합니다.
 
 ```
 <input>의 회의 내용을 분석하여 요약 결과를 반환하세요.
 ```
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260210-092516-145.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FaqfscEAKMpRFr0Th0Kum%2FClipboard-20260210-092516-145.gif?alt=media&#x26;token=859cf78c-a1c0-4ce1-a379-47d10f8c7b40" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 #### 사용자 프롬프트는 반드시 추가해야 하나요?
@@ -160,7 +158,7 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
   * 분리하게 되면 LLM 모델이 “이건 반드시 지켜야 할 지침(SYSTEM)이구나”, “이건 방금 들어온 사용자의 요청(USER)이구나” 하고 맥락을 구분해 인식하게 됩니다.
 * ⚠️ **Claude, Gemini와 같은 일부 모델은 USER 메시지가 하나도 없으면 오류가 발생합니다.**
   * 모델 연동 구조 상 일부 모델에 User 메세지가 없을 경우 오류가 발생합니다.
-  * _'이 모델은 최소 1개 이상의 사용자 메시지가 필요합니다.'_  라는 오류가 발생하면 USER 메시지를 반드시 추가해야 합니다.
+  * _'이 모델은 최소 1개 이상의 사용자 메시지가 필요합니다.'_ 라는 오류가 발생하면 USER 메시지를 반드시 추가해야 합니다.
 {% endhint %}
 
 ## 종료 노드
@@ -182,7 +180,7 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
 2. 종료 노드를 클릭한 후, 출력 변수 오른쪽의 **\[+]** 버튼을 클릭합니다.
 3. 연결 변수에서 LLM의 출력 변수인 **`text`**&#xB97C; 선택하고, 변수 이름을 **`result`**&#xB85C; 설정합니다.
 
-{% include "../../../.gitbook/includes/untitled.md" %}
+<figure><img src="../../../.gitbook/assets/L1_07_v2.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 테스트하기
 
@@ -194,18 +192,14 @@ LLM 노드는 GPT, Claude, Gemini 같은 실제 AI 모델을 활용하는 노드
 
 이번 예제에서는 전체 흐름을 확인하기 위해 **테스트하기**를 사용해 보겠습니다.
 
-
-
 1. 아래에 제공된 샘플 회의 기록 파일을 다운로드한 후 열어, 내용을 텍스트로 복사합니다.
 
 {% file src="../../../.gitbook/assets/research_meeting_sample (2).txt" %}
 
-2. 상단 중앙의 **\[테스트하기]** 버튼을 클릭합니다.
+2. 왼쪽 위의 **\[테스트하기]** 탭을 클릭합니다.
 3. 우측 테스트 창에서 입력 변수를 클릭한 뒤, 복사한 내용을 붙여넣고 **\[실행 버튼]**&#xC744; 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260210-102417-200.gif" alt="" width="563"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/L1_08_v2.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 **LLM에 설정한 지침에 따라 회의 내용이 요약되어 출력되는 것을 확인할 수 있습니다.**
 

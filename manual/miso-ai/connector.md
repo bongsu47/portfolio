@@ -12,6 +12,8 @@ description: >-
 
 커넥터의 종류와 연결 방법, 실행 허용 수준은 [connector](../tool/connector/ "mention")에서 자세히 확인할 수 있습니다.
 
+CheckyAI처럼 관리자가 등록한 조직 커넥터는 계정을 연결하지 않고 켜서 사용합니다. 자세한 내용은 [organization-connector](../tool/connector/organization-connector/ "mention")를 참고하세요.
+
 ***
 
 ### 시작하기

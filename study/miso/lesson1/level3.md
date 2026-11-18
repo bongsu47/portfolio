@@ -6,7 +6,7 @@
 
 변수 집계기 노드는 여러 경로에서 생성된 변수를 하나로 모아, 다음 단계에서 공통으로 사용할 수 있도록 정리해주는 노드입니다.
 
-<figure><img src="../../../.gitbook/assets/image 417.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FTlP9fS6yeBba9zeJZcCz%2Fimage%20417.png?alt=media&#x26;token=e1a91b62-2d0d-4773-a111-dde61293b31e" alt="" width="375"><figcaption></figcaption></figure>
 
 워크플로우가 **조건 노드**를 통해 여러 갈래로 분기되더라도, 실제 실행 시에는 그중 **하나의 경로만 동작**합니다. 즉, 여러 변수가 동시에 생성되는 것이 아니라 **선택된 한 경로의 결과만** 만들어집니다.
 
@@ -20,10 +20,10 @@
 
 1.  **LLM 노드 다음에 변수 집계기 노드**를 추가한 뒤, **분기된 두 개의 노드**를 모두 해당 집계기 노드에 연결합니다.
 
-    <figure><img src="../../../.gitbook/assets/Clipboard-20260220-055739-941.gif" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FlnlDcMD77VlRxRsQSu3C%2FClipboard-20260220-055739-941.gif?alt=media&#x26;token=dfbf88d8-20dc-46ce-af5a-d420626fbfe1" alt="" width="563"><figcaption></figcaption></figure>
 2. 변수 집계기 노드를 클릭한 후, **입력 변수 설정**에서 **두 개의 LLM 노드 출력 변수를 모두 추가**합니다.
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F1Xm1QWB9HmzrWCVtrosB%2Fimage.png?alt=media&#x26;token=7f79d476-1919-4151-937c-1c1f871bdaf0" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tip. 노드를 복사하면 동일한 이름으로 생성되어 선택 시 혼동이 생길 수 있습니다. 이 경우 노드 편집창에서 노드 이름을 클릭하면 원하는 이름으로 수정할 수 있습니다.
@@ -45,7 +45,7 @@ Tip. 노드를 복사하면 동일한 이름으로 생성되어 선택 시 혼�
 
 1. 변수 집계기 노드 다음으로 **템플릿 노드**를 추가합니다.
 
-<figure><img src="../../../.gitbook/assets/image (480).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FwodpPc7mGf5mrgw0xMsO%2Fimage.png?alt=media&#x26;token=f39f6aa4-a7cc-4ebc-a72e-39f82d4959b3" alt="" width="563"><figcaption></figcaption></figure>
 
 2.  템플릿 노드를 아래와 같이 구성합니다.
 
@@ -68,11 +68,11 @@ Tip. 노드를 복사하면 동일한 이름으로 생성되어 선택 시 혼�
     감사합니다.
     ```
 
-<figure><img src="../../../.gitbook/assets/image (481).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FYiJ0twkFWX3UOZCpsV5M%2Fimage.png?alt=media&#x26;token=167cf90f-828c-4db2-a609-4e1f9805bf45" alt="" width="375"><figcaption></figcaption></figure>
 
 3. 템플릿 노드 다음에 종료 노드를 연결해 테스트해보면, 아래와 같이 설정한 변수에 앞선 노드들의 값이 정상적으로 반영된 결과를 확인할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (482).png" alt="" width="296"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FL6cIGTrBYVFfn5QFey5v%2Fimage.png?alt=media&#x26;token=6191a988-e932-4c89-893f-10750d285ddd" alt="" width="296"><figcaption></figcaption></figure>
 
 이번 예제에서는 간단한 메일 양식을 작성하는 용도로 사용했지만,\
 조건문(\{% if %\}), 반복문(\{% for %\}) 등도 지원하여 훨씬 더 복잡한 문서 생성에도 활용할 수 있습니다.
@@ -83,11 +83,11 @@ Tip. 노드를 복사하면 동일한 이름으로 생성되어 선택 시 혼�
 
 SMTP는 이메일을 보내기 위한 표준 통신 방식입니다. 쉽게 말해, 우리가 작성한 이메일을 상대방 메일 서버까지 안전하게 전달해주는 역할을 합니다.
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2Fh0oSJiQUTQ5iXXJNSA45%2Fimage.png?alt=media&#x26;token=d62d389b-c7f8-4154-a88d-e759ad2b3e5f" alt="" width="375"><figcaption></figcaption></figure>
 
 MISO의 이메일(SMTP) 도구는 이 방식을 이용해 워크플로우에서 자동으로 메일을 발송할 수 있도록 도와줍니다. 관리자가 Gmail이나 사내 메일 계정 등을 미리 등록하고 인증해두면, 해당 계정을 발신자로 설정해 이메일을 보낼 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L3_08_v2.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 단, 메일은 도구에 인증 설정된 고정된 발신자 계정으로만 발송할 수 있습니다. 즉, 사용자가 실행할 때마다 임의의 발신자 주소로 바꿔 보내는 방식은 지원되지 않으며, 관리자가 사전에 등록한 계정으로만 발송됩니다.
 
@@ -103,13 +103,13 @@ MISO의 이메일(SMTP) 도구는 이 방식을 이용해 워크플로우에서 
 
 ### STEP 4. 메일 도구 구성하기
 
-1. 템플릿 노드 다음으로 **도구 - 여러 수신자에게 메일 보내기**를 추가합니다.
+1. 템플릿 노드 다음으로, 노드 추가 창의 **기본 도구** 탭에서 **여러 수신자에게 이메일 보내기**를 추가합니다.
 
-<figure><img src="../../../.gitbook/assets/image (483).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L3_09_v2.webp" alt="" width="500"><figcaption></figcaption></figure>
 
-2. 메일 도구를 아래와 같이 설정합니다.
+2. 메일 도구를 아래와 같이 설정합니다. 수신자는 `["메일 주소 1", "메일 주소 2"]` 형식으로 입력하고, 이메일 내용에는 템플릿 노드의 `output`을 연결합니다.
 
-<figure><img src="../../../.gitbook/assets/image (485).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L3_10_v2.webp" alt=""><figcaption></figcaption></figure>
 
 3. 마지막으로 종료 노드를 추가합니다. 최종 출력이 사용자에게 이메일을 발송하는 것이라면, 종료 노드에는 별도의 변수를 설정하지 않아도 됩니다.
 
@@ -117,14 +117,14 @@ MISO의 이메일(SMTP) 도구는 이 방식을 이용해 워크플로우에서 
 
 \[레벨 2]와 같이 파일을 첨부하여 워크플로우를 실행하면 아래와 같이 실제로 메일이 전송된 것을 확인할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (484).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FFcBLlTAxnbBXfM9fZhuC%2Fimage.png?alt=media&#x26;token=07bc4875-6716-4eda-a3d0-9ce180dd4e62" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-### &#x20;메일에 불필요한 기호가 포함된다면?
+### 메일에 불필요한 기호가 포함된다면?
 
-마크다운 기호는 이를 지원하는 플랫폼에서만 제대로 보입니다.&#x20;
+마크다운 기호는 이를 지원하는 플랫폼에서만 제대로 보입니다.
 
-예를 들어, Notion에서는 제목이 크게 표시되지만, 이메일에서는 `##` 등의 기호가 그대로 나타날 수 있습니다. 따라서 이메일 본문을 생성하는 경우 마크다운 사용을 피하는 것이 좋습니다.&#x20;
+예를 들어, Notion에서는 제목이 크게 표시되지만, 이메일에서는 `##` 등의 기호가 그대로 나타날 수 있습니다. 따라서 이메일 본문을 생성하는 경우 마크다운 사용을 피하는 것이 좋습니다.
 
 다음과 같은 프롬프트를 활용해보세요: "출력은 순수 텍스트로만 작성하고, 마크다운 문법 사용은 피할 것."
 {% endhint %}

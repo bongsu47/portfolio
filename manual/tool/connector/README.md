@@ -4,11 +4,11 @@ description: 관리자가 등록한 커넥터를 확인하고, 내 계정을 연
 
 # 외부 연동
 
-<figure><img src="../../../.gitbook/assets/IMG-T01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/TL5_v2_tools_external.webp" alt=""><figcaption></figcaption></figure>
 
 커넥터는 앱에서 외부 서비스의 정보를 조회하거나 작업을 실행하는 기능입니다.
 
-관리자가 커넥터를 등록하고 워크스페이스에 할당합니다. 사용할 수 있는 커넥터는 **도구 모음 → 외부 연동**에서 확인합니다.
+관리자가 커넥터를 등록하고 워크스페이스에 할당합니다. 사용할 수 있는 커넥터는 **도구 → 외부 연동**에서 확인합니다.
 
 ### 커넥터 유형과 상태
 
@@ -18,6 +18,8 @@ description: 관리자가 등록한 커넥터를 확인하고, 내 계정을 연
 | ---------- | -------------- | ------------------- |
 | **개인 커넥터** | 사용하는 사람의 계정    | 처음 사용할 때 계정을 연결합니다. |
 | **조직 커넥터** | 관리자가 등록한 공용 계정 | 별도 연결 없이 사용합니다.     |
+
+조직 커넥터별 사용 방법은 [organization-connector](organization-connector/ "mention")에서 확인합니다.
 
 {% hint style="warning" %}
 **개인 커넥터 연결은 본인에게만 적용됩니다.**

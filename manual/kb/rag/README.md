@@ -3,11 +3,11 @@
 지식은 업로드한 문서를 청크로 나누고 임베딩해 LLM의 컨텍스트로 활용하는 데이터입니다.\
 생성된 청크는 **지식 검색**과 **LLM 응답 생성**에 사용할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-07-27 140441.png" alt=""><figcaption><p>플레이그라운드 - 지식 관리</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/M14_v2_sidebar_knowledge.webp" alt=""><figcaption><p>플레이그라운드 왼쪽 메뉴 - 지식</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-08-13 093526.png" alt=""><figcaption><p>지식 관리 → 지식 추가하기</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/K1_knowledge_list_add.webp" alt=""><figcaption><p>지식 → + 지식 추가</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/스크린샷 2026-08-13 093653.png" alt=""><figcaption><p>직접 설정해 만들기</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/K3_knowledge_type_rag.webp" alt=""><figcaption><p>직접 설정해 만들기</p></figcaption></figure>
 
 ### 지식 목록
 
@@ -18,19 +18,22 @@
 
 ### 데이터 추가
 
-지식 이름을 입력하고 필요하면 설명을 추가합니다.
+지식 이름을 입력하고 필요하면 설명을 추가합니다. 지식 이름을 입력하지 않으면 첫 번째 파일명이 지식 이름으로 사용됩니다.
 
 문서를 업로드하거나 빈 데이터로 지식을 만들 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (664).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/K5_rag_upload_page.webp" alt=""><figcaption></figcaption></figure>
 
 문서 없이 만들려면 **빈 데이터로 생성**을 선택합니다.
 
 <figure><img src="../../../.gitbook/assets/image (677).png" alt="" width="375"><figcaption></figcaption></figure>
 
-파일을 끌어 놓거나 **찾아보기**로 문서를 업로드합니다. 업로드가 끝나면 **다음**을 선택합니다.
+**데이터 소스 선택**에서 **내 컴퓨터 폴더** 또는 **SharePoint**를 고릅니다. 파일을 끌어 놓거나 **찾아보기**로 문서를 업로드합니다. 업로드가 끝나면 **다음**을 선택합니다.
 
-<figure><img src="../../../.gitbook/assets/image (666).png" alt=""><figcaption></figcaption></figure>
+* 지원 형식: TXT, MARKDOWN, PDF, HTML, XLSX, DOCX, CSV, HWP, HWPX, JSON, JSONL (파일당 최대 50MB)
+* 엑셀·CSV는 파일당 20MB, 500,000셀까지 처리합니다.
+
+<figure><img src="../../../.gitbook/assets/K6_rag_datasource.webp" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 만약 글자 인식이 안 되는 PDF 파일의 경우, 아래 사진처럼 OCR 설정을 꼭 해주세요!

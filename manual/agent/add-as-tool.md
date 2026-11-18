@@ -32,14 +32,18 @@ description: 만든 에이전트를 도구로 등록하고 다른 앱에서 사�
 AI는 도구 설명을 바탕으로 사용할 도구를 선택합니다. 어떤 작업에 사용할 수 있는지 구체적으로 작성합니다.
 {% endhint %}
 
-{% include "../../.gitbook/includes/orchestrator-....md" %}
+{% hint style="danger" %}
+**다른 에이전트를 호출하는 Orchestrator Agent는 도구로 등록할 수 없습니다.**
+
+<img src="../../.gitbook/assets/스크린샷 2026-09-09 130653.png" alt="" data-size="original">
+{% endhint %}
 {% endstep %}
 
 {% step %}
 ### 관리자 승인 후 도구 확인
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TL4_v2_tools_agent.webp" alt=""><figcaption></figcaption></figure>
 
-관리자 승인 후 도구 목록에서 발행한 에이전트 도구를 확인합니다.
+관리자 승인 후 플레이그라운드 왼쪽 메뉴의 **도구** → **에이전트** 탭에서 발행한 에이전트 도구를 확인합니다.
 {% endstep %}
 {% endstepper %}

@@ -32,8 +32,8 @@ AI는 도구 설명을 바탕으로 사용할 도구를 선택합니다. 어떤 
 {% step %}
 ### 관리자 승인 후 도구 확인
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-08-14 145821.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TL3_v2_tools_workflow.webp" alt=""><figcaption></figcaption></figure>
 
-관리자 승인 후 도구 목록에서 발행한 워크플로우 도구를 확인합니다.
+관리자 승인 후 플레이그라운드 왼쪽 메뉴의 **도구** → **워크플로우** 탭에서 발행한 워크플로우 도구를 확인합니다.
 {% endstep %}
 {% endstepper %}

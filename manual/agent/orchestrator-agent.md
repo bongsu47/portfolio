@@ -10,7 +10,7 @@ Orchestrator Agent는 여러 서브 에이전트를 도구로 호출하는 상�
 
 사용자 요청을 분석한 뒤 서브 에이전트에게 작업을 위임하고 그 결과를 종합해 최종 답변을 생성합니다.
 
-<figure><img src="../../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FHY3h8nDFD8j6w7cwelPz%2Fimage.png?alt=media&#x26;token=f830ed52-4cad-4857-a332-0fc0809b4db4" alt=""><figcaption></figcaption></figure>
 
 ### 구성 요소
 
@@ -39,7 +39,7 @@ Orchestrator Agent는 여러 서브 에이전트를 도구로 호출하는 상�
 
 Orchestrator Agent는 요청에 따라 도구와 실행 순서를 판단합니다. 같은 요청도 실행 과정이 달라질 수 있습니다. 실행 순서와 결과 형식을 통제해야 한다면 워크플로우를 사용합니다.
 
-<figure><img src="../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FFhrmUDpg0r9SZdH9OBFp%2Fimage.png?alt=media&#x26;token=5aef77ad-18e0-4963-bfb2-ad00ddcf4688" alt=""><figcaption></figcaption></figure>
 
 #### Workflow · 단일 에이전트 · Orchestrator Agent 선택표
 
@@ -65,15 +65,15 @@ Orchestrator Agent는 요청에 따라 도구와 실행 순서를 판단합니�
 {% step %}
 ### Orchestrator Agent 만들기
 
-<figure><img src="../../.gitbook/assets/image (873).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OR03_v2.webp" alt=""><figcaption></figcaption></figure>
 
-에이전트 앱을 새로 만듭니다. 이 앱이 사용자 요청을 받고 서브 에이전트를 호출합니다.
+플레이그라운드에서 **앱 만들기**를 선택합니다. **에이전트**를 고르고 이름과 소개를 입력한 뒤 **만들기**를 선택합니다. 이 앱이 사용자 요청을 받고 서브 에이전트를 호출합니다.
 {% endstep %}
 
 {% step %}
 ### 서브 에이전트 추가
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-08-14 154202.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FAfKfoOWMI9VEZlP130Qe%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-08-14%20154202.png?alt=media&#x26;token=ee0030e7-55c3-4711-90ff-2b965582f3b4" alt=""><figcaption></figcaption></figure>
 
 **도구 설정**에서 **편집**을 선택합니다. 서브 에이전트로 사용할 에이전트를 추가합니다.
 
@@ -85,7 +85,7 @@ Orchestrator Agent는 요청에 따라 도구와 실행 순서를 판단합니�
 {% step %}
 ### 입력 변수 설정
 
-<figure><img src="../../.gitbook/assets/image (875).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F18lc3LJsSc2szIbcD5Ay%2Fimage.png?alt=media&#x26;token=0e1b3d3d-15cf-4156-9e0c-828be8b74b33" alt=""><figcaption></figcaption></figure>
 
 서브 에이전트에 항상 전달할 값이 있다면 도구 설정 토글 옆의 **입력 변수**를 선택해 값을 입력합니다.
 {% endstep %}
@@ -93,7 +93,7 @@ Orchestrator Agent는 요청에 따라 도구와 실행 순서를 판단합니�
 {% step %}
 ### 프롬프트 작성
 
-<figure><img src="../../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FOsK9PeX0FJukNRLsb80Y%2Fimage.png?alt=media&#x26;token=06907c62-4a62-4dae-8b75-8147438c0429" alt=""><figcaption></figcaption></figure>
 
 @ 멘션으로 서브 에이전트, 지식, 도구를 참조합니다. 각 항목의 역할과 사용할 조건을 프롬프트에 작성합니다.
 
@@ -105,10 +105,14 @@ Orchestrator Agent는 요청에 따라 도구와 실행 순서를 판단합니�
 {% step %}
 ### 테스트 및 확인
 
-<figure><img src="../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F4EExa6MlGyXrtaBnv4zK%2Fimage.png?alt=media&#x26;token=e858d14a-b70c-41b3-9d9e-0d71a70e55ab" alt=""><figcaption></figcaption></figure>
 
 테스트 요청으로 서브 에이전트가 의도한 조건에서 호출되는지 확인합니다. 앱 목록에 Orchestrator Agent 표시가 나타나는지도 확인합니다.
 {% endstep %}
 {% endstepper %}
 
-{% include "../../.gitbook/includes/orchestrator-....md" %}
+{% hint style="danger" %}
+**다른 에이전트를 호출하는 Orchestrator Agent는 도구로 등록할 수 없습니다.**
+
+<img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FsxCeXAWLWxjLpmcJoFGM%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-09-09%20130653.png?alt=media&#x26;token=359a53f3-7edf-4a4f-8733-7bc43dad76e4" alt="" data-size="original">
+{% endhint %}

@@ -8,9 +8,9 @@ description: 지식과 문서·청크를 생성·조회·수정·검색하는 AP
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (120).png" alt="" width="374"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/M14_v2_sidebar_knowledge.webp" alt="" width="374"><figcaption></figcaption></figure>
 
-상단 메뉴바에서 `지식 관리` 를 클릭하여 지식 관리 화면으로 이동합니다.
+플레이그라운드 왼쪽 메뉴에서 `지식`을 클릭하여 지식 화면으로 이동합니다.
 
 <figure><img src="../../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 

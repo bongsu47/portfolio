@@ -20,9 +20,9 @@
 
 ## 시작 노드
 
-파일을 입력받기 위해 입력 변수를 추가해야 합니다.&#x20;
+파일을 입력받기 위해 입력 변수를 추가해야 합니다.
 
-워크플로우에서는 시작 노드에 **‘단일 파일’** 또는 **‘다중 파일’** 변수를 설정할 수 있습니다.&#x20;
+워크플로우에서는 시작 노드에 **‘단일 파일’** 또는 **‘다중 파일’** 변수를 설정할 수 있습니다.
 
 말 그대로 파일을 하나만 받을지, 여러 개를 받을지 선택하는 옵션입니다. 이번 예제에서는 하나의 회의록 파일만 처리하면 되므로 **단일 파일**을 선택하겠습니다.
 
@@ -31,7 +31,7 @@
 1. 시작 노드를 클릭한 후 **\[+ 변수 추가]** 버튼을 클릭합니다.
 2. 아래 예시와 같이 **단일 파일** 변수를 설정한 뒤 **\[확인]** 버튼을 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image (500).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_01_v2.webp" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 조건 노드
 
@@ -58,13 +58,13 @@
 
 이처럼 조건 노드를 활용하면, 하나의 워크플로우 안에서 다양한 입력 유형을 유연하게 처리할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (476).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FfaX63kbhfWITgrLVlcJ2%2Fimage.png?alt=media&#x26;token=65f77149-f39e-45d0-818b-ca4ebf6806df" alt="" width="375"><figcaption></figcaption></figure>
 
 ### STEP 2. 조건 노드 구성하기
 
 1. 기존의 시작 노드와 LLM 노드를 연결하던 선을 제거한 뒤, 시작 노드 바로 다음에 **조건 노드**를 추가합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260210-125059-057.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_03_v2.webp" alt=""><figcaption></figcaption></figure>
 
 2. 앞에서 정리한 **파일 유형(음성 파일, 문서 파일)에 따라 서로 다른 처리 경로로 분기**하도록 조건을 설정해보겠습니다.
    1. IF 아래있는 **`선택한 변수를 조건 대상으로 지정합니다`** 버튼을 클릭합니다.
@@ -74,11 +74,11 @@
    5. **`시작 - file - type`** 변수를 설정합니다.
    6. 유형을 **`문서`** 로 설정합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260212-092502-890.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_04_v2.webp" alt=""><figcaption></figcaption></figure>
 
 이제 조건 노드의 각 분기(조건) 오른쪽에 있는 **\[+] 버튼**에 해당 워크플로우(처리 경로)를 연결하면, **조건을 만족하는 경로만 실행**됩니다. 예를 들어 첨부파일 유형이 **오디오**라면 가장 위의 오디오 처리 경로만 동작하고, 다른 경로(문서/기타)는 실행되지 않습니다.
 
-<figure><img src="../../../.gitbook/assets/image (478).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FxHSdKFlHqB4544zTM5o7%2Fimage.png?alt=media&#x26;token=eabbd661-0161-4ca8-9c12-219e36924189" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 음성 변환 도구
 
@@ -102,15 +102,13 @@ STT와 TTS라는 용어를 한 번쯤 들어보셨을 것입니다.
    사용하려면 해당 음성 모델이 미소에 등록되어 있어야 합니다.
 2. **다글로 도구**\
    외부 음성 인식 서비스입니다.\
-   다글로 API 키만 등록하면 바로 사용할 수 있습니다. 초기 가입 시, `12,000원(10시간 상당)` 의 무료 크레딧을 제공합니다.&#x20;
+   다글로 API 키만 등록하면 바로 사용할 수 있습니다. 초기 가입 시, `12,000원(10시간 상당)` 의 무료 크레딧을 제공합니다.
 
 두 도구는 역할이 동일하므로, 환경에 맞는 도구를 선택하여 사용하시면 됩니다.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../../.gitbook/assets/image (479).png" alt="" width="362"><figcaption></figcaption></figure>
-
-
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FgNGCeSW4Oj4MH8Z2cdN7%2Fimage.png?alt=media&#x26;token=44eea063-b432-4149-b28e-8270c312c410" alt="" width="362"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -124,27 +122,27 @@ STT와 TTS라는 용어를 한 번쯤 들어보셨을 것입니다.
 4. 좌측 메뉴에서 **토큰**을 클릭 후 **새로 등록** 버튼을 클릭하여 토큰을 생성합니다.
 5. 생성된 토큰을 복사합니다.
 
-<figure><img src="../../../.gitbook/assets/image (501).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FcfxwSRfvvOtLJtyw1wfy%2Fimage.png?alt=media&#x26;token=d6d8f39e-5801-4f99-be02-10438015bad5" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 미소 도구 등록하기
 
-1. 상단 메뉴에서 **플레이그라운드 - 도구 모음**을 클릭합니다.
-2. 우측 상단 검색창에 **다글로**를 입력합니다.
+1. 상단 메뉴에서 **플레이그라운드**를 클릭한 뒤, 왼쪽 메뉴에서 **도구**를 클릭합니다.
+2. **도구 검색** 창에 **다글로**를 입력합니다.
 3. **다글로 도구**를 클릭한 후, API 토큰을 입력합니다.
 4. **저장** 버튼을 클릭하고, 도구가 활성화되었는지 확인합니다.
 
-<figure><img src="../../../.gitbook/assets/image (503).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_08_v2.webp" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3. 음성 변환 노드 구성하기
 
 1. 조건 노드에서 **첫 번째 조건**의 + 버튼을 클릭합니다.
-2. 도구 메뉴에서 "**다글로 Speech to Text**"를 선택합니다.
+2. 노드 추가 창의 **기본 도구** 탭에서 "**다글로 Speech to Text**"를 선택합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260213-015155-675.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_09_v2.webp" alt=""><figcaption></figcaption></figure>
 
 3. 입력 변수의 오디오 파일을 시작 노드의 `file`로 설정한 뒤, 화자 분리 활성화를 **On**으로 변경합니다.
 
-<figure><img src="../../../.gitbook/assets/image (504).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F45PVm1s6haETXYVyTxuS%2Fimage.png?alt=media&#x26;token=6115c830-e28c-4c72-a607-910abf3a05e4" alt="" width="563"><figcaption></figcaption></figure>
 
 <details>
 
@@ -161,8 +159,6 @@ STT와 TTS라는 용어를 한 번쯤 들어보셨을 것입니다.
 | **화자 수 힌트**      | 숫자 (2 이상)   | 없음            | 예상되는 화자 수를 숫자로 입력합니다. 보다 정확한 분리를 위해 입력 변수에 숫자형 변수를 생성한 뒤 해당 변수를 연결하는 것을 권장합니다. 예: 회의 참여자가 3명이라면 → 숫자 변수(`speaker_count = 3`) 설정 후 해당 변수 지정. ※ 화자 수를 정확히 입력할수록 분리 정확도가 향상됩니다. |
 | **키워드 추출 활성화**   | On/Off 토글   | Off           | 변환된 텍스트에서 핵심 단어를 자동으로 추출합니다. 회의 요약이나 태그 자동 생성이 필요한 경우에 활성화합니다.                                                                                                               |
 | **키워드 추출 최대 개수** | 숫자          | `10`          | 추출할 키워드의 최대 개수를 설정합니다. 특별한 제한이 필요하지 않다면 기본값(`10`)을 유지합니다.                                                                                                                    |
-
-
 
 </details>
 
@@ -187,13 +183,13 @@ LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그
 ### STEP 4. 문서 추출기 노드 구성하기
 
 1. 조건 노드에서 **두번째 조건**의 + 버튼을 클릭합니다.
-2. 기본 노드에서 변환 - **문서 추출기**를 클릭합니다.
+2. 노드 추가 창의 **노드** 탭에서 변환 - **문서 추출기**를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260213-022609-686.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_11_v2.webp" alt=""><figcaption></figcaption></figure>
 
 3. 문서 추출기 - 입력 변수의 문서 파일을 시작 노드의 `file`로 지정합니다.
 
-<figure><img src="../../../.gitbook/assets/image (505).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F22MI2TFqHogeY0GzRoih%2Fimage.png?alt=media&#x26;token=34dbd52b-9b72-4603-9d6d-dea7ad0463cd" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ## 원본 형식 유지 설정이란?
@@ -219,29 +215,27 @@ LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그
 
 그래서 위에서 음성 파일은 **음성 변환(STT) 노드**, 문서 파일은 **문서 추출기 노드**를 통해 각각 텍스트로 처리했습니다. 이렇게 전처리된 텍스트를 각 분기 경로에서 LLM 노드로 전달하면, 파일 유형과 관계없이 동일한 방식으로 회의록을 요약하거나 가공할 수 있습니다.
 
-
-
 ### STEP 5. 개별 LLM 노드 구성하기
 
 1. 기존에 있던 **LLM 노드를 우클릭**한 후 **노드 복사**를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260220-014930-135.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FibcHjI7Trd2gSxNc3Aih%2FClipboard-20260220-014930-135.gif?alt=media&#x26;token=3c88c734-95e0-4bda-9de8-474e9d7c9848" alt="" width="563"><figcaption></figcaption></figure>
 
 2. 각 LLM 노드를 음성 변환(다글로) 노드와 문서 추출기 노드 각각에 연결합니다.
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2Fxb18u0KZS6SCfTOZgJM7%2Fimage.png?alt=media&#x26;token=a0bbe28d-a1ec-493b-91e0-2c07730dacb0" alt="" width="563"><figcaption></figcaption></figure>
 
 3. 먼저 다글로 노드에 연결된 **LLM 노드**를 클릭하여 **\<input>의 회의 내용을 다글로 노드의 출력 변수**로 변경합니다.
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FYewcYf6oxiWxgnVxOkmY%2Fimage.png?alt=media&#x26;token=d11b6a24-1246-4e69-9c12-4f70c3061208" alt="" width="563"><figcaption></figcaption></figure>
 
 4. 문서 추출기 노드에 연결된 LLM 노드도 동일하게 **문서 추출기 노드의 출력 변수**로 변경합니다.
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F69XcdZ1QAVoIs1LND7ev%2Fimage.png?alt=media&#x26;token=d4bc4f02-1953-4240-a1b7-8a136d52e5bc" alt="" width="563"><figcaption></figcaption></figure>
 
 5. 각 LLM 노드마다 종료 블록을 추가한 뒤, 해당 노드와 연결합니다.
 
-<figure><img src="../../../.gitbook/assets/image (86).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F8QEXCUFw4cJwh7wxybOg%2Fimage.png?alt=media&#x26;token=c12173a6-929c-4a5d-95e5-6664b1a75a32" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 환경 변수
 
@@ -249,24 +243,22 @@ LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그
 
 이번 예제에서는 인증 정보나 설정 값이 아닌, 워크플로우 실행 중 에러가 발생했을 때 사용자에게 동일한 안내 메시지를 일관되게 제공하는 방법을 살펴보겠습니다.
 
-
-
 ### STEP 6. 잘못된 파일 첨부 안내하기
 
-1.  우측 상단의 메뉴에서 **조건 설정**을 클릭합니다.
+1.  오른쪽 위의 **앱 조건 설정**(DB 모양 아이콘)을 클릭합니다.
 
-    <figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/L2_18_v2.webp" alt=""><figcaption></figcaption></figure>
 2. **실행 조건 설정** - **변수 추가**를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt="" width="373"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FjtpQUhxhpaEQqB6sEIOt%2Fimage.png?alt=media&#x26;token=80069483-d4f9-4b91-b94c-bc80f5ccc5c2" alt="" width="373"><figcaption></figcaption></figure>
 
 3. 아래와 같이 **`error_message` 라는 환경 변수를 추가**합니다.
 
-<figure><img src="../../../.gitbook/assets/image (78).png" alt="" width="297"><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2FWNCoSb2uGiqFJBC7Nnbc%2Fimage.png?alt=media&#x26;token=10244da0-5eed-47da-8942-0ca1e938431d" alt="" width="297"><figcaption></figcaption></figure>
 
 4. 조건 노드의 **ELSE(기본 분기)** 경로에 **종료 노드**를 추가한 뒤, **출력 변수**에 앞서 설정한 **환경 변수**(`error_message`)를 할당합니다.
 
-<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3745052963-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FikQFVaEwkAZS45vCdXMe%2Fuploads%2F7lX7wft781FNqTDW3d7s%2Fimage.png?alt=media&#x26;token=80cacff2-4542-428c-891f-e1c7f96edec9" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 많은 분들이 워크플로우는 **노드가 만든 결과만 밖으로 보낼 수 있다**고 생각합니다. 하지만 실제로는 **환경 변수와 대화 변수를 활용해**, 미리 정해둔 문구나 공통 메시지도 함께 보낼 수 있습니다.
@@ -280,16 +272,18 @@ LLM은 PDF나 Word 파일 자체를 그대로 이해하는 것이 아니라, 그
 
 1. 아래의 제공된 샘플 파일을 다운로드 합니다.
 
-{% include "../../../.gitbook/includes/1-. (1).md" %}
+{% file src="../../../.gitbook/assets/샘플_데이터_음성.mp3" %}
+회의록 음성 샘플 파일
+{% endfile %}
 
 {% file src="../../../.gitbook/assets/research_meeting_sample (3).txt" %}
 회의록 텍스트 샘플파일
 {% endfile %}
 
-2. 상단 중앙의 **\[테스트하기]** 버튼을 클릭합니다.
+2. 왼쪽 위의 **\[테스트하기]** 탭을 클릭합니다.
 3. 우측 테스트 창에서 입력 변수를 클릭한 뒤, file 변수에 다운로드한 파일을 첨부 후 **\[실행 버튼]**&#xC744; 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/Clipboard-20260220-044240-877.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/L2_22_v2.webp" alt=""><figcaption></figcaption></figure>
 
 실행 로그를 확인해보면, 업로드한 파일의 내용이 **텍스트로 변환되어 LLM에 전달**되고, 이후 LLM이 해당 내용을 **요약해 결과를 출력하는 과정**을 확인할 수 있습니다.
 
