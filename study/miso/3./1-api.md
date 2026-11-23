@@ -4,7 +4,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 # \[레벨 1] 기상청 API 연동 준비하기
 
-> **ℹ️ 이 페이지의 목표**&#x20;
+> **ℹ️ 이 페이지의 목표**
 >
 > 이번 레벨 0의 목표는 **API 요청 노드 활용법**을 익히는 것입니다.\
 > 동시에, MISO를 활용할 때 모르는 노드가 있더라도 어떻게 알아나갈 수 있는지 그 방식을 함께 살펴보겠습니다.
@@ -40,9 +40,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
-> **⚠️ 사이트 회원가입은 필수입니다!**&#x20;
+> **⚠️ 사이트 회원가입은 필수입니다!**
 >
 > 공공데이터포털은 앞으로도 자주 활용할 일이 많습니다. 미리 가입해두면 편리합니다.
 
@@ -50,10 +48,8 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-1. 향후 11일 예보를 조회할 수 있습니다. 금요일에 실행하면 다음 주 월\~일 기상정보를 가져올 수 있어 목적에 부합합니다.&#x20;
+1. 향후 11일 예보를 조회할 수 있습니다. 금요일에 실행하면 다음 주 월\~일 기상정보를 가져올 수 있어 목적에 부합합니다.
 2. 세부 대상구역도 지역별로 나뉘어 있어 지역별 날씨 예보를 얻을 수 있습니다.
-
-
 
 제가 원하는 모든 내용을 충족하네요. 좋습니다.
 
@@ -67,7 +63,7 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 먼저 심의 여부를 확인하여, 신청 즉시 사용 가능한지 확인합니다.
 
-> **ℹ️ 심의 여부를 꼭 확인해야 하는 이유**&#x20;
+> **ℹ️ 심의 여부를 꼭 확인해야 하는 이유**
 >
 > 공공데이터포털은 자동승인인 경우가 많지만, 일부 기관은 신청자 확인 후 수동으로 승인하는 경우도 있습니다.\
 > 승인 전에 API를 호출하면 오류 응답이 오게 되는데, 이 사실을 모르면 원인을 찾느라 시간을 낭비할 수 있으니, 신청 전 한 번씩 확인하시길 권장드립니다!
@@ -78,19 +74,15 @@ description: 워크플로우를 만들기 전, 날씨 데이터를 가져올 API
 
 이용약관에 동의한 뒤 **\[활용 신청]** 버튼을 클릭합니다.
 
-
-
 <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 신청이 완료되면 **마이페이지 → 개발계정**에서 해당 서비스가 활성화된 것을 확인할 수 있습니다.
 
-
-
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/W1_07.webp" alt=""><figcaption></figcaption></figure>
 
 클릭해서 들어가면 **일반 인증키**를 확인할 수 있습니다.
 
-API 사용 승인이 이루어졌다는 것은, 해당 서버가 내 접근을 허용해줬다는 뜻입니다.&#x20;
+API 사용 승인이 이루어졌다는 것은, 해당 서버가 내 접근을 허용해줬다는 뜻입니다.
 
 인증키는 그 허가증에 해당하는 값으로, 추후에 활용해야 하니 이 페이지에서 확인할 수 있다는 점을 기억해둡니다.
 
@@ -146,25 +138,19 @@ API 응답은 사람이 보기 편한 형태가 아닌, 컴퓨터 간 소통에 
 
 크게 2가지 방법이 있습니다.
 
-
-
 **방법 1 | 가이드 문서가 따로 없는 경우**
 
-공공데이터포털의 API 상세 페이지에서 바로 확인할 수 있습니다.&#x20;
+공공데이터포털의 API 상세 페이지에서 바로 확인할 수 있습니다.
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 URL, 입력변수, 결과 항목이 한 페이지에 정리되어 있습니다.
 
-
-
 **방법 2 | 가이드 문서가 있는 경우**
 
-참고 문서 탭에 활용 가이드(PDF)가 있는 경우도 있습니다.&#x20;
+참고 문서 탭에 활용 가이드(PDF)가 있는 경우도 있습니다.
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-
 
 하지만 이 경우, 상세한 설명이 담겨 있지만 내용이 길고 직관적이지 않은 경우도 많습니다.
 
@@ -173,8 +159,6 @@ URL, 입력변수, 결과 항목이 한 페이지에 정리되어 있습니다.
 그치만, 이 경우에도 현재 제게 필요한 3가지 정보만 찾으면 됩니다.
 
 1\) 접속 주소, 2) 입력 변수, 3) 결과 형식 정보 만을 유의하면서 문서를 읽어보도록 합니다.
-
-
 
 ***
 
@@ -196,9 +180,7 @@ URL, 입력변수, 결과 항목이 한 페이지에 정리되어 있습니다.
 
 API 요청 노드에서 설정해야 하는 항목은 3가지입니다.
 
-<figure><img src="../../../.gitbook/assets/image (769).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/W1_13.webp" alt=""><figcaption></figcaption></figure>
 
 우선 첫번째 세팅값인 API를 찾아봅니다.
 
@@ -208,25 +190,19 @@ API 요청 노드에서 설정해야 하는 항목은 3가지입니다.
 
 Call Back URL에서 주소값을 찾았습니다.
 
-
-
 이때, GET을 눌렀을 때 다양한 선택지가 나옵니다. 이는 `메소드` 라는 옵션인데,
 
-API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시되어 있습니다.&#x20;
+API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시되어 있습니다.
 
 자세한 설명은 아래의 API 노드 매뉴얼을 참고해주세요
 
 [#http](../../../manual/workflow/node-definition/utility/http-request.md#http "mention")
-
-
 
 이제 header, parameter 값도 가이드 문서를 읽어보면서 비슷한 방법으로 찾아볼 수 있습니다.
 
 하지만 매번 가이드를 통해서 필요한 정보를 찾아보려니 생각보다 귀찮습니다.
 
 간단하게, MISO AI에게 물어보고 세팅해야 하는 값들에 대해서 쉽게 알아보겠습니다.
-
-
 
 ### (+) 7단계. MISO AI와 함께 API 노드 세팅 진행하기
 
@@ -258,16 +234,15 @@ API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시
 
 따라서 인증키는 반드시 **환경변수**로 등록해서 사용합니다.
 
-<figure><img src="../../../.gitbook/assets/image (772).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/W1_16.webp" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (773).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/W1_17.webp" alt="" width="375"><figcaption></figcaption></figure>
 
-1. 워크플로우 편집 화면 상단 오른쪽의 **\[앱 조건 설정]** 버튼을 클릭합니다.
+1. 워크플로우 편집 화면 오른쪽 위의 데이터베이스 모양 아이콘(**\[앱 조건 설정]**)을 클릭합니다.
 2. **\[실행 조건 설정]** 탭으로 들어가 **\[+ 변수 추가]** 를 클릭합니다.
-3. 유형에서 **\[비밀]** 을 선택해주어, 타인이 나의 키 값을 알 수 없도록 설정합니다.
-4. **이름**: `authKey`, **값**: 마이페이지에서 확인한 일반 인증키를 붙여넣습니다.
-
-
+3. **환경 변수 추가** 창의 **이름**에 `authKey`를 입력합니다.
+4. **유형**에서 **\[비밀]** 을 선택해주어, 타인이 나의 키 값을 알 수 없도록 설정합니다.
+5. **값**에 마이페이지에서 확인한 일반 인증키를 붙여넣고 **\[확인]** 을 클릭합니다.
 
 이제 파라미터에서 직접 인증키를 쓰는 대신 `/`를 입력하고 `env.authKey`를 선택하면 됩니다.
 
@@ -290,12 +265,12 @@ API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시
 
 ***
 
-### 번외. 디버깅 —  오류가 생겼을 때 원인 찾기
+### 번외. 디버깅 — 오류가 생겼을 때 원인 찾기
 
-파라미터 설정까지 완료한 뒤, 간단하게 보고서를 작성해주는 LLM 노드까지 추가한 뒤, \
+파라미터 설정까지 완료한 뒤, 간단하게 보고서를 작성해주는 LLM 노드까지 추가한 뒤,\
 테스트를 실행했는데 오류가 발생했습니다.
 
-<figure><img src="../../../.gitbook/assets/image (774).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/W1_18.webp" alt=""><figcaption></figcaption></figure>
 
 이럴 때 **상세 로그**를 활용해서 **디버깅** 하는 방법을 간단하게 알아봅시다.
 
@@ -308,17 +283,15 @@ API 가이드 문서 초반부를 보면 어떤 방식을 사용하라고 명시
 
 이번에는 api 요청 노드의 출력값을 확인해보니 다음과 같은 에러 원인이 발견되었습니다.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (775).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/W1_19.webp" alt="" width="375"><figcaption></figcaption></figure></div>
 
 조회 기간에 쓸 수 있는 값이 오늘 기준 1일 전까지라고 하니, 지난주 금요일 날짜를 넣은 것이 잘못이었습니다.
 
 그럼 간단하게 오늘 아침 날짜로 바꿔서 다시 시도해 봅니다.
 
-<figure><img src="../../../.gitbook/assets/image (776).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/W1_20.webp" alt=""><figcaption></figcaption></figure>
 
 네, 이렇게 보고서 내용이 잘 출력되는 것을 알 수 있습니다.
-
-
 
 정상적으로 API 응답이 돌아오면 아래와 같이 날씨 데이터가 JSON 형태로 출력됩니다.
 

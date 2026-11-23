@@ -110,25 +110,25 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 앱 유형은 "에이전트"로 선택하고 이름과 소개를 위의 내용을 참조하여 적절히 작성한 뒤 "만들기" 버튼을 클릭합니다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_19.webp" alt=""><figcaption></figcaption></figure>
 
-먼저 에이전트가 답변에 근거로 사용할 데이터부터 설정하겠습니다. 화면 우측의 "참조할 지식" 영역에서 우측상단에 위치한 "+추가" 버튼을 클릭합니다.
+먼저 에이전트가 답변에 근거로 사용할 데이터부터 설정하겠습니다. 화면 왼쪽 "앱 설정" 영역의 "지식 검색" 카드에서 "+ 추가" 버튼을 클릭합니다. 앱 설정 영역이 접혀 있다면 먼저 펼쳐 주세요.
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-팝업이 출력되고 현재 업로드된 데이터들이 보여기게 됩니다. 현재는 업로드한 데이터가 company\_welfare.txt뿐이므로 이 데이터만 보입니다. 해당 데이터를 클릭하여 선택한 뒤 "확인" 버튼을 클릭하여 설정합니다.
+지식 선택 창이 열리고 사용할 수 있는 지식들이 보이게 됩니다. 지식이 많다면 검색창에 이름을 입력해 찾을 수 있습니다. company\_welfare를 클릭하여 선택한 뒤 "확인" 버튼을 클릭하여 설정합니다.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_21.webp" alt="" width="375"><figcaption></figcaption></figure>
 
-이제 참조할 지식 영역에 방금 설정한 company\_welfare.txt가 세팅되어 있음을 확인할 수 있습니다.
+이제 지식 검색 카드에 방금 설정한 company\_welfare가 연결되어 있음을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_22.webp" alt="" width="450"><figcaption></figcaption></figure>
 
-이번엔 GenAI 모델을 선택하겠습니다. 프롬프트 영역의 상단에 위치한 GenAI 모델 드롭다운 버튼을 클릭하여 현재 환경에서 사용 가능한 GenAI 모델 중 가장 적절한 모델을 선택합니다. 이 예제에서는 Claude 4.5 Sonnet 모델을 사용하겠습니다.
+이번엔 GenAI 모델을 선택하겠습니다. 가운데 프롬프트 영역의 오른쪽 위에 있는 GenAI 모델 드롭다운을 클릭하여 현재 환경에서 사용 가능한 GenAI 모델 중 가장 적절한 모델을 선택합니다. 이 예제에서는 Claude Sonnet 4.6 모델을 사용하겠습니다.
 
-모델 선택이 완료되었으면 Temperature 값을 0.1으로 설정합니다. Temperature는 창의성이라고 비유하여 이해해 볼 수 있습니다. Temperature 값이 1에 가까울수록 GenAI 모델은 창의적인 답변을 하고 0에 가까울수록 경직된 답변을 합니다. 우리가 이번 예제에서 구현할 에이전트는 정확한 정보를 전달하는 것이 목적이므로 Temperature를 0.1으로 낮춰 보수적인 답변을 하도록 설정하겠습니다.
+모델 선택이 완료되었으면 아래쪽 매개변수 영역에서 Temperature 토글을 켜고 값을 0.1로 설정합니다. 모델에 따라 Temperature 항목이 없을 수도 있습니다. Temperature는 창의성이라고 비유하여 이해해 볼 수 있습니다. Temperature 값이 1에 가까울수록 GenAI 모델은 창의적인 답변을 하고 0에 가까울수록 경직된 답변을 합니다. 우리가 이번 예제에서 구현할 에이전트는 정확한 정보를 전달하는 것이 목적이므로 Temperature를 0.1으로 낮춰 보수적인 답변을 하도록 설정하겠습니다.
 
-<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_23.webp" alt="" width="375"><figcaption></figcaption></figure>
 
 <details>
 
@@ -161,17 +161,17 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 </details>
 
-위와 같이 프롬프트를 작성합니다.
+위와 같이 가운데 프롬프트 영역에 프롬프트를 작성합니다.
 
-<figure><img src="../../.gitbook/assets/image (140).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_24.webp" alt="" width="420"><figcaption></figcaption></figure>
 
-이제 모든 준비가 완료되었습니다. 화면 우측 상단의 "테스트" 버튼을 클릭하여 우리가 구현한 에이전트가 복리후생규정을 잘 안내해 주는지 테스트해 봅시다. 앞서 검색 테스트에서 활용했던 "가족 행사 지원"이라는 키워드로 질문해 보니 위와 같이 답변을 잘 해줍니다.
+이제 모든 준비가 완료되었습니다. 화면 오른쪽의 "테스트" 영역에서 우리가 구현한 에이전트가 복리후생규정을 잘 안내해 주는지 테스트해 봅시다. 앞서 검색 테스트에서 활용했던 "가족 행사 지원"이라는 키워드로 질문해 보니 위와 같이 답변을 잘 해줍니다. 답변 위쪽에는 에이전트가 어떤 지식에서 어떤 검색어로 찾았는지도 함께 표시됩니다.
 
-그런데 GenAI가 답변해 준 내용이 우리가 업로드한 데이터에 근거한 것이라고 어떻게 판단할 수 있을까요? 답변해준 텍스트에 마우스를 올려두면 답변 하단 영역에 복사하기 버튼과 로그 버튼이 출력됩니다. 시계 모양의 로그 보기 버튼을 클릭하면 아래와 같이 GenAI가 어떤 과정을 거쳐서 답변을 만들었는지 확인해 볼 수 있는 상세 로그가 출력됩니다.
+그런데 GenAI가 답변해 준 내용이 우리가 업로드한 데이터에 근거한 것이라고 어떻게 판단할 수 있을까요? 답변 아래에는 복사하기 버튼과 시계 모양의 로그 버튼 등이 있습니다. 로그 버튼을 클릭하면 아래와 같이 GenAI가 어떤 과정을 거쳐서 답변을 만들었는지 확인해 볼 수 있는 실행 로그가 출력됩니다. 상세 로그에서 company\_welfare 항목을 펼치면 검색에 사용한 입력값과 가져온 결과를 볼 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (141).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_25.webp" alt="" width="375"><figcaption></figcaption></figure>
 
-로그를 확인해 보니 GenAI는 "가족 행사 지원 규정이 있어?" 라는 질문에서 스스로 판단하여 "가족 행사 지원 규정"이라는 검색 키워드로 company\_welfare.txt에서 검색했음을 알 수 있습니다. 또 이렇게 검색해서 가져온 데이터 중에서 경조사 지원 규정을 확인하였고 GenAI는 이 규정이 사용자가 질문한 의도라고 스스로 판단하여 단변을 해준 것있이란 것도 알 수 있습니다.
+로그를 확인해 보니 GenAI는 "가족 행사 지원 규정이 있어?" 라는 질문에서 스스로 판단하여 "가족 행사 지원"이라는 검색 키워드로 company\_welfare.txt에서 검색했음을 알 수 있습니다. 또 이렇게 검색해서 가져온 데이터 중에서 경조사 지원 규정과 부모님 환갑·칠순·팔순 축하금 규정을 확인하였고, GenAI는 이 규정들이 사용자가 질문한 의도라고 스스로 판단하여 답변을 해준 것이란 것도 알 수 있습니다.
 
 ## 저장 및 배포
 
@@ -179,10 +179,18 @@ company\_welfare.txt는 가상의 복리후생규정을 담고 있는 텍스트 
 
 마지막으로 지금까지 구현한 복리후생제도 안내 에이전트를 배포하여 우리 회사의 다른 임직원들도 사용할 수 있도록 해보겠습니다.
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/H_26.webp" alt="" width="300"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+편집 화면 오른쪽 위의 "저장하기" 버튼 옆 화살표를 클릭하면 "저장하기", "발행하기", "버전관리" 메뉴가 나타납니다. 지금까지의 작업을 "저장하기"로 저장한 뒤 "발행하기"를 클릭합니다.
 
-확인 버튼을 클릭하면 배포된 앱의 화면으로 이동합니다.
+<figure><img src="../../.gitbook/assets/H_27.webp" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+발행하기 창에서 버전명과 수정사항, 앱 소개를 확인한 뒤 "발행하기" 버튼을 클릭합니다. 현재 공유 범위가 "비공개"이면 발행해도 다른 사용자는 이 앱을 사용할 수 없습니다. 다른 임직원들도 사용하게 하려면 "공유 범위 설정" 버튼을 클릭해 공유 범위를 바꿉니다.
+
+<figure><img src="../../.gitbook/assets/H_27b.webp" alt=""><figcaption></figcaption></figure>
+
+편집 화면 오른쪽 위의 로켓 모양 "앱 공유하기" 버튼을 클릭하면 위와 같은 앱 공유하기 화면이 열립니다. 이 화면에서 공유 범위를 관리하고, 앱 URL을 복사하거나 QR코드로 공유할 수 있습니다.
+
+<figure><img src="../../.gitbook/assets/H_28b.webp" alt=""><figcaption></figcaption></figure>
+
+발행된 앱은 플레이그라운드 앱 목록에서 "사용하기" 버튼을 클릭하거나 앱 URL로 접속해 사용할 수 있습니다. 위와 같은 화면에서 임직원들이 바로 복리후생규정에 대해 질문할 수 있습니다.

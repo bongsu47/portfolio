@@ -28,10 +28,10 @@ description: 플레이메이커를 활용해 앱을 제작하는 전체 과정�
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/스크린샷_0729_blur.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_C01.webp" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-플레이메이커는 정해진 순서대로만 진행하지 않습니다. 초기 요청을 기준으로 흐름을 설계합니다. \
+플레이메이커는 정해진 순서대로만 진행하지 않습니다. 초기 요청을 기준으로 흐름을 설계합니다.\
 처음 요청을 구체적으로 작성할수록 앱 생성까지 더 빠르게 진행할 수 있습니다.
 {% endhint %}
 
@@ -135,11 +135,11 @@ Ian은 기획서의 사양과 기능을 분석해 필요한 워크플로우 노�
 
 #### 워크플로우 앱 예시
 
-<figure><img src="../../.gitbook/assets/플레이메이커_수정.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_C09.webp" alt=""><figcaption></figcaption></figure>
 
 #### 에이전트 앱 예시
 
-<figure><img src="../../.gitbook/assets/플레이메이커_수정전2_fix.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_C10.webp" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### 플레이메이커에서 앱을 더 수정할 수 있나요?

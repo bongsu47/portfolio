@@ -10,7 +10,7 @@ description: 에이전트와 워크플로우 앱을 저장하고 발행하는 �
 
 저장한 내용은 편집 화면에만 반영됩니다. 앱 사용자에게는 적용되지 않습니다.
 
-<figure><img src="../../../.gitbook/assets/저장하기3.gif" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/H_26.webp" alt=""><figcaption></figcaption></figure>
 
 ### 발행하기
 
@@ -63,7 +63,7 @@ description: 에이전트와 워크플로우 앱을 저장하고 발행하는 �
 
 이전에 발행한 버전을 불러와 현재 편집 상태로 복원할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/발행2.gif" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/OU_P05.webp" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 #### 이전 버전 불러오기

@@ -6,7 +6,7 @@ description: 워크플로우를 만들고 실행하는 방법을 안내합니다
 
 워크플로우는 노드를 연결해 정해진 순서대로 작업을 처리하는 앱입니다. 반복적이고 정형화된 업무를 안정적으로 자동화할 때 적합합니다.
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/L2_03_v2.webp" alt=""><figcaption></figcaption></figure>
 
 ### 워크플로우 유형
 

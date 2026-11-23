@@ -35,13 +35,13 @@ description: 워크플로우와 챗플로우의 차이, 구성 방식 및 편집
 
 연결은 노드의 실행 순서를 정의합니다. 연결된 노드는 왼쪽에서 오른쪽으로 실행됩니다.
 
-<figure><img src="../../.gitbook/assets/image (410).png" alt="간단한 워크플로우 구성"><figcaption><p>간단한 워크플로우 예제: 시작 -> LLM -> 종료 순서로 노드가 실행됩니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_W03.webp" alt="간단한 워크플로우 구성"><figcaption><p>간단한 워크플로우 예제: 시작 -> LLM -> 종료 순서로 노드가 실행됩니다.</p></figcaption></figure>
 
 ### 작업 공간
 
 작업 공간에서 노드를 배치하고 연결해 앱 동작을 구성합니다. 마우스 오른쪽 버튼을 클릭하면 노드 또는 메모를 추가할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (453).png" alt="" width="375"><figcaption><p>&#x3C;노드 추가></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_W04.webp" alt="" width="375"><figcaption><p>&#x3C;노드 추가></p></figcaption></figure>
 
 #### 노드 추가
 
@@ -53,7 +53,7 @@ description: 워크플로우와 챗플로우의 차이, 구성 방식 및 편집
 
 ### 퀵 메뉴
 
-<figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption><p>&#x3C;퀵 메뉴></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_W05.webp" alt=""><figcaption><p>&#x3C;퀵 메뉴></p></figcaption></figure>
 
 * **확대/축소:** 편집 화면을 25%에서 200%까지 확대하거나 축소합니다.
 * **노드 추가 및 메모 추가:** 작업 공간에 노드 또는 메모를 추가합니다.

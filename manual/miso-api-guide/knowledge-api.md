@@ -14,10 +14,6 @@ description: 지식과 문서·청크를 생성·조회·수정·검색하는 AP
 
 <figure><img src="../../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
-~~지식 관리 화면의 우측 상단의 `API` 버튼을 클릭하여 지식 API 키 관리 화면으로 이동합니다.~~
-
-<figure><img src="../../.gitbook/assets/image (558).png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 <mark style="color:blue;">**워크스페이스 단위 API 키 발급이 중단되었습니다. 기존에 발급받은 키는 사용할 수 있습니다.**</mark>
 
@@ -38,7 +34,7 @@ description: 지식과 문서·청크를 생성·조회·수정·검색하는 AP
 
 <table><thead><tr><th width="270.40625">API</th><th>워크스페이스 API 키</th><th>지식 단위 API 키</th></tr></thead><tbody><tr><td>텍스트로 문서 생성하기</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>파일로 문서 생성</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>빈 지식 생성</td><td>O</td><td>X</td></tr><tr><td>지식 목록 조회</td><td>O</td><td>X</td></tr><tr><td>지식 상세 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식 삭제</td><td>O</td><td>X</td></tr><tr><td>텍스트로 문서 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>파일로 문서 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 임베딩 상태 조회 (진행률 확인)</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 삭제</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식의 문서 목록 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에 청크(Chunk) 추가</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에서 청크(Chunk) 조회</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서에서 청크(Chunk) 삭제</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>문서 내 청크(Chunk) 업데이트</td><td>O</td><td>O (해당 지식만)</td></tr><tr><td>지식 베이스에서 청크(Chunk) 검색</td><td>O</td><td>O (해당 지식만)</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/스크린샷 2026-06-15 오후 3.51.56.png" alt="지식 API 키 생성 화면에서 개인키와 공용키 발급 유형을 선택하는 예시"><figcaption><p>지식 API 키 생성 시 `개인키` 또는 `공용키`를 선택할 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/OU_K05.webp" alt="지식 API 키 생성 화면에서 개인키와 공용키 발급 유형을 선택하는 예시"><figcaption><p>지식 API 키 생성 시 `개인키` 또는 `공용키`를 선택할 수 있습니다.</p></figcaption></figure>
 
 지식 API 키는 발급 시 `개인키` 또는 `공용키`로 생성할 수 있습니다.
 
